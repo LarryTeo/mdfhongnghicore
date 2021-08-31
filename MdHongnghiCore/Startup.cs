@@ -19,6 +19,7 @@ using HN.Data.EF.Repositories;
 using HN.Application.Implementations;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json.Serialization;
+using MdHongnghiCore.Helpers;
 
 namespace MdHongnghiCore
 {
@@ -36,7 +37,7 @@ namespace MdHongnghiCore
         {
             services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
-                o => o.MigrationsAssembly("TeduCoreApp.Data.EF")));
+                o => o.MigrationsAssembly("HN.Data.EF")));
 
             services.AddIdentity<AppUser, AppRole>()
                 .AddEntityFrameworkStores<AppDbContext>()
@@ -72,6 +73,8 @@ namespace MdHongnghiCore
 
             services.AddTransient<DbInitializer>();
 
+            services.AddScoped<IUserClaimsPrincipalFactory<AppUser>, CustomClaimsPrincipalFactory>();
+
             services.AddTransient<IProductCategoryRepository, ProductCategoryRepository>();
 
             services.AddTransient<IProductCategoryService, ProductCategoryService>();
@@ -105,7 +108,7 @@ namespace MdHongnghiCore
                     template: "{controller=Home}/{action=Index}/{id?}");
 
                 routes.MapRoute(name: "areaRoute",
-                   template: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+                   template: "{area:exists}/{controller=Login}/{action=Index}/{id?}");
             });
 
         }

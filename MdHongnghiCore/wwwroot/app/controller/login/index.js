@@ -1,31 +1,32 @@
 ﻿var loginController = function () {
-    this.initiallize = function () {
+    this.initialize = function () {
         registerEvents();
     }
+
     var registerEvents = function () {
         $('#btnLogin').on('click', function (e) {
             e.preventDefault();
-            var user = $('#txtUsername').val();
+            var user = $('#txtUserName').val();
             var password = $('#txtPassword').val();
             login(user, password);
-        })
-
+        });
     }
-    var login = function (user, password) {
+
+    var login = function (user, pass) {
         $.ajax({
             type: 'POST',
             data: {
                 UserName: user,
-                Password: password
+                Password: pass
             },
-            dataType: 'json',
+            dateType: 'json',
             url: '/admin/login/authen',
             success: function (res) {
                 if (res.Success) {
                     window.location.href = "/Admin/Home/Index";
                 }
                 else {
-                    hn.notify('Sai thông tin đăng nhập','error');
+                    hncore.notify('Đăng nhập không đúng', 'error');
                 }
             }
         })

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using MdHongnghiCore.Models;
 using Microsoft.AspNetCore.Authorization;
+using MdHongnghiCore.Extensions;
 
 namespace MdHongnghiCore.Controllers
 {
@@ -14,6 +15,7 @@ namespace MdHongnghiCore.Controllers
     {
         public IActionResult Index()
         {
+            var email = User.GetSpecificClaim("Email");
             return View();
         }
 
