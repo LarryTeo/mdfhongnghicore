@@ -14,6 +14,7 @@ namespace HN.Application.AutoMapper
                 cfg.AddProfile(new DomainToViewModelMappingProfile());
                 cfg.AddProfile(new ViewModelToDomainMappingProfile());
 
+
             });
         }
     }

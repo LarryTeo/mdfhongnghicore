@@ -1,0 +1,311 @@
+2021-09-03T08:35:54.6546287+07:00 0HMBEFCLU56T0:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44323/   (ca22a1cb)
+2021-09-03T08:35:54.6546285+07:00 0HMBEFCLU56SV:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:24443/  0 (ca22a1cb)
+2021-09-03T08:35:54.6731139+07:00 0HMBEFCLU56SV:00000001 [INF] Request finished in 21.2012ms 200  (791a596a)
+2021-09-03T08:35:54.8122909+07:00 0HMBEFCLU56T0:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Controllers.HomeController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-03T08:35:54.8200887+07:00 0HMBEFCLU56T0:00000001 [INF] Authorization failed. (b15dd539)
+2021-09-03T08:35:54.8216403+07:00 0HMBEFCLU56T0:00000001 [INF] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'. (8b6446cb)
+2021-09-03T08:35:54.8262947+07:00 0HMBEFCLU56T0:00000001 [INF] Executing ChallengeResult with authentication schemes ([]). (f3dca807)
+2021-09-03T08:35:54.8304893+07:00 0HMBEFCLU56T0:00000001 [INF] AuthenticationScheme: "Identity.Application" was challenged. (d45f1f38)
+2021-09-03T08:35:54.8336435+07:00 0HMBEFCLU56T0:00000001 [INF] Executed action "MdHongnghiCore.Controllers.HomeController.Index (MdHongnghiCore)" in 18.045ms (afa2e885)
+2021-09-03T08:35:54.8377689+07:00 0HMBEFCLU56T0:00000001 [INF] Request finished in 187.8629ms 302  (791a596a)
+2021-09-03T08:35:54.8579336+07:00 0HMBEFCLU56SV:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44323/Account/Login?ReturnUrl=%2F   (ca22a1cb)
+2021-09-03T08:35:54.8721643+07:00 0HMBEFCLU56SV:00000002 [INF] Route matched with "{action = \"Login\", controller = \"Account\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String)" on controller "MdHongnghiCore.Controllers.AccountController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-03T08:35:54.9339658+07:00 0HMBEFCLU56SV:00000002 [INF] Executing action method "MdHongnghiCore.Controllers.AccountController.Login (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-03T08:35:54.9392028+07:00 0HMBEFCLU56SV:00000002 [INF] AuthenticationScheme: "Identity.External" signed out. (d3f50c8d)
+2021-09-03T08:35:54.9429342+07:00 0HMBEFCLU56SV:00000002 [INF] Executed action method "MdHongnghiCore.Controllers.AccountController.Login (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 5.4693ms. (50a9e262)
+2021-09-03T08:35:54.9545278+07:00 0HMBEFCLU56SV:00000002 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2021-09-03T08:35:55.0627034+07:00 0HMBEFCLU56SV:00000002 [INF] Executed ViewResult - view "Login" executed in 115.2052ms. (f66409e9)
+2021-09-03T08:35:55.0640340+07:00 0HMBEFCLU56SV:00000002 [INF] Executed action "MdHongnghiCore.Controllers.AccountController.Login (MdHongnghiCore)" in 190.8799ms (afa2e885)
+2021-09-03T08:35:55.0673232+07:00 0HMBEFCLU56SV:00000002 [INF] Request finished in 209.3906ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-03T08:35:55.1154229+07:00 0HMBEFCLU56T0:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/bootstrap/dist/css/bootstrap.css   (ca22a1cb)
+2021-09-03T08:35:55.1289881+07:00 0HMBEFCLU56T0:00000002 [INF] The file "/lib/bootstrap/dist/css/bootstrap.css" was not modified (f1f8d725)
+2021-09-03T08:35:55.1309893+07:00 0HMBEFCLU56SV:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/jquery/dist/jquery.js   (ca22a1cb)
+2021-09-03T08:35:55.1325951+07:00 0HMBEFCLU56T1:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/bootstrap/dist/js/bootstrap.js   (ca22a1cb)
+2021-09-03T08:35:55.1351416+07:00 0HMBEFCLU56SV:00000003 [INF] The file "/lib/jquery/dist/jquery.js" was not modified (f1f8d725)
+2021-09-03T08:35:55.1374361+07:00 0HMBEFCLU56T1:00000001 [INF] The file "/lib/bootstrap/dist/js/bootstrap.js" was not modified (f1f8d725)
+2021-09-03T08:35:55.1382977+07:00 0HMBEFCLU56T2:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js   (ca22a1cb)
+2021-09-03T08:35:55.1416527+07:00 0HMBEFCLU56T2:00000001 [INF] The file "/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" was not modified (f1f8d725)
+2021-09-03T08:35:55.1441837+07:00 0HMBEFCLU56T3:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/jquery-validation/dist/jquery.validate.js   (ca22a1cb)
+2021-09-03T08:35:55.1463134+07:00 0HMBEFCLU56T0:00000002 [INF] Request finished in 28.6767ms 304 text/css (791a596a)
+2021-09-03T08:35:55.1480150+07:00 0HMBEFCLU56T2:00000001 [INF] Request finished in 6.6733ms 304 application/javascript (791a596a)
+2021-09-03T08:35:55.1494196+07:00 0HMBEFCLU56SV:00000003 [INF] Request finished in 13.1109ms 304 application/javascript (791a596a)
+2021-09-03T08:35:55.1501382+07:00 0HMBEFCLU56T1:00000001 [INF] Request finished in 10.3446ms 304 application/javascript (791a596a)
+2021-09-03T08:35:55.1530555+07:00 0HMBEFCLU56T3:00000001 [INF] The file "/lib/jquery-validation/dist/jquery.validate.js" was not modified (f1f8d725)
+2021-09-03T08:35:55.1548177+07:00 0HMBEFCLU56T3:00000001 [INF] Request finished in 12.5621ms 304 application/javascript (791a596a)
+2021-09-03T08:36:03.8469669+07:00 0HMBEFCLU56T1:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44323/Admin/login   (ca22a1cb)
+2021-09-03T08:36:03.8493734+07:00 0HMBEFCLU56T1:00000002 [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Login\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Areas.Admin.Controllers.LoginController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-03T08:36:03.8508573+07:00 0HMBEFCLU56T1:00000002 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Index (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-03T08:36:03.8520528+07:00 0HMBEFCLU56T1:00000002 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Index (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.1476ms. (50a9e262)
+2021-09-03T08:36:03.8570392+07:00 0HMBEFCLU56T1:00000002 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-09-03T08:36:03.8756056+07:00 0HMBEFCLU56T1:00000002 [INF] Executed ViewResult - view "Index" executed in 21.5411ms. (f66409e9)
+2021-09-03T08:36:03.8767479+07:00 0HMBEFCLU56T1:00000002 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Index (MdHongnghiCore)" in 26.2968ms (afa2e885)
+2021-09-03T08:36:03.8778050+07:00 0HMBEFCLU56T1:00000002 [INF] Request finished in 30.833ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-03T08:36:03.9224008+07:00 0HMBEFCLU56SV:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/font-awesome/css/fontawesome.min.css   (ca22a1cb)
+2021-09-03T08:36:03.9239500+07:00 0HMBEFCLU56T0:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/font-awesome/css/font-awesome.css   (ca22a1cb)
+2021-09-03T08:36:03.9290754+07:00 0HMBEFCLU56T2:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/nprogress/nprogress.css   (ca22a1cb)
+2021-09-03T08:36:03.9303162+07:00 0HMBEFCLU56T1:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44323/app/Shared/hncore.js   (ca22a1cb)
+2021-09-03T08:36:03.9355271+07:00 0HMBEFCLU56T0:00000003 [INF] The file "/lib/font-awesome/css/font-awesome.css" was not modified (f1f8d725)
+2021-09-03T08:36:03.9372147+07:00 0HMBEFCLU56SV:00000004 [INF] Request finished in 9.4714ms 404  (791a596a)
+2021-09-03T08:36:03.9393506+07:00 0HMBEFCLU56T3:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/animate.css/animate.css   (ca22a1cb)
+2021-09-03T08:36:03.9406608+07:00 0HMBEFCLU56T2:00000002 [INF] The file "/lib/nprogress/nprogress.css" was not modified (f1f8d725)
+2021-09-03T08:36:03.9421964+07:00 0HMBEFCLU56T0:00000003 [INF] Request finished in 14.4051ms 304 text/css (791a596a)
+2021-09-03T08:36:03.9449268+07:00 0HMBEFCLU56T3:00000002 [INF] The file "/lib/animate.css/animate.css" was not modified (f1f8d725)
+2021-09-03T08:36:03.9472088+07:00 0HMBEFCLU56T2:00000002 [INF] Request finished in 17.2999ms 304 text/css (791a596a)
+2021-09-03T08:36:03.9479821+07:00 0HMBEFCLU56T3:00000002 [INF] Request finished in 16.5948ms 304 text/css (791a596a)
+2021-09-03T08:36:03.9490792+07:00 0HMBEFCLU56T1:00000003 [INF] The file "/app/Shared/hncore.js" was not modified (f1f8d725)
+2021-09-03T08:36:03.9505642+07:00 0HMBEFCLU56T4:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44323/admin-site/css/custom.min.css   (ca22a1cb)
+2021-09-03T08:36:03.9518719+07:00 0HMBEFCLU56T1:00000003 [INF] Request finished in 21.5251ms 304 application/javascript (791a596a)
+2021-09-03T08:36:03.9543417+07:00 0HMBEFCLU56T5:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/notifyjs/dist/styles/metro/notify-metro.css   (ca22a1cb)
+2021-09-03T08:36:03.9549611+07:00 0HMBEFCLU56T4:00000001 [INF] The file "/admin-site/css/custom.min.css" was not modified (f1f8d725)
+2021-09-03T08:36:03.9563854+07:00 0HMBEFCLU56T4:00000001 [INF] Request finished in 17.1356ms 304 text/css (791a596a)
+2021-09-03T08:36:03.9574794+07:00 0HMBEFCLU56T5:00000001 [INF] The file "/lib/notifyjs/dist/styles/metro/notify-metro.css" was not modified (f1f8d725)
+2021-09-03T08:36:03.9595879+07:00 0HMBEFCLU56T5:00000001 [INF] Request finished in 7.0477ms 304 text/css (791a596a)
+2021-09-03T08:36:03.9601744+07:00 0HMBEFCLU56T6:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/notifyjs/dist/styles/metro/notify-metro.js   (ca22a1cb)
+2021-09-03T08:36:03.9628088+07:00 0HMBEFCLU56T6:00000001 [INF] The file "/lib/notifyjs/dist/styles/metro/notify-metro.js" was not modified (f1f8d725)
+2021-09-03T08:36:03.9635295+07:00 0HMBEFCLU56T7:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/notifyjs/dist/notify.js   (ca22a1cb)
+2021-09-03T08:36:03.9652375+07:00 0HMBEFCLU56T6:00000001 [INF] Request finished in 5.2009ms 304 application/javascript (791a596a)
+2021-09-03T08:36:03.9674224+07:00 0HMBEFCLU56T8:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/jquery-validation/dist/additional-methods.js   (ca22a1cb)
+2021-09-03T08:36:03.9683940+07:00 0HMBEFCLU56T7:00000001 [INF] The file "/lib/notifyjs/dist/notify.js" was not modified (f1f8d725)
+2021-09-03T08:36:03.9712311+07:00 0HMBEFCLU56T7:00000001 [INF] Request finished in 7.2635ms 304 application/javascript (791a596a)
+2021-09-03T08:36:03.9716979+07:00 0HMBEFCLU56T8:00000001 [INF] The file "/lib/jquery-validation/dist/additional-methods.js" was not modified (f1f8d725)
+2021-09-03T08:36:03.9731868+07:00 0HMBEFCLU56T9:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44323/app/controller/login/index.js   (ca22a1cb)
+2021-09-03T08:36:03.9737273+07:00 0HMBEFCLU56T8:00000001 [INF] Request finished in 6.6249ms 304 application/javascript (791a596a)
+2021-09-03T08:36:03.9749755+07:00 0HMBEFCLU56T9:00000001 [INF] The file "/app/controller/login/index.js" was not modified (f1f8d725)
+2021-09-03T08:36:03.9767229+07:00 0HMBEFCLU56TA:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/jquery-validation/localization/messages_vi.js   (ca22a1cb)
+2021-09-03T08:36:03.9771889+07:00 0HMBEFCLU56T9:00000001 [INF] Request finished in 6.8634ms 304 application/javascript (791a596a)
+2021-09-03T08:36:03.9785341+07:00 0HMBEFCLU56TA:00000001 [INF] The file "/lib/jquery-validation/localization/messages_vi.js" was not modified (f1f8d725)
+2021-09-03T08:36:03.9797360+07:00 0HMBEFCLU56TA:00000001 [INF] Request finished in 4.1663ms 304 application/javascript (791a596a)
+2021-09-03T08:36:04.0254608+07:00 0HMBEFCLU56SV:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0   (ca22a1cb)
+2021-09-03T08:36:04.0270596+07:00 0HMBEFCLU56SV:00000005 [INF] The file "/lib/font-awesome/fonts/fontawesome-webfont.woff2" was not modified (f1f8d725)
+2021-09-03T08:36:04.0285692+07:00 0HMBEFCLU56SV:00000005 [INF] Request finished in 4.0487ms 304 font/woff2 (791a596a)
+2021-09-03T08:36:05.0505216+07:00 0HMBEFCLU56T0:00000004 [INF] Request starting HTTP/1.1 POST http://localhost:44323/admin/login/authen application/x-www-form-urlencoded; charset=UTF-8 33 (ca22a1cb)
+2021-09-03T08:36:05.0554625+07:00 0HMBEFCLU56T0:00000004 [INF] Route matched with "{area = \"Admin\", action = \"Authen\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authen(MdHongnghiCore.Models.AccountViewModels.LoginViewModel)" on controller "MdHongnghiCore.Areas.Admin.Controllers.LoginController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-03T08:36:05.0742416+07:00 0HMBEFCLU56T0:00000004 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Authen (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-03T08:36:05.0998189+07:00 0HMBEFCLU56T0:00000004 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-03T08:36:05.1370118+07:00 0HMBEFCLU56T0:00000004 [INF] Executed DbCommand ("7"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2021-09-03T08:36:05.2281333+07:00 0HMBEFCLU56T0:00000004 [INF] Executed DbCommand ("5"ms) [Parameters=["@__user_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AppUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0" (0723d8ff)
+2021-09-03T08:36:05.2563493+07:00 0HMBEFCLU56T0:00000004 [INF] Executed DbCommand ("2"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2021-09-03T08:36:05.2681531+07:00 0HMBEFCLU56T0:00000004 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2021-09-03T08:36:05.2847310+07:00 0HMBEFCLU56T0:00000004 [INF] Executed DbCommand ("1"ms) [Parameters=["@__role_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AppRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0" (0723d8ff)
+2021-09-03T08:36:05.2893477+07:00 0HMBEFCLU56T0:00000004 [INF] Executed DbCommand ("0"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2021-09-03T08:36:05.2953362+07:00 0HMBEFCLU56T0:00000004 [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2021-09-03T08:36:05.2982157+07:00 0HMBEFCLU56T0:00000004 [INF] User logged in. (fdce0db4)
+2021-09-03T08:36:05.3005207+07:00 0HMBEFCLU56T0:00000004 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Authen (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 225.2218ms. (50a9e262)
+2021-09-03T08:36:05.3065968+07:00 0HMBEFCLU56T0:00000004 [INF] Executing ObjectResult, writing value of type '"HN.Untilities.Dtos.GenericResult"'. (8a1b66c8)
+2021-09-03T08:36:05.3398396+07:00 0HMBEFCLU56T0:00000004 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Authen (MdHongnghiCore)" in 282.886ms (afa2e885)
+2021-09-03T08:36:05.3450876+07:00 0HMBEFCLU56T0:00000004 [INF] Request finished in 294.141ms 200 application/json; charset=utf-8 (791a596a)
+2021-09-03T08:36:05.3635893+07:00 0HMBEFCLU56T2:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44323/Admin/Home/Index   (ca22a1cb)
+2021-09-03T08:36:05.3695430+07:00 0HMBEFCLU56T2:00000003 [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Areas.Admin.Controllers.HomeController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-03T08:36:05.3714133+07:00 0HMBEFCLU56T2:00000003 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.HomeController.Index (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-03T08:36:05.3737768+07:00 0HMBEFCLU56T2:00000003 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.HomeController.Index (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.8932ms. (50a9e262)
+2021-09-03T08:36:05.3767887+07:00 0HMBEFCLU56T2:00000003 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-09-03T08:36:05.4062372+07:00 0HMBEFCLU56T2:00000003 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-03T08:36:05.4308742+07:00 0HMBEFCLU56T2:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2021-09-03T08:36:05.4567583+07:00 0HMBEFCLU56T2:00000003 [INF] Executed ViewResult - view "Index" executed in 81.4484ms. (f66409e9)
+2021-09-03T08:36:05.4603472+07:00 0HMBEFCLU56T2:00000003 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.HomeController.Index (MdHongnghiCore)" in 89.421ms (afa2e885)
+2021-09-03T08:36:05.4621516+07:00 0HMBEFCLU56T2:00000003 [INF] Request finished in 98.4787ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-03T08:36:05.5111729+07:00 0HMBEFCLU56T3:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/bootstrap-daterangepicker/daterangepicker.css   (ca22a1cb)
+2021-09-03T08:36:05.5127054+07:00 0HMBEFCLU56T1:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44323/admin-site/css/custom.css   (ca22a1cb)
+2021-09-03T08:36:05.5149558+07:00 0HMBEFCLU56T3:00000003 [INF] The file "/lib/bootstrap-daterangepicker/daterangepicker.css" was not modified (f1f8d725)
+2021-09-03T08:36:05.5155950+07:00 0HMBEFCLU56T1:00000004 [INF] The file "/admin-site/css/custom.css" was not modified (f1f8d725)
+2021-09-03T08:36:05.5174332+07:00 0HMBEFCLU56T3:00000003 [INF] Request finished in 5.8788ms 304 text/css (791a596a)
+2021-09-03T08:36:05.5179169+07:00 0HMBEFCLU56T1:00000004 [INF] Request finished in 5.0756ms 304 text/css (791a596a)
+2021-09-03T08:36:05.5296915+07:00 0HMBEFCLU56T4:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/fastclick/lib/fastclick.js   (ca22a1cb)
+2021-09-03T08:36:05.5311029+07:00 0HMBEFCLU56T4:00000002 [INF] The file "/lib/fastclick/lib/fastclick.js" was not modified (f1f8d725)
+2021-09-03T08:36:05.5324537+07:00 0HMBEFCLU56T4:00000002 [INF] Request finished in 2.7216ms 304 application/javascript (791a596a)
+2021-09-03T08:36:05.5338540+07:00 0HMBEFCLU56T5:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/nprogress/nprogress.js   (ca22a1cb)
+2021-09-03T08:36:05.5386438+07:00 0HMBEFCLU56T5:00000002 [INF] The file "/lib/nprogress/nprogress.js" was not modified (f1f8d725)
+2021-09-03T08:36:05.5407242+07:00 0HMBEFCLU56T5:00000002 [INF] Request finished in 6.2462ms 304 application/javascript (791a596a)
+2021-09-03T08:36:05.5515722+07:00 0HMBEFCLU56T6:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/Chart.js/dist/Chart.js   (ca22a1cb)
+2021-09-03T08:36:05.5532452+07:00 0HMBEFCLU56T7:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/jquery-sparkline/dist/jquery.sparkline.js   (ca22a1cb)
+2021-09-03T08:36:05.5553726+07:00 0HMBEFCLU56T9:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/moment/moment.js   (ca22a1cb)
+2021-09-03T08:36:05.5565972+07:00 0HMBEFCLU56T8:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/bootstrap-daterangepicker/daterangepicker.js   (ca22a1cb)
+2021-09-03T08:36:05.5571421+07:00 0HMBEFCLU56T7:00000002 [INF] The file "/lib/jquery-sparkline/dist/jquery.sparkline.js" was not modified (f1f8d725)
+2021-09-03T08:36:05.5581989+07:00 0HMBEFCLU56T6:00000002 [INF] The file "/lib/Chart.js/dist/Chart.js" was not modified (f1f8d725)
+2021-09-03T08:36:05.5593519+07:00 0HMBEFCLU56T7:00000002 [INF] Request finished in 7.3849ms 304 application/javascript (791a596a)
+2021-09-03T08:36:05.5604849+07:00 0HMBEFCLU56T6:00000002 [INF] Request finished in 9.3627ms 304 application/javascript (791a596a)
+2021-09-03T08:36:05.5615744+07:00 0HMBEFCLU56T8:00000002 [INF] The file "/lib/bootstrap-daterangepicker/daterangepicker.js" was not modified (f1f8d725)
+2021-09-03T08:36:05.5631860+07:00 0HMBEFCLU56T0:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44323/admin-site/images/img.jpg   (ca22a1cb)
+2021-09-03T08:36:05.5637843+07:00 0HMBEFCLU56T9:00000002 [INF] The file "/lib/moment/moment.js" was not modified (f1f8d725)
+2021-09-03T08:36:05.5656260+07:00 0HMBEFCLU56T8:00000002 [INF] Request finished in 9.8832ms 304 application/javascript (791a596a)
+2021-09-03T08:36:05.5662335+07:00 0HMBEFCLU56T0:00000005 [INF] The file "/admin-site/images/img.jpg" was not modified (f1f8d725)
+2021-09-03T08:36:05.5673435+07:00 0HMBEFCLU56T9:00000002 [INF] Request finished in 12.7613ms 304 application/javascript (791a596a)
+2021-09-03T08:36:05.5686264+07:00 0HMBEFCLU56T0:00000005 [INF] Request finished in 13.4478ms 304 image/jpeg (791a596a)
+2021-09-03T08:36:05.5704618+07:00 0HMBEFCLU56TA:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/bootbox/bootbox.js   (ca22a1cb)
+2021-09-03T08:36:05.5714369+07:00 0HMBEFCLU56SV:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:44323/admin-site/js/custom.js   (ca22a1cb)
+2021-09-03T08:36:05.5726642+07:00 0HMBEFCLU56TA:00000002 [INF] The file "/lib/bootbox/bootbox.js" was not modified (f1f8d725)
+2021-09-03T08:36:05.5738057+07:00 0HMBEFCLU56SV:00000006 [INF] The file "/admin-site/js/custom.js" was not modified (f1f8d725)
+2021-09-03T08:36:05.5750656+07:00 0HMBEFCLU56TA:00000002 [INF] Request finished in 20.0824ms 304 application/javascript (791a596a)
+2021-09-03T08:36:05.5764530+07:00 0HMBEFCLU56SV:00000006 [INF] Request finished in 21.1216ms 304 application/javascript (791a596a)
+2021-09-03T08:36:05.6065062+07:00 0HMBEFCLU56T2:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2   (ca22a1cb)
+2021-09-03T08:36:05.6080137+07:00 0HMBEFCLU56T2:00000004 [INF] The file "/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" was not modified (f1f8d725)
+2021-09-03T08:36:05.6096783+07:00 0HMBEFCLU56T2:00000004 [INF] Request finished in 3.2417ms 304 font/woff2 (791a596a)
+2021-09-03T08:36:07.6644180+07:00 0HMBEFCLU56T3:00000004 [INF] Request starting HTTP/1.1 POST http://localhost:44323/Admin/Account/Logout application/x-www-form-urlencoded 0 (ca22a1cb)
+2021-09-03T08:36:07.6681764+07:00 0HMBEFCLU56T3:00000004 [INF] Route matched with "{area = \"Admin\", action = \"Logout\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout()" on controller "MdHongnghiCore.Areas.Admin.Controllers.AccountController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-03T08:36:07.7116987+07:00 0HMBEFCLU56T3:00000004 [INF] Antiforgery token validation failed. "The required antiforgery request token was not provided in either form field \"__RequestVerificationToken\" or header value \"RequestVerificationToken\"." (843d91fe)
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery request token was not provided in either form field "__RequestVerificationToken" or header value "RequestVerificationToken".
+   at Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+2021-09-03T08:36:07.7129651+07:00 0HMBEFCLU56T3:00000004 [INF] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ValidateAntiforgeryTokenAuthorizationFilter"'. (8b6446cb)
+2021-09-03T08:36:07.7164382+07:00 0HMBEFCLU56T3:00000004 [INF] Executing HttpStatusCodeResult, setting HTTP status code 400 (e28ccfae)
+2021-09-03T08:36:07.7175704+07:00 0HMBEFCLU56T3:00000004 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.AccountController.Logout (MdHongnghiCore)" in 48.2539ms (afa2e885)
+2021-09-03T08:36:07.7186514+07:00 0HMBEFCLU56T3:00000004 [INF] Request finished in 55.1352ms 400  (791a596a)
+2021-09-03T08:43:11.8613979+07:00 0HMBEFGO7MHPF:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44323/   (ca22a1cb)
+2021-09-03T08:43:11.8613979+07:00 0HMBEFGO7MHPG:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:24443/  0 (ca22a1cb)
+2021-09-03T08:43:11.8840096+07:00 0HMBEFGO7MHPG:00000001 [INF] Request finished in 27.3136ms 200  (791a596a)
+2021-09-03T08:43:11.9920959+07:00 0HMBEFGO7MHPF:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Controllers.HomeController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-03T08:43:12.0017719+07:00 0HMBEFGO7MHPF:00000001 [INF] Authorization was successful. (0d575a54)
+2021-09-03T08:43:12.0099398+07:00 0HMBEFGO7MHPF:00000001 [INF] Executing action method "MdHongnghiCore.Controllers.HomeController.Index (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-03T08:43:12.0148400+07:00 0HMBEFGO7MHPF:00000001 [INF] Executed action method "MdHongnghiCore.Controllers.HomeController.Index (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.9849ms. (50a9e262)
+2021-09-03T08:43:12.0279403+07:00 0HMBEFGO7MHPF:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-09-03T08:43:12.1027597+07:00 0HMBEFGO7MHPF:00000001 [INF] Executed ViewResult - view "Index" executed in 81.2847ms. (f66409e9)
+2021-09-03T08:43:12.1044423+07:00 0HMBEFGO7MHPF:00000001 [INF] Executed action "MdHongnghiCore.Controllers.HomeController.Index (MdHongnghiCore)" in 110.8097ms (afa2e885)
+2021-09-03T08:43:12.1095122+07:00 0HMBEFGO7MHPF:00000001 [INF] Request finished in 254.4228ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-03T08:43:18.7954334+07:00 0HMBEFGO7MHPG:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44323/admin/login   (ca22a1cb)
+2021-09-03T08:43:18.7991186+07:00 0HMBEFGO7MHPG:00000002 [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Login\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Areas.Admin.Controllers.LoginController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-03T08:43:18.8010695+07:00 0HMBEFGO7MHPG:00000002 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Index (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-03T08:43:18.8028397+07:00 0HMBEFGO7MHPG:00000002 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Index (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.274ms. (50a9e262)
+2021-09-03T08:43:18.8092896+07:00 0HMBEFGO7MHPG:00000002 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-09-03T08:43:18.8262855+07:00 0HMBEFGO7MHPG:00000002 [INF] Executed ViewResult - view "Index" executed in 21.9072ms. (f66409e9)
+2021-09-03T08:43:18.8273281+07:00 0HMBEFGO7MHPG:00000002 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Index (MdHongnghiCore)" in 27.184ms (afa2e885)
+2021-09-03T08:43:18.8283964+07:00 0HMBEFGO7MHPG:00000002 [INF] Request finished in 33.31ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-03T08:43:18.8709464+07:00 0HMBEFGO7MHPF:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/font-awesome/css/fontawesome.min.css   (ca22a1cb)
+2021-09-03T08:43:18.8757077+07:00 0HMBEFGO7MHPF:00000002 [INF] Request finished in 4.2177ms 404  (791a596a)
+2021-09-03T08:43:19.9264780+07:00 0HMBEFGO7MHPG:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:44323/admin/login/authen application/x-www-form-urlencoded; charset=UTF-8 33 (ca22a1cb)
+2021-09-03T08:43:19.9426902+07:00 0HMBEFGO7MHPG:00000003 [INF] Route matched with "{area = \"Admin\", action = \"Authen\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authen(MdHongnghiCore.Models.AccountViewModels.LoginViewModel)" on controller "MdHongnghiCore.Areas.Admin.Controllers.LoginController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-03T08:43:19.9775211+07:00 0HMBEFGO7MHPG:00000003 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Authen (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-03T08:43:19.9884592+07:00 0HMBEFGO7MHPG:00000003 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-03T08:43:20.0263695+07:00 0HMBEFGO7MHPG:00000003 [INF] Executed DbCommand ("7"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2021-09-03T08:43:20.1112388+07:00 0HMBEFGO7MHPG:00000003 [INF] Executed DbCommand ("4"ms) [Parameters=["@__user_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AppUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0" (0723d8ff)
+2021-09-03T08:43:20.1367178+07:00 0HMBEFGO7MHPG:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2021-09-03T08:43:20.1493856+07:00 0HMBEFGO7MHPG:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2021-09-03T08:43:20.1631284+07:00 0HMBEFGO7MHPG:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@__role_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AppRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0" (0723d8ff)
+2021-09-03T08:43:20.1680477+07:00 0HMBEFGO7MHPG:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2021-09-03T08:43:20.1756395+07:00 0HMBEFGO7MHPG:00000003 [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2021-09-03T08:43:20.1781887+07:00 0HMBEFGO7MHPG:00000003 [INF] User logged in. (fdce0db4)
+2021-09-03T08:43:20.1803484+07:00 0HMBEFGO7MHPG:00000003 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Authen (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 201.8988ms. (50a9e262)
+2021-09-03T08:43:20.1860293+07:00 0HMBEFGO7MHPG:00000003 [INF] Executing ObjectResult, writing value of type '"HN.Untilities.Dtos.GenericResult"'. (8a1b66c8)
+2021-09-03T08:43:20.2149356+07:00 0HMBEFGO7MHPG:00000003 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Authen (MdHongnghiCore)" in 270.8492ms (afa2e885)
+2021-09-03T08:43:20.2203021+07:00 0HMBEFGO7MHPG:00000003 [INF] Request finished in 293.744ms 200 application/json; charset=utf-8 (791a596a)
+2021-09-03T08:43:20.2356477+07:00 0HMBEFGO7MHPF:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44323/Admin/Home/Index   (ca22a1cb)
+2021-09-03T08:43:20.2378646+07:00 0HMBEFGO7MHPF:00000003 [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Areas.Admin.Controllers.HomeController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-03T08:43:20.2398876+07:00 0HMBEFGO7MHPF:00000003 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.HomeController.Index (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-03T08:43:20.2413932+07:00 0HMBEFGO7MHPF:00000003 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.HomeController.Index (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.297ms. (50a9e262)
+2021-09-03T08:43:20.2443342+07:00 0HMBEFGO7MHPF:00000003 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-09-03T08:43:20.2700622+07:00 0HMBEFGO7MHPF:00000003 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-03T08:43:20.2912505+07:00 0HMBEFGO7MHPF:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2021-09-03T08:43:20.3172935+07:00 0HMBEFGO7MHPF:00000003 [INF] Executed ViewResult - view "Index" executed in 74.4712ms. (f66409e9)
+2021-09-03T08:43:20.3210693+07:00 0HMBEFGO7MHPF:00000003 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.HomeController.Index (MdHongnghiCore)" in 81.6432ms (afa2e885)
+2021-09-03T08:43:20.3228128+07:00 0HMBEFGO7MHPF:00000003 [INF] Request finished in 87.106ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-03T08:43:22.1707111+07:00 0HMBEFGO7MHPG:00000004 [INF] Request starting HTTP/1.1 POST http://localhost:44323/Admin/Account/Logout application/x-www-form-urlencoded 0 (ca22a1cb)
+2021-09-03T08:43:22.1746439+07:00 0HMBEFGO7MHPG:00000004 [INF] Route matched with "{area = \"Admin\", action = \"Logout\", controller = \"Account\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout()" on controller "MdHongnghiCore.Areas.Admin.Controllers.AccountController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-03T08:43:22.1761066+07:00 0HMBEFGO7MHPG:00000004 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.AccountController.Logout (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-03T08:43:22.1800794+07:00 0HMBEFGO7MHPG:00000004 [INF] AuthenticationScheme: "Identity.Application" signed out. (d3f50c8d)
+2021-09-03T08:43:22.1813741+07:00 0HMBEFGO7MHPG:00000004 [INF] AuthenticationScheme: "Identity.External" signed out. (d3f50c8d)
+2021-09-03T08:43:22.1823396+07:00 0HMBEFGO7MHPG:00000004 [INF] AuthenticationScheme: "Identity.TwoFactorUserId" signed out. (d3f50c8d)
+2021-09-03T08:43:22.1832821+07:00 0HMBEFGO7MHPG:00000004 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.AccountController.Logout (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.RedirectResult" in 6.3008ms. (50a9e262)
+2021-09-03T08:43:22.1844637+07:00 0HMBEFGO7MHPG:00000004 [INF] Executing RedirectResult, redirecting to "/Admin/Login/Index". (d98d540e)
+2021-09-03T08:43:22.1856379+07:00 0HMBEFGO7MHPG:00000004 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.AccountController.Logout (MdHongnghiCore)" in 9.8924ms (afa2e885)
+2021-09-03T08:43:22.1868575+07:00 0HMBEFGO7MHPG:00000004 [INF] Request finished in 16.2014ms 302  (791a596a)
+2021-09-03T08:43:22.2084575+07:00 0HMBEFGO7MHPF:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44323/Admin/Login/Index   (ca22a1cb)
+2021-09-03T08:43:22.2097869+07:00 0HMBEFGO7MHPF:00000004 [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Login\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Areas.Admin.Controllers.LoginController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-03T08:43:22.2109913+07:00 0HMBEFGO7MHPF:00000004 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Index (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-03T08:43:22.2121008+07:00 0HMBEFGO7MHPF:00000004 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Index (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0179ms. (50a9e262)
+2021-09-03T08:43:22.2133645+07:00 0HMBEFGO7MHPF:00000004 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-09-03T08:43:22.2151254+07:00 0HMBEFGO7MHPF:00000004 [INF] Executed ViewResult - view "Index" executed in 1.7568ms. (f66409e9)
+2021-09-03T08:43:22.2164868+07:00 0HMBEFGO7MHPF:00000004 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Index (MdHongnghiCore)" in 5.3804ms (afa2e885)
+2021-09-03T08:43:22.2181816+07:00 0HMBEFGO7MHPF:00000004 [INF] Request finished in 9.419ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-03T08:43:22.2580752+07:00 0HMBEFGO7MHPG:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/font-awesome/css/fontawesome.min.css   (ca22a1cb)
+2021-09-03T08:43:22.2604779+07:00 0HMBEFGO7MHPG:00000005 [INF] Request finished in 1.8804ms 404  (791a596a)
+2021-09-03T08:43:23.4084981+07:00 0HMBEFGO7MHPF:00000005 [INF] Request starting HTTP/1.1 POST http://localhost:44323/admin/login/authen application/x-www-form-urlencoded; charset=UTF-8 33 (ca22a1cb)
+2021-09-03T08:43:23.4097148+07:00 0HMBEFGO7MHPF:00000005 [INF] Route matched with "{area = \"Admin\", action = \"Authen\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authen(MdHongnghiCore.Models.AccountViewModels.LoginViewModel)" on controller "MdHongnghiCore.Areas.Admin.Controllers.LoginController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-03T08:43:23.4114229+07:00 0HMBEFGO7MHPF:00000005 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Authen (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-03T08:43:23.4125102+07:00 0HMBEFGO7MHPF:00000005 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-03T08:43:23.4144745+07:00 0HMBEFGO7MHPF:00000005 [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2021-09-03T08:43:23.4221954+07:00 0HMBEFGO7MHPF:00000005 [INF] Executed DbCommand ("0"ms) [Parameters=["@__user_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AppUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0" (0723d8ff)
+2021-09-03T08:43:23.4240983+07:00 0HMBEFGO7MHPF:00000005 [INF] Executed DbCommand ("0"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2021-09-03T08:43:23.4257722+07:00 0HMBEFGO7MHPF:00000005 [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2021-09-03T08:43:23.4275578+07:00 0HMBEFGO7MHPF:00000005 [INF] Executed DbCommand ("0"ms) [Parameters=["@__role_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AppRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0" (0723d8ff)
+2021-09-03T08:43:23.4292917+07:00 0HMBEFGO7MHPF:00000005 [INF] Executed DbCommand ("0"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2021-09-03T08:43:23.4305250+07:00 0HMBEFGO7MHPF:00000005 [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2021-09-03T08:43:23.4316021+07:00 0HMBEFGO7MHPF:00000005 [INF] User logged in. (fdce0db4)
+2021-09-03T08:43:23.4324887+07:00 0HMBEFGO7MHPF:00000005 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Authen (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 20.1964ms. (50a9e262)
+2021-09-03T08:43:23.4334974+07:00 0HMBEFGO7MHPF:00000005 [INF] Executing ObjectResult, writing value of type '"HN.Untilities.Dtos.GenericResult"'. (8a1b66c8)
+2021-09-03T08:43:23.4345386+07:00 0HMBEFGO7MHPF:00000005 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Authen (MdHongnghiCore)" in 23.8997ms (afa2e885)
+2021-09-03T08:43:23.4355016+07:00 0HMBEFGO7MHPF:00000005 [INF] Request finished in 27.4844ms 200 application/json; charset=utf-8 (791a596a)
+2021-09-03T08:43:23.4531146+07:00 0HMBEFGO7MHPG:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:44323/Admin/Home/Index   (ca22a1cb)
+2021-09-03T08:43:23.4547612+07:00 0HMBEFGO7MHPG:00000006 [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Areas.Admin.Controllers.HomeController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-03T08:43:23.4557852+07:00 0HMBEFGO7MHPG:00000006 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.HomeController.Index (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-03T08:43:23.4568244+07:00 0HMBEFGO7MHPG:00000006 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.HomeController.Index (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0156ms. (50a9e262)
+2021-09-03T08:43:23.4582745+07:00 0HMBEFGO7MHPG:00000006 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-09-03T08:43:23.4604390+07:00 0HMBEFGO7MHPG:00000006 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-03T08:43:23.4628181+07:00 0HMBEFGO7MHPG:00000006 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2021-09-03T08:43:23.4655129+07:00 0HMBEFGO7MHPG:00000006 [INF] Executed ViewResult - view "Index" executed in 7.3015ms. (f66409e9)
+2021-09-03T08:43:23.4669462+07:00 0HMBEFGO7MHPG:00000006 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.HomeController.Index (MdHongnghiCore)" in 10.8232ms (afa2e885)
+2021-09-03T08:43:23.4683167+07:00 0HMBEFGO7MHPG:00000006 [INF] Request finished in 15.2135ms 200 text/html; charset=utf-8 (791a596a)

@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using HN.Application.ViewModels.Product;
+using HN.Application.ViewModels.System;
 using HN.Data.Entities;
 using System;
 using System.Collections.Generic;
@@ -12,6 +13,7 @@ namespace HN.Application.AutoMapper
         public DomainToViewModelMappingProfile()
         {
             CreateMap<ProductCategory, ProductCategoryViewModel>();
+            CreateMap<Function, FunctionViewModel>();
         }
     }
 }
