@@ -80,10 +80,12 @@ namespace MdHongnghiCore
             //Repositories
             services.AddTransient<IProductCategoryRepository, ProductCategoryRepository>();
             services.AddTransient<IFunctionRepository, FunctionRepository>();
+            services.AddTransient<IProductRepository, ProductRepository>();
 
             //Services
             services.AddTransient<IProductCategoryService, ProductCategoryService>();
             services.AddTransient<IFunctionService, FunctionService>();
+            services.AddTransient<IProductService, ProductService>();
 
         }
 

@@ -8,9 +8,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MdHongnghiCore.Areas.Admin.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
-        [Area("Admin")]
         public IActionResult Index()
         {
             var email = User.GetSpecificClaim("Email");
