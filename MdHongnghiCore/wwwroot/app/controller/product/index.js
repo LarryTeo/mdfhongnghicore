@@ -1,6 +1,7 @@
 ﻿
 var productController = function () {
     this.initialize = function () {
+        loadCategories();
         loadData();
         registerEvents();
     }
@@ -12,6 +13,33 @@ var productController = function () {
             hncore.configs.pageIndex = 1;
             loadData(true);
         });
+        $('btnSearch').on('click', function () {
+            loadData();
+        });
+        $('#txtKeyword').on('keypress', function (e) {
+            if (e.which === 13) {
+                loadData();
+            }
+        });
+    }
+
+    function loadCategories() {
+        $.ajax({
+            type: 'GET',
+            url: '/admin/product/GetAllCategories',
+            dataType: 'json',
+            success: function (response) {
+                var render = "<option value=''>--chọn--</option>";
+                $.each(response, function (i, item) {
+                    render += "<option value='"+item.Id+"'>"+item.Name+"</option>"
+                });
+                $('#ddlCategorySearch').html(render);
+            },
+            error: function (status) {
+                console.log(status);
+                hncore.notify('Cannot loading data', 'error');
+            }
+        });
     }
 
     function loadData(isPageChanged) {
@@ -20,7 +48,7 @@ var productController = function () {
         $.ajax({
             type: 'GET',
             data: {
-                categoryId: null,
+                categoryId: $('#ddlCategorySearch').val(),
                 keyword: $('#txtKeyword').val(),
                 page: hncore.configs.pageIndex,
                 pageSize: hncore.configs.pageSize

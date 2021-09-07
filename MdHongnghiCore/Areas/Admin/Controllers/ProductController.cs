@@ -10,20 +10,29 @@ namespace MdHongnghiCore.Areas.Admin.Controllers
     public class ProductController : BaseController
     {
         IProductService _productService;
-        public ProductController(IProductService productService)
+        IProductCategoryService _productCategoryService;
+        public ProductController(IProductService productService, IProductCategoryService productCategoryService)
         {
             _productService = productService;
+            _productCategoryService = productCategoryService;
         }
         public IActionResult Index()
         {
             return View();
         }
 
-        #region
+        #region AJAX API
         [HttpGet]
         public IActionResult GetAll()
         {
             var model = _productService.GetAll();
+            return new OkObjectResult(model);
+        }
+
+        [HttpGet]
+        public IActionResult GetAllCategories()
+        {
+            var model = _productCategoryService.GetAll();
             return new OkObjectResult(model);
         }
 

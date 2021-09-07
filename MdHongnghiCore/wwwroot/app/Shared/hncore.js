@@ -1,6 +1,6 @@
 ﻿var hncore = {
     configs: {
-        pageSise: 10,
+        pageSize: 10,
         pageIndex: 1
     },
     notify: function (message, type) {

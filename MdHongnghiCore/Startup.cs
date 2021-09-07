@@ -20,6 +20,7 @@ using HN.Application.Implementations;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json.Serialization;
 using MdHongnghiCore.Helpers;
+using HN.Infrastructure.Interfaces;
 
 namespace MdHongnghiCore
 {
@@ -75,6 +76,9 @@ namespace MdHongnghiCore
 
             services.AddScoped<IUserClaimsPrincipalFactory<AppUser>, CustomClaimsPrincipalFactory>();
             services.AddMvc().AddJsonOptions(option => option.SerializerSettings.ContractResolver = new DefaultContractResolver());
+
+            services.AddTransient(typeof(IUnitOfWork), typeof(EFUnitOfWork));
+            services.AddTransient(typeof(IRepository<,>), typeof(EFRepository<,>));
 
 
             //Repositories
