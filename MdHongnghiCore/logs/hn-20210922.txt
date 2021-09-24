@@ -1,0 +1,1239 @@
+2021-09-22T14:53:50.5784247+07:00 0HMBTJOEQ45N4:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:24443/  0 (ca22a1cb)
+2021-09-22T14:53:50.5784247+07:00 0HMBTJOEQ45N5:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44323/   (ca22a1cb)
+2021-09-22T14:53:50.5971998+07:00 0HMBTJOEQ45N4:00000001 [INF] Request finished in 21.9377ms 200  (791a596a)
+2021-09-22T14:53:50.7424516+07:00 0HMBTJOEQ45N5:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Controllers.HomeController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T14:53:50.7498185+07:00 0HMBTJOEQ45N5:00000001 [INF] Authorization failed. (b15dd539)
+2021-09-22T14:53:50.7511045+07:00 0HMBTJOEQ45N5:00000001 [INF] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'. (8b6446cb)
+2021-09-22T14:53:50.7552031+07:00 0HMBTJOEQ45N5:00000001 [INF] Executing ChallengeResult with authentication schemes ([]). (f3dca807)
+2021-09-22T14:53:50.7592204+07:00 0HMBTJOEQ45N5:00000001 [INF] AuthenticationScheme: "Identity.Application" was challenged. (d45f1f38)
+2021-09-22T14:53:50.7621128+07:00 0HMBTJOEQ45N5:00000001 [INF] Executed action "MdHongnghiCore.Controllers.HomeController.Index (MdHongnghiCore)" in 16.6198ms (afa2e885)
+2021-09-22T14:53:50.7662469+07:00 0HMBTJOEQ45N5:00000001 [INF] Request finished in 193.3002ms 302  (791a596a)
+2021-09-22T14:53:50.7846836+07:00 0HMBTJOEQ45N4:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44323/Account/Login?ReturnUrl=%2F   (ca22a1cb)
+2021-09-22T14:53:50.8001404+07:00 0HMBTJOEQ45N4:00000002 [INF] Route matched with "{action = \"Login\", controller = \"Account\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String)" on controller "MdHongnghiCore.Controllers.AccountController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T14:53:50.8246099+07:00 0HMBTJOEQ45N4:00000002 [INF] Executing action method "MdHongnghiCore.Controllers.AccountController.Login (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T14:53:50.8314355+07:00 0HMBTJOEQ45N4:00000002 [INF] AuthenticationScheme: "Identity.External" signed out. (d3f50c8d)
+2021-09-22T14:53:50.8348787+07:00 0HMBTJOEQ45N4:00000002 [INF] Executed action method "MdHongnghiCore.Controllers.AccountController.Login (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 7.1458ms. (50a9e262)
+2021-09-22T14:53:50.8511577+07:00 0HMBTJOEQ45N4:00000002 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2021-09-22T14:53:50.9867201+07:00 0HMBTJOEQ45N4:00000002 [INF] Executed ViewResult - view "Login" executed in 146.5112ms. (f66409e9)
+2021-09-22T14:53:50.9883402+07:00 0HMBTJOEQ45N4:00000002 [INF] Executed action "MdHongnghiCore.Controllers.AccountController.Login (MdHongnghiCore)" in 187.0388ms (afa2e885)
+2021-09-22T14:53:50.9918992+07:00 0HMBTJOEQ45N4:00000002 [INF] Request finished in 207.0586ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-22T14:53:51.0270630+07:00 0HMBTJOEQ45N5:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/bootstrap/dist/css/bootstrap.css   (ca22a1cb)
+2021-09-22T14:53:51.0289272+07:00 0HMBTJOEQ45N4:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44323/css/site.css   (ca22a1cb)
+2021-09-22T14:53:51.0391513+07:00 0HMBTJOEQ45N4:00000003 [INF] Sending file. Request path: '"/css/site.css"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\css\site.css"' (27b0a520)
+2021-09-22T14:53:51.0417186+07:00 0HMBTJOEQ45N4:00000003 [INF] Request finished in 12.1931ms 200 text/css (791a596a)
+2021-09-22T14:53:51.0598254+07:00 0HMBTJOEQ45N4:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/jquery/dist/jquery.js   (ca22a1cb)
+2021-09-22T14:53:51.0626070+07:00 0HMBTJOEQ45N6:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/bootstrap/dist/js/bootstrap.js   (ca22a1cb)
+2021-09-22T14:53:51.0662571+07:00 0HMBTJOEQ45N5:00000002 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\bootstrap\dist\css\bootstrap.css"' (27b0a520)
+2021-09-22T14:53:51.0719315+07:00 0HMBTJOEQ45N5:00000002 [INF] Request finished in 44.3263ms 200 text/css (791a596a)
+2021-09-22T14:53:51.0792630+07:00 0HMBTJOEQ45N6:00000001 [INF] Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.js"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\bootstrap\dist\js\bootstrap.js"' (27b0a520)
+2021-09-22T14:53:51.0814167+07:00 0HMBTJOEQ45N5:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44323/js/site.js?v=ji3-IxbEzYWjzzLCGkF1KDjrT2jLbbrSYXw-AhMPNIA   (ca22a1cb)
+2021-09-22T14:53:51.0820855+07:00 0HMBTJOEQ45N6:00000001 [INF] Request finished in 21.7546ms 200 application/javascript (791a596a)
+2021-09-22T14:53:51.0840068+07:00 0HMBTJOEQ45N5:00000003 [INF] Sending file. Request path: '"/js/site.js"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\js\site.js"' (27b0a520)
+2021-09-22T14:53:51.0853409+07:00 0HMBTJOEQ45N5:00000003 [INF] Request finished in 4.7258ms 200 application/javascript (791a596a)
+2021-09-22T14:53:51.0915167+07:00 0HMBTJOEQ45N4:00000004 [INF] Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\jquery\dist\jquery.js"' (27b0a520)
+2021-09-22T14:53:51.0929250+07:00 0HMBTJOEQ45N4:00000004 [INF] Request finished in 34.0529ms 200 application/javascript (791a596a)
+2021-09-22T14:53:51.1560647+07:00 0HMBTJOEQ45N6:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/jquery-validation/dist/jquery.validate.js   (ca22a1cb)
+2021-09-22T14:53:51.1572350+07:00 0HMBTJOEQ45N5:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js   (ca22a1cb)
+2021-09-22T14:53:51.1661601+07:00 0HMBTJOEQ45N5:00000004 [INF] Sending file. Request path: '"/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js"' (27b0a520)
+2021-09-22T14:53:51.1673109+07:00 0HMBTJOEQ45N5:00000004 [INF] Request finished in 10.1813ms 200 application/javascript (791a596a)
+2021-09-22T14:53:51.1702693+07:00 0HMBTJOEQ45N6:00000002 [INF] Sending file. Request path: '"/lib/jquery-validation/dist/jquery.validate.js"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\jquery-validation\dist\jquery.validate.js"' (27b0a520)
+2021-09-22T14:53:51.1728517+07:00 0HMBTJOEQ45N6:00000002 [INF] Request finished in 15.7387ms 200 application/javascript (791a596a)
+2021-09-22T14:53:51.2616604+07:00 0HMBTJOEQ45N4:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44323/favicon.ico   (ca22a1cb)
+2021-09-22T14:53:51.2659960+07:00 0HMBTJOEQ45N4:00000005 [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\favicon.ico"' (27b0a520)
+2021-09-22T14:53:51.2672503+07:00 0HMBTJOEQ45N4:00000005 [INF] Request finished in 5.6439ms 200 image/x-icon (791a596a)
+2021-09-22T14:54:50.0525486+07:00 0HMBTJOEQ45N5:00000005 [INF] Request starting HTTP/1.1 POST http://localhost:44323/Account/Login?returnurl=%2F application/x-www-form-urlencoded 233 (ca22a1cb)
+2021-09-22T14:54:50.0575943+07:00 0HMBTJOEQ45N5:00000005 [INF] Route matched with "{action = \"Login\", controller = \"Account\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MdHongnghiCore.Models.AccountViewModels.LoginViewModel, System.String)" on controller "MdHongnghiCore.Controllers.AccountController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T14:54:50.0775267+07:00 0HMBTJOEQ45N5:00000005 [INF] Executing action method "MdHongnghiCore.Controllers.AccountController.Login (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T14:54:50.0870266+07:00 0HMBTJOEQ45N5:00000005 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T14:54:50.1314935+07:00 0HMBTJOEQ45N5:00000005 [INF] Executed DbCommand ("11"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2021-09-22T14:54:50.2549665+07:00 0HMBTJOEQ45N5:00000005 [INF] Executed DbCommand ("2"ms) [Parameters=["@__user_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AppUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0" (0723d8ff)
+2021-09-22T14:54:50.2832527+07:00 0HMBTJOEQ45N5:00000005 [INF] Executed DbCommand ("2"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2021-09-22T14:54:50.2948400+07:00 0HMBTJOEQ45N5:00000005 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2021-09-22T14:54:50.3102196+07:00 0HMBTJOEQ45N5:00000005 [INF] Executed DbCommand ("1"ms) [Parameters=["@__role_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AppRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0" (0723d8ff)
+2021-09-22T14:54:50.3170268+07:00 0HMBTJOEQ45N5:00000005 [INF] Executed DbCommand ("0"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2021-09-22T14:54:50.3229142+07:00 0HMBTJOEQ45N5:00000005 [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2021-09-22T14:54:50.3255515+07:00 0HMBTJOEQ45N5:00000005 [INF] User logged in. (fdce0db4)
+2021-09-22T14:54:50.3278381+07:00 0HMBTJOEQ45N5:00000005 [INF] Executed action method "MdHongnghiCore.Controllers.AccountController.Login (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.RedirectResult" in 249.4ms. (50a9e262)
+2021-09-22T14:54:50.3318680+07:00 0HMBTJOEQ45N5:00000005 [INF] Executing RedirectResult, redirecting to "/". (d98d540e)
+2021-09-22T14:54:50.3343505+07:00 0HMBTJOEQ45N5:00000005 [INF] Executed action "MdHongnghiCore.Controllers.AccountController.Login (MdHongnghiCore)" in 275.6336ms (afa2e885)
+2021-09-22T14:54:50.3368266+07:00 0HMBTJOEQ45N5:00000005 [INF] Request finished in 283.9838ms 302  (791a596a)
+2021-09-22T14:54:50.4021953+07:00 0HMBTJOEQ45N6:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44323/   (ca22a1cb)
+2021-09-22T14:54:50.4079720+07:00 0HMBTJOEQ45N6:00000003 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Controllers.HomeController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T14:54:50.4093914+07:00 0HMBTJOEQ45N6:00000003 [INF] Authorization was successful. (0d575a54)
+2021-09-22T14:54:50.4107039+07:00 0HMBTJOEQ45N6:00000003 [INF] Executing action method "MdHongnghiCore.Controllers.HomeController.Index (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T14:54:50.4123869+07:00 0HMBTJOEQ45N6:00000003 [INF] Executed action method "MdHongnghiCore.Controllers.HomeController.Index (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.6793ms. (50a9e262)
+2021-09-22T14:54:50.4170014+07:00 0HMBTJOEQ45N6:00000003 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-09-22T14:54:50.4256092+07:00 0HMBTJOEQ45N6:00000003 [INF] Executed ViewResult - view "Index" executed in 12.0067ms. (f66409e9)
+2021-09-22T14:54:50.4265787+07:00 0HMBTJOEQ45N6:00000003 [INF] Executed action "MdHongnghiCore.Controllers.HomeController.Index (MdHongnghiCore)" in 17.6729ms (afa2e885)
+2021-09-22T14:54:50.4277197+07:00 0HMBTJOEQ45N6:00000003 [INF] Request finished in 25.7384ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-22T14:54:50.5924085+07:00 0HMBTJOEQ45N4:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:44323/images/banner1.svg   (ca22a1cb)
+2021-09-22T14:54:50.5966151+07:00 0HMBTJOEQ45N4:00000006 [INF] Sending file. Request path: '"/images/banner1.svg"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\images\banner1.svg"' (27b0a520)
+2021-09-22T14:54:50.5993062+07:00 0HMBTJOEQ45N4:00000006 [INF] Request finished in 5.5431ms 200 image/svg+xml (791a596a)
+2021-09-22T14:54:50.5999591+07:00 0HMBTJOEQ45N5:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:44323/images/banner2.svg   (ca22a1cb)
+2021-09-22T14:54:50.6045011+07:00 0HMBTJOEQ45N5:00000006 [INF] Sending file. Request path: '"/images/banner2.svg"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\images\banner2.svg"' (27b0a520)
+2021-09-22T14:54:50.6079539+07:00 0HMBTJOEQ45N5:00000006 [INF] Request finished in 7.8411ms 200 image/svg+xml (791a596a)
+2021-09-22T14:54:50.6095479+07:00 0HMBTJOEQ45N4:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:44323/images/banner4.svg   (ca22a1cb)
+2021-09-22T14:54:50.6107728+07:00 0HMBTJOEQ45N6:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44323/images/banner3.svg   (ca22a1cb)
+2021-09-22T14:54:50.6157909+07:00 0HMBTJOEQ45N4:00000007 [INF] Sending file. Request path: '"/images/banner4.svg"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\images\banner4.svg"' (27b0a520)
+2021-09-22T14:54:50.6165356+07:00 0HMBTJOEQ45N6:00000004 [INF] Sending file. Request path: '"/images/banner3.svg"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\images\banner3.svg"' (27b0a520)
+2021-09-22T14:54:50.6182266+07:00 0HMBTJOEQ45N4:00000007 [INF] Request finished in 7.9512ms 200 image/svg+xml (791a596a)
+2021-09-22T14:54:50.6186725+07:00 0HMBTJOEQ45N6:00000004 [INF] Request finished in 8.2563ms 200 image/svg+xml (791a596a)
+2021-09-22T14:54:50.6471783+07:00 0HMBTJOEQ45N5:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2   (ca22a1cb)
+2021-09-22T14:54:50.6518663+07:00 0HMBTJOEQ45N5:00000007 [INF] Sending file. Request path: '"/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2"' (27b0a520)
+2021-09-22T14:54:50.6535016+07:00 0HMBTJOEQ45N5:00000007 [INF] Request finished in 7.0644ms 200 font/woff2 (791a596a)
+2021-09-22T14:54:58.2157174+07:00 0HMBTJOEQ45N6:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44323/admin/login   (ca22a1cb)
+2021-09-22T14:54:58.2182764+07:00 0HMBTJOEQ45N6:00000005 [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Login\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Areas.Admin.Controllers.LoginController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T14:54:58.2193091+07:00 0HMBTJOEQ45N6:00000005 [INF] Authorization was successful. (0d575a54)
+2021-09-22T14:54:58.2209766+07:00 0HMBTJOEQ45N6:00000005 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Index (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T14:54:58.2230605+07:00 0HMBTJOEQ45N6:00000005 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Index (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.5008ms. (50a9e262)
+2021-09-22T14:54:58.2333635+07:00 0HMBTJOEQ45N6:00000005 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-09-22T14:54:58.2497898+07:00 0HMBTJOEQ45N6:00000005 [INF] Executed ViewResult - view "Index" executed in 25.5972ms. (f66409e9)
+2021-09-22T14:54:58.2510263+07:00 0HMBTJOEQ45N6:00000005 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Index (MdHongnghiCore)" in 31.5292ms (afa2e885)
+2021-09-22T14:54:58.2522021+07:00 0HMBTJOEQ45N6:00000005 [INF] Request finished in 36.5009ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-22T14:54:58.2919910+07:00 0HMBTJOEQ45N6:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/nprogress/nprogress.css   (ca22a1cb)
+2021-09-22T14:54:58.2920179+07:00 0HMBTJOEQ45N4:00000008 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/font-awesome/css/fontawesome.min.css   (ca22a1cb)
+2021-09-22T14:54:58.2928816+07:00 0HMBTJOEQ45N5:00000008 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/font-awesome/css/font-awesome.css   (ca22a1cb)
+2021-09-22T14:54:58.2994355+07:00 0HMBTJOEQ45N7:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/animate.css/animate.css   (ca22a1cb)
+2021-09-22T14:54:58.3002536+07:00 0HMBTJOEQ45N8:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/notifyjs/dist/styles/metro/notify-metro.css   (ca22a1cb)
+2021-09-22T14:54:58.3032376+07:00 0HMBTJOEQ45N9:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44323/admin-site/css/custom.min.css   (ca22a1cb)
+2021-09-22T14:54:58.3062862+07:00 0HMBTJOEQ45N6:00000006 [INF] Sending file. Request path: '"/lib/nprogress/nprogress.css"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\nprogress\nprogress.css"' (27b0a520)
+2021-09-22T14:54:58.3123714+07:00 0HMBTJOEQ45N5:00000008 [INF] Sending file. Request path: '"/lib/font-awesome/css/font-awesome.css"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\font-awesome\css\font-awesome.css"' (27b0a520)
+2021-09-22T14:54:58.3132004+07:00 0HMBTJOEQ45N8:00000001 [INF] Sending file. Request path: '"/lib/notifyjs/dist/styles/metro/notify-metro.css"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\notifyjs\dist\styles\metro\notify-metro.css"' (27b0a520)
+2021-09-22T14:54:58.3425420+07:00 0HMBTJOEQ45NA:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44323/app/Shared/hncore.js   (ca22a1cb)
+2021-09-22T14:54:58.3464902+07:00 0HMBTJOEQ45N4:00000008 [INF] Request finished in 26.4805ms 404  (791a596a)
+2021-09-22T14:54:58.3473368+07:00 0HMBTJOEQ45N5:00000008 [INF] Request finished in 23.2492ms 200 text/css (791a596a)
+2021-09-22T14:54:58.3486038+07:00 0HMBTJOEQ45N8:00000001 [INF] Request finished in 17.3208ms 200 text/css (791a596a)
+2021-09-22T14:54:58.3503556+07:00 0HMBTJOEQ45N6:00000006 [INF] Request finished in 17.3119ms 200 text/css (791a596a)
+2021-09-22T14:54:58.3508842+07:00 0HMBTJOEQ45N7:00000001 [INF] Sending file. Request path: '"/lib/animate.css/animate.css"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\animate.css\animate.css"' (27b0a520)
+2021-09-22T14:54:58.3519386+07:00 0HMBTJOEQ45NA:00000001 [INF] Sending file. Request path: '"/app/Shared/hncore.js"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\app\Shared\hncore.js"' (27b0a520)
+2021-09-22T14:54:58.3534067+07:00 0HMBTJOEQ45NB:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/notifyjs/dist/notify.js   (ca22a1cb)
+2021-09-22T14:54:58.3545142+07:00 0HMBTJOEQ45N7:00000001 [INF] Request finished in 58.1468ms 200 text/css (791a596a)
+2021-09-22T14:54:58.3558583+07:00 0HMBTJOEQ45N9:00000001 [INF] Sending file. Request path: '"/admin-site/css/custom.min.css"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\admin-site\css\custom.min.css"' (27b0a520)
+2021-09-22T14:54:58.3569479+07:00 0HMBTJOEQ45NA:00000001 [INF] Request finished in 42.6493ms 200 application/javascript (791a596a)
+2021-09-22T14:54:58.3576321+07:00 0HMBTJOEQ45N9:00000001 [INF] Request finished in 56.5449ms 200 text/css (791a596a)
+2021-09-22T14:54:58.3591995+07:00 0HMBTJOEQ45NC:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/notifyjs/dist/styles/metro/notify-metro.js   (ca22a1cb)
+2021-09-22T14:54:58.3608730+07:00 0HMBTJOEQ45ND:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/jquery-validation/dist/additional-methods.js   (ca22a1cb)
+2021-09-22T14:54:58.3626686+07:00 0HMBTJOEQ45NE:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/jquery-validation/localization/messages_vi.js   (ca22a1cb)
+2021-09-22T14:54:58.3644605+07:00 0HMBTJOEQ45NF:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44323/app/controller/login/index.js   (ca22a1cb)
+2021-09-22T14:54:58.3665999+07:00 0HMBTJOEQ45NC:00000001 [INF] Sending file. Request path: '"/lib/notifyjs/dist/styles/metro/notify-metro.js"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\notifyjs\dist\styles\metro\notify-metro.js"' (27b0a520)
+2021-09-22T14:54:58.3689881+07:00 0HMBTJOEQ45NB:00000001 [INF] Sending file. Request path: '"/lib/notifyjs/dist/notify.js"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\notifyjs\dist\notify.js"' (27b0a520)
+2021-09-22T14:54:58.3703663+07:00 0HMBTJOEQ45NC:00000001 [INF] Request finished in 8.9759ms 200 application/javascript (791a596a)
+2021-09-22T14:54:58.3729740+07:00 0HMBTJOEQ45NB:00000001 [INF] Request finished in 21.1424ms 200 application/javascript (791a596a)
+2021-09-22T14:54:58.3763183+07:00 0HMBTJOEQ45NF:00000001 [INF] Sending file. Request path: '"/app/controller/login/index.js"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\app\controller\login\index.js"' (27b0a520)
+2021-09-22T14:54:58.3775134+07:00 0HMBTJOEQ45NE:00000001 [INF] Sending file. Request path: '"/lib/jquery-validation/localization/messages_vi.js"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\jquery-validation\localization\messages_vi.js"' (27b0a520)
+2021-09-22T14:54:58.3798926+07:00 0HMBTJOEQ45NF:00000001 [INF] Request finished in 13.2898ms 200 application/javascript (791a596a)
+2021-09-22T14:54:58.3806482+07:00 0HMBTJOEQ45NE:00000001 [INF] Request finished in 17.0508ms 200 application/javascript (791a596a)
+2021-09-22T14:54:58.3829390+07:00 0HMBTJOEQ45ND:00000001 [INF] Sending file. Request path: '"/lib/jquery-validation/dist/additional-methods.js"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\jquery-validation\dist\additional-methods.js"' (27b0a520)
+2021-09-22T14:54:58.3846284+07:00 0HMBTJOEQ45ND:00000001 [INF] Request finished in 23.3711ms 200 application/javascript (791a596a)
+2021-09-22T14:54:58.4358966+07:00 0HMBTJOEQ45N6:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0   (ca22a1cb)
+2021-09-22T14:54:58.4412577+07:00 0HMBTJOEQ45N6:00000007 [INF] Sending file. Request path: '"/lib/font-awesome/fonts/fontawesome-webfont.woff2"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\font-awesome\fonts\fontawesome-webfont.woff2"' (27b0a520)
+2021-09-22T14:54:58.4430393+07:00 0HMBTJOEQ45N6:00000007 [INF] Request finished in 6.8037ms 200 font/woff2 (791a596a)
+2021-09-22T14:55:00.1040806+07:00 0HMBTJOEQ45N8:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:44323/admin/login/authen application/x-www-form-urlencoded; charset=UTF-8 33 (ca22a1cb)
+2021-09-22T14:55:00.1082363+07:00 0HMBTJOEQ45N8:00000002 [INF] Route matched with "{area = \"Admin\", action = \"Authen\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authen(MdHongnghiCore.Models.AccountViewModels.LoginViewModel)" on controller "MdHongnghiCore.Areas.Admin.Controllers.LoginController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T14:55:00.1103469+07:00 0HMBTJOEQ45N8:00000002 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Authen (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T14:55:00.1121303+07:00 0HMBTJOEQ45N8:00000002 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T14:55:00.1142502+07:00 0HMBTJOEQ45N8:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2021-09-22T14:55:00.1233105+07:00 0HMBTJOEQ45N8:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__user_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AppUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0" (0723d8ff)
+2021-09-22T14:55:00.1256131+07:00 0HMBTJOEQ45N8:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2021-09-22T14:55:00.1277697+07:00 0HMBTJOEQ45N8:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2021-09-22T14:55:00.1299758+07:00 0HMBTJOEQ45N8:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__role_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AppRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0" (0723d8ff)
+2021-09-22T14:55:00.1319788+07:00 0HMBTJOEQ45N8:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2021-09-22T14:55:00.1335097+07:00 0HMBTJOEQ45N8:00000002 [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2021-09-22T14:55:00.1345498+07:00 0HMBTJOEQ45N8:00000002 [INF] User logged in. (fdce0db4)
+2021-09-22T14:55:00.1356535+07:00 0HMBTJOEQ45N8:00000002 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Authen (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 24.3908ms. (50a9e262)
+2021-09-22T14:55:00.1388891+07:00 0HMBTJOEQ45N8:00000002 [INF] Executing ObjectResult, writing value of type '"HN.Untilities.Dtos.GenericResult"'. (8a1b66c8)
+2021-09-22T14:55:00.1780993+07:00 0HMBTJOEQ45N8:00000002 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Authen (MdHongnghiCore)" in 68.4476ms (afa2e885)
+2021-09-22T14:55:00.1870039+07:00 0HMBTJOEQ45N8:00000002 [INF] Request finished in 75.708ms 200 application/json; charset=utf-8 (791a596a)
+2021-09-22T14:55:00.1981550+07:00 0HMBTJOEQ45N5:00000009 [INF] Request starting HTTP/1.1 GET http://localhost:44323/Admin/Home/Index   (ca22a1cb)
+2021-09-22T14:55:00.2005087+07:00 0HMBTJOEQ45N5:00000009 [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Areas.Admin.Controllers.HomeController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T14:55:00.2015012+07:00 0HMBTJOEQ45N5:00000009 [INF] Authorization was successful. (0d575a54)
+2021-09-22T14:55:00.2026211+07:00 0HMBTJOEQ45N5:00000009 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.HomeController.Index (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T14:55:00.2038091+07:00 0HMBTJOEQ45N5:00000009 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.HomeController.Index (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.1335ms. (50a9e262)
+2021-09-22T14:55:00.2090430+07:00 0HMBTJOEQ45N5:00000009 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-09-22T14:55:00.2373647+07:00 0HMBTJOEQ45N5:00000009 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T14:55:00.2589608+07:00 0HMBTJOEQ45N5:00000009 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2021-09-22T14:55:00.2891346+07:00 0HMBTJOEQ45N5:00000009 [INF] Executed ViewResult - view "Index" executed in 83.8946ms. (f66409e9)
+2021-09-22T14:55:00.2930031+07:00 0HMBTJOEQ45N5:00000009 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.HomeController.Index (MdHongnghiCore)" in 91.2741ms (afa2e885)
+2021-09-22T14:55:00.2943150+07:00 0HMBTJOEQ45N5:00000009 [INF] Request finished in 96.3893ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-22T14:55:00.3384228+07:00 0HMBTJOEQ45N4:00000009 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/bootstrap-daterangepicker/daterangepicker.css   (ca22a1cb)
+2021-09-22T14:55:00.3396637+07:00 0HMBTJOEQ45N9:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44323/admin-site/css/custom.css   (ca22a1cb)
+2021-09-22T14:55:00.3441187+07:00 0HMBTJOEQ45N4:00000009 [INF] Sending file. Request path: '"/lib/bootstrap-daterangepicker/daterangepicker.css"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\bootstrap-daterangepicker\daterangepicker.css"' (27b0a520)
+2021-09-22T14:55:00.3458570+07:00 0HMBTJOEQ45N4:00000009 [INF] Request finished in 7.4903ms 200 text/css (791a596a)
+2021-09-22T14:55:00.3463727+07:00 0HMBTJOEQ45N9:00000002 [INF] Sending file. Request path: '"/admin-site/css/custom.css"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\admin-site\css\custom.css"' (27b0a520)
+2021-09-22T14:55:00.3473661+07:00 0HMBTJOEQ45N9:00000002 [INF] Request finished in 7.9464ms 200 text/css (791a596a)
+2021-09-22T14:55:00.3590691+07:00 0HMBTJOEQ45N7:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/fastclick/lib/fastclick.js   (ca22a1cb)
+2021-09-22T14:55:00.3623857+07:00 0HMBTJOEQ45NA:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/nprogress/nprogress.js   (ca22a1cb)
+2021-09-22T14:55:00.3685789+07:00 0HMBTJOEQ45NC:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/mustache/mustache.js   (ca22a1cb)
+2021-09-22T14:55:00.3706108+07:00 0HMBTJOEQ45NB:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/Chart.js/dist/Chart.js   (ca22a1cb)
+2021-09-22T14:55:00.3724428+07:00 0HMBTJOEQ45NF:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/jquery-sparkline/dist/jquery.sparkline.js   (ca22a1cb)
+2021-09-22T14:55:00.3748732+07:00 0HMBTJOEQ45NE:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/twbs-pagination/jquery.twbsPagination.js   (ca22a1cb)
+2021-09-22T14:55:00.3774338+07:00 0HMBTJOEQ45N8:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/bootbox/bootbox.js   (ca22a1cb)
+2021-09-22T14:55:00.3813665+07:00 0HMBTJOEQ45N6:00000008 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/bootstrap-daterangepicker/daterangepicker.js   (ca22a1cb)
+2021-09-22T14:55:00.3832986+07:00 0HMBTJOEQ45N5:0000000A [INF] Request starting HTTP/1.1 GET http://localhost:44323/admin-site/js/custom.js   (ca22a1cb)
+2021-09-22T14:55:00.3853787+07:00 0HMBTJOEQ45N4:0000000A [INF] Request starting HTTP/1.1 GET http://localhost:44323/admin-site/images/img.jpg   (ca22a1cb)
+2021-09-22T14:55:00.3868183+07:00 0HMBTJOEQ45NC:00000002 [INF] Sending file. Request path: '"/lib/mustache/mustache.js"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\mustache\mustache.js"' (27b0a520)
+2021-09-22T14:55:00.3910240+07:00 0HMBTJOEQ45ND:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/moment/moment.js   (ca22a1cb)
+2021-09-22T14:55:00.3928559+07:00 0HMBTJOEQ45NC:00000002 [INF] Request finished in 22.5722ms 200 application/javascript (791a596a)
+2021-09-22T14:55:00.3960485+07:00 0HMBTJOEQ45N7:00000002 [INF] Sending file. Request path: '"/lib/fastclick/lib/fastclick.js"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\fastclick\lib\fastclick.js"' (27b0a520)
+2021-09-22T14:55:00.3982035+07:00 0HMBTJOEQ45NA:00000002 [INF] Sending file. Request path: '"/lib/nprogress/nprogress.js"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\nprogress\nprogress.js"' (27b0a520)
+2021-09-22T14:55:00.3992348+07:00 0HMBTJOEQ45NE:00000002 [INF] Sending file. Request path: '"/lib/twbs-pagination/jquery.twbsPagination.js"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\twbs-pagination\jquery.twbsPagination.js"' (27b0a520)
+2021-09-22T14:55:00.4028527+07:00 0HMBTJOEQ45N7:00000002 [INF] Request finished in 38.992ms 200 application/javascript (791a596a)
+2021-09-22T14:55:00.4044621+07:00 0HMBTJOEQ45N4:0000000A [INF] Sending file. Request path: '"/admin-site/images/img.jpg"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\admin-site\images\img.jpg"' (27b0a520)
+2021-09-22T14:55:00.4070323+07:00 0HMBTJOEQ45NE:00000002 [INF] Request finished in 32.1473ms 200 application/javascript (791a596a)
+2021-09-22T14:55:00.4097217+07:00 0HMBTJOEQ45N4:0000000A [INF] Request finished in 32.7399ms 200 image/jpeg (791a596a)
+2021-09-22T14:55:00.4111950+07:00 0HMBTJOEQ45N8:00000003 [INF] Sending file. Request path: '"/lib/bootbox/bootbox.js"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\bootbox\bootbox.js"' (27b0a520)
+2021-09-22T14:55:00.4119143+07:00 0HMBTJOEQ45NF:00000002 [INF] Sending file. Request path: '"/lib/jquery-sparkline/dist/jquery.sparkline.js"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\jquery-sparkline\dist\jquery.sparkline.js"' (27b0a520)
+2021-09-22T14:55:00.4141492+07:00 0HMBTJOEQ45N6:00000008 [INF] Sending file. Request path: '"/lib/bootstrap-daterangepicker/daterangepicker.js"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\bootstrap-daterangepicker\daterangepicker.js"' (27b0a520)
+2021-09-22T14:55:00.4150173+07:00 0HMBTJOEQ45N8:00000003 [INF] Request finished in 41.1728ms 200 application/javascript (791a596a)
+2021-09-22T14:55:00.4168250+07:00 0HMBTJOEQ45NF:00000002 [INF] Request finished in 42.874ms 200 application/javascript (791a596a)
+2021-09-22T14:55:00.4175381+07:00 0HMBTJOEQ45ND:00000002 [INF] Sending file. Request path: '"/lib/moment/moment.js"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\moment\moment.js"' (27b0a520)
+2021-09-22T14:55:00.4192689+07:00 0HMBTJOEQ45N6:00000008 [INF] Request finished in 43.5019ms 200 application/javascript (791a596a)
+2021-09-22T14:55:00.4208476+07:00 0HMBTJOEQ45ND:00000002 [INF] Request finished in 47.3034ms 200 application/javascript (791a596a)
+2021-09-22T14:55:00.4214971+07:00 0HMBTJOEQ45N5:0000000A [INF] Sending file. Request path: '"/admin-site/js/custom.js"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\admin-site\js\custom.js"' (27b0a520)
+2021-09-22T14:55:00.4226682+07:00 0HMBTJOEQ45NA:00000002 [INF] Request finished in 37.521ms 200 application/javascript (791a596a)
+2021-09-22T14:55:00.4244664+07:00 0HMBTJOEQ45NB:00000002 [INF] Sending file. Request path: '"/lib/Chart.js/dist/Chart.js"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\Chart.js\dist\Chart.js"' (27b0a520)
+2021-09-22T14:55:00.4251060+07:00 0HMBTJOEQ45N5:0000000A [INF] Request finished in 49.4969ms 200 application/javascript (791a596a)
+2021-09-22T14:55:00.4263965+07:00 0HMBTJOEQ45NB:00000002 [INF] Request finished in 58.5078ms 200 application/javascript (791a596a)
+2021-09-22T14:55:03.9503632+07:00 0HMBTJOEQ45N9:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44323/admin/productcategory/index   (ca22a1cb)
+2021-09-22T14:55:03.9523980+07:00 0HMBTJOEQ45N9:00000003 [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"ProductCategory\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T14:55:03.9534362+07:00 0HMBTJOEQ45N9:00000003 [INF] Authorization was successful. (0d575a54)
+2021-09-22T14:55:03.9549420+07:00 0HMBTJOEQ45N9:00000003 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T14:55:03.9561247+07:00 0HMBTJOEQ45N9:00000003 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.1344ms. (50a9e262)
+2021-09-22T14:55:03.9593880+07:00 0HMBTJOEQ45N9:00000003 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-09-22T14:55:03.9658930+07:00 0HMBTJOEQ45N9:00000003 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T14:55:03.9688136+07:00 0HMBTJOEQ45N9:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2021-09-22T14:55:03.9737809+07:00 0HMBTJOEQ45N9:00000003 [INF] Executed ViewResult - view "Index" executed in 16.3686ms. (f66409e9)
+2021-09-22T14:55:03.9750461+07:00 0HMBTJOEQ45N9:00000003 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)" in 21.479ms (afa2e885)
+2021-09-22T14:55:03.9770318+07:00 0HMBTJOEQ45N9:00000003 [INF] Request finished in 26.236ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-22T14:55:04.0166072+07:00 0HMBTJOEQ45N7:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/jQuery-EasyUI/themes/bootstrap/easyui.css   (ca22a1cb)
+2021-09-22T14:55:04.0173099+07:00 0HMBTJOEQ45NA:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/jQuery-EasyUI/themes/icon.css   (ca22a1cb)
+2021-09-22T14:55:04.0227794+07:00 0HMBTJOEQ45NA:00000003 [INF] Sending file. Request path: '"/lib/jQuery-EasyUI/themes/icon.css"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\jQuery-EasyUI\themes\icon.css"' (27b0a520)
+2021-09-22T14:55:04.0251586+07:00 0HMBTJOEQ45NA:00000003 [INF] Request finished in 7.7567ms 200 text/css (791a596a)
+2021-09-22T14:55:04.0260136+07:00 0HMBTJOEQ45N7:00000003 [INF] Sending file. Request path: '"/lib/jQuery-EasyUI/themes/bootstrap/easyui.css"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\jQuery-EasyUI\themes\bootstrap\easyui.css"' (27b0a520)
+2021-09-22T14:55:04.0283608+07:00 0HMBTJOEQ45N7:00000003 [INF] Request finished in 11.7577ms 200 text/css (791a596a)
+2021-09-22T14:55:04.0394900+07:00 0HMBTJOEQ45NC:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/jQuery-EasyUI/jquery.easyui.min.js   (ca22a1cb)
+2021-09-22T14:55:04.0416530+07:00 0HMBTJOEQ45NE:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44323/app/controller/productCategory/index.js?v=6gdTaVSXsImWdT0oyQwEBitM_aFKcKdBXaA5_VRFYm0   (ca22a1cb)
+2021-09-22T14:55:04.0437382+07:00 0HMBTJOEQ45NE:00000003 [INF] Sending file. Request path: '"/app/controller/productCategory/index.js"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\app\controller\productCategory\index.js"' (27b0a520)
+2021-09-22T14:55:04.0454246+07:00 0HMBTJOEQ45NE:00000003 [INF] Request finished in 3.3971ms 200 application/javascript (791a596a)
+2021-09-22T14:55:04.0708552+07:00 0HMBTJOEQ45NC:00000003 [INF] Sending file. Request path: '"/lib/jQuery-EasyUI/jquery.easyui.min.js"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\jQuery-EasyUI\jquery.easyui.min.js"' (27b0a520)
+2021-09-22T14:55:04.0723653+07:00 0HMBTJOEQ45NC:00000003 [INF] Request finished in 33.0138ms 200 application/javascript (791a596a)
+2021-09-22T14:55:04.1979861+07:00 0HMBTJOEQ45N4:0000000B [INF] Request starting HTTP/1.1 GET http://localhost:44323/Admin/ProductCategory/GetAll   (ca22a1cb)
+2021-09-22T14:55:04.2003829+07:00 0HMBTJOEQ45N4:0000000B [INF] Route matched with "{area = \"Admin\", action = \"GetAll\", controller = \"ProductCategory\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAll()" on controller "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T14:55:04.2020965+07:00 0HMBTJOEQ45N4:0000000B [INF] Authorization was successful. (0d575a54)
+2021-09-22T14:55:04.2033967+07:00 0HMBTJOEQ45N4:0000000B [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.GetAll (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T14:55:04.2060131+07:00 0HMBTJOEQ45N4:0000000B [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T14:55:04.2466052+07:00 0HMBTJOEQ45N4:0000000B [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[Description], [x].[ParentId], [x].[HomeOrder], [x].[Image], [x].[HomeFlag], [x].[DateCreated], [x].[DateModified], [x].[SortOrder], [x].[Status], [x].[SeoPageTitle], [x].[SeoAlias], [x].[SeoKeywords], [x].[SeoDescription]
+FROM [ProductCategories] AS [x]
+ORDER BY [x].[ParentId], [x].[Id]" (0723d8ff)
+2021-09-22T14:55:04.2577924+07:00 0HMBTJOEQ45N4:0000000B [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[ParentId], [t].[Id], [x.Products].[Id] AS [Id0], [x.Products].[Name], [x.Products].[CategoryId], [x.Products].[Image], [x.Products].[Price], [x.Products].[PromotionPrice], [x.Products].[OriginalPrice], [x.Products].[Description], [x.Products].[Content], [x.Products].[HomeFlag], [x.Products].[HotFlag], [x.Products].[ViewCount], [x.Products].[Tags], [x.Products].[Unit], [x.Products].[SeoPageTitle], [x.Products].[SeoAlias], [x.Products].[SeoKeywords], [x.Products].[SeoDescription], [x.Products].[DateCreated], [x.Products].[DateModified], [x.Products].[Status]
+FROM [Products] AS [x.Products]
+INNER JOIN (
+    SELECT [x0].[ParentId], [x0].[Id]
+    FROM [ProductCategories] AS [x0]
+) AS [t] ON [x.Products].[CategoryId] = [t].[Id]
+ORDER BY [t].[ParentId], [t].[Id]" (0723d8ff)
+2021-09-22T14:55:04.2685009+07:00 0HMBTJOEQ45N4:0000000B [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.GetAll (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 63.7469ms. (50a9e262)
+2021-09-22T14:55:04.2700873+07:00 0HMBTJOEQ45N4:0000000B [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[HN.Application.ViewModels.Product.ProductCategoryViewModel, HN.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-09-22T14:55:04.2844969+07:00 0HMBTJOEQ45N4:0000000B [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.GetAll (MdHongnghiCore)" in 82.568ms (afa2e885)
+2021-09-22T14:55:04.2857750+07:00 0HMBTJOEQ45N4:0000000B [INF] Request finished in 87.8734ms 200 application/json; charset=utf-8 (791a596a)
+2021-09-22T14:55:04.2992573+07:00 0HMBTJOEQ45N6:00000009 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/jQuery-EasyUI/themes/bootstrap/images/tree_icons.png   (ca22a1cb)
+2021-09-22T14:55:04.3040012+07:00 0HMBTJOEQ45N6:00000009 [INF] Sending file. Request path: '"/lib/jQuery-EasyUI/themes/bootstrap/images/tree_icons.png"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\jQuery-EasyUI\themes\bootstrap\images\tree_icons.png"' (27b0a520)
+2021-09-22T14:55:04.3056613+07:00 0HMBTJOEQ45N6:00000009 [INF] Request finished in 6.007ms 200 image/png (791a596a)
+2021-09-22T14:55:15.1182842+07:00 0HMBTJOEQ45N8:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44323/admin/productcategory/index   (ca22a1cb)
+2021-09-22T14:55:15.1197339+07:00 0HMBTJOEQ45N8:00000004 [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"ProductCategory\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T14:55:15.1209556+07:00 0HMBTJOEQ45N8:00000004 [INF] Authorization was successful. (0d575a54)
+2021-09-22T14:55:15.1224664+07:00 0HMBTJOEQ45N8:00000004 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T14:55:15.1239194+07:00 0HMBTJOEQ45N8:00000004 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0293ms. (50a9e262)
+2021-09-22T14:55:15.1253029+07:00 0HMBTJOEQ45N8:00000004 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-09-22T14:55:15.1268574+07:00 0HMBTJOEQ45N8:00000004 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T14:55:15.1293791+07:00 0HMBTJOEQ45N8:00000004 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2021-09-22T14:55:15.1310464+07:00 0HMBTJOEQ45N8:00000004 [INF] Executed ViewResult - view "Index" executed in 5.9627ms. (f66409e9)
+2021-09-22T14:55:15.1323776+07:00 0HMBTJOEQ45N8:00000004 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)" in 11.3385ms (afa2e885)
+2021-09-22T14:55:15.1336636+07:00 0HMBTJOEQ45N8:00000004 [INF] Request finished in 15.1854ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-22T14:55:15.2814946+07:00 0HMBTJOEQ45N5:0000000B [INF] Request starting HTTP/1.1 GET http://localhost:44323/Admin/ProductCategory/GetAll   (ca22a1cb)
+2021-09-22T14:55:15.2830786+07:00 0HMBTJOEQ45N5:0000000B [INF] Route matched with "{area = \"Admin\", action = \"GetAll\", controller = \"ProductCategory\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAll()" on controller "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T14:55:15.2842707+07:00 0HMBTJOEQ45N5:0000000B [INF] Authorization was successful. (0d575a54)
+2021-09-22T14:55:15.2855784+07:00 0HMBTJOEQ45N5:0000000B [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.GetAll (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T14:55:15.2870090+07:00 0HMBTJOEQ45N5:0000000B [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T14:55:15.2905496+07:00 0HMBTJOEQ45N5:0000000B [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[Description], [x].[ParentId], [x].[HomeOrder], [x].[Image], [x].[HomeFlag], [x].[DateCreated], [x].[DateModified], [x].[SortOrder], [x].[Status], [x].[SeoPageTitle], [x].[SeoAlias], [x].[SeoKeywords], [x].[SeoDescription]
+FROM [ProductCategories] AS [x]
+ORDER BY [x].[ParentId], [x].[Id]" (0723d8ff)
+2021-09-22T14:55:15.2943979+07:00 0HMBTJOEQ45N5:0000000B [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[ParentId], [t].[Id], [x.Products].[Id] AS [Id0], [x.Products].[Name], [x.Products].[CategoryId], [x.Products].[Image], [x.Products].[Price], [x.Products].[PromotionPrice], [x.Products].[OriginalPrice], [x.Products].[Description], [x.Products].[Content], [x.Products].[HomeFlag], [x.Products].[HotFlag], [x.Products].[ViewCount], [x.Products].[Tags], [x.Products].[Unit], [x.Products].[SeoPageTitle], [x.Products].[SeoAlias], [x.Products].[SeoKeywords], [x.Products].[SeoDescription], [x.Products].[DateCreated], [x.Products].[DateModified], [x.Products].[Status]
+FROM [Products] AS [x.Products]
+INNER JOIN (
+    SELECT [x0].[ParentId], [x0].[Id]
+    FROM [ProductCategories] AS [x0]
+) AS [t] ON [x.Products].[CategoryId] = [t].[Id]
+ORDER BY [t].[ParentId], [t].[Id]" (0723d8ff)
+2021-09-22T14:55:15.2960082+07:00 0HMBTJOEQ45N5:0000000B [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.GetAll (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 9.2534ms. (50a9e262)
+2021-09-22T14:55:15.2972499+07:00 0HMBTJOEQ45N5:0000000B [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[HN.Application.ViewModels.Product.ProductCategoryViewModel, HN.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-09-22T14:55:15.2990154+07:00 0HMBTJOEQ45N5:0000000B [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.GetAll (MdHongnghiCore)" in 14.4875ms (afa2e885)
+2021-09-22T14:55:15.3006759+07:00 0HMBTJOEQ45N5:0000000B [INF] Request finished in 19.0009ms 200 application/json; charset=utf-8 (791a596a)
+2021-09-22T14:55:15.3443445+07:00 0HMBTJOEQ45NF:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44323/favicon.ico   (ca22a1cb)
+2021-09-22T14:55:15.3462184+07:00 0HMBTJOEQ45NF:00000003 [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\favicon.ico"' (27b0a520)
+2021-09-22T14:55:15.3473470+07:00 0HMBTJOEQ45NF:00000003 [INF] Request finished in 3.3559ms 200 image/x-icon (791a596a)
+2021-09-22T14:55:17.5376568+07:00 0HMBTJOEQ45ND:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44323/admin/productcategory/index   (ca22a1cb)
+2021-09-22T14:55:17.5391324+07:00 0HMBTJOEQ45ND:00000003 [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"ProductCategory\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T14:55:17.5403330+07:00 0HMBTJOEQ45ND:00000003 [INF] Authorization was successful. (0d575a54)
+2021-09-22T14:55:17.5418206+07:00 0HMBTJOEQ45ND:00000003 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T14:55:17.5436122+07:00 0HMBTJOEQ45ND:00000003 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0216ms. (50a9e262)
+2021-09-22T14:55:17.5447958+07:00 0HMBTJOEQ45ND:00000003 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-09-22T14:55:17.5461485+07:00 0HMBTJOEQ45ND:00000003 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T14:55:17.5481684+07:00 0HMBTJOEQ45ND:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2021-09-22T14:55:17.5506457+07:00 0HMBTJOEQ45ND:00000003 [INF] Executed ViewResult - view "Index" executed in 5.6114ms. (f66409e9)
+2021-09-22T14:55:17.5522242+07:00 0HMBTJOEQ45ND:00000003 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)" in 11.6144ms (afa2e885)
+2021-09-22T14:55:17.5538719+07:00 0HMBTJOEQ45ND:00000003 [INF] Request finished in 15.8022ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-22T14:55:17.6356212+07:00 0HMBTJOEQ45NB:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44323/Admin/ProductCategory/GetAll   (ca22a1cb)
+2021-09-22T14:55:17.6372352+07:00 0HMBTJOEQ45NB:00000003 [INF] Route matched with "{area = \"Admin\", action = \"GetAll\", controller = \"ProductCategory\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAll()" on controller "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T14:55:17.6383162+07:00 0HMBTJOEQ45NB:00000003 [INF] Authorization was successful. (0d575a54)
+2021-09-22T14:55:17.6393181+07:00 0HMBTJOEQ45NB:00000003 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.GetAll (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T14:55:17.6405660+07:00 0HMBTJOEQ45NB:00000003 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T14:55:17.6449985+07:00 0HMBTJOEQ45NB:00000003 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[Description], [x].[ParentId], [x].[HomeOrder], [x].[Image], [x].[HomeFlag], [x].[DateCreated], [x].[DateModified], [x].[SortOrder], [x].[Status], [x].[SeoPageTitle], [x].[SeoAlias], [x].[SeoKeywords], [x].[SeoDescription]
+FROM [ProductCategories] AS [x]
+ORDER BY [x].[ParentId], [x].[Id]" (0723d8ff)
+2021-09-22T14:55:17.6471841+07:00 0HMBTJOEQ45NB:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[ParentId], [t].[Id], [x.Products].[Id] AS [Id0], [x.Products].[Name], [x.Products].[CategoryId], [x.Products].[Image], [x.Products].[Price], [x.Products].[PromotionPrice], [x.Products].[OriginalPrice], [x.Products].[Description], [x.Products].[Content], [x.Products].[HomeFlag], [x.Products].[HotFlag], [x.Products].[ViewCount], [x.Products].[Tags], [x.Products].[Unit], [x.Products].[SeoPageTitle], [x.Products].[SeoAlias], [x.Products].[SeoKeywords], [x.Products].[SeoDescription], [x.Products].[DateCreated], [x.Products].[DateModified], [x.Products].[Status]
+FROM [Products] AS [x.Products]
+INNER JOIN (
+    SELECT [x0].[ParentId], [x0].[Id]
+    FROM [ProductCategories] AS [x0]
+) AS [t] ON [x.Products].[CategoryId] = [t].[Id]
+ORDER BY [t].[ParentId], [t].[Id]" (0723d8ff)
+2021-09-22T14:55:17.6489905+07:00 0HMBTJOEQ45NB:00000003 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.GetAll (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 8.2278ms. (50a9e262)
+2021-09-22T14:55:17.6504469+07:00 0HMBTJOEQ45NB:00000003 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[HN.Application.ViewModels.Product.ProductCategoryViewModel, HN.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-09-22T14:55:17.6525098+07:00 0HMBTJOEQ45NB:00000003 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.GetAll (MdHongnghiCore)" in 13.6269ms (afa2e885)
+2021-09-22T14:55:17.6542652+07:00 0HMBTJOEQ45NB:00000003 [INF] Request finished in 18.2593ms 200 application/json; charset=utf-8 (791a596a)
+2021-09-22T14:55:17.6628316+07:00 0HMBTJOEQ45N9:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44323/favicon.ico   (ca22a1cb)
+2021-09-22T14:55:17.6648824+07:00 0HMBTJOEQ45N9:00000004 [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\favicon.ico"' (27b0a520)
+2021-09-22T14:55:17.6662688+07:00 0HMBTJOEQ45N9:00000004 [INF] Request finished in 3.4655ms 200 image/x-icon (791a596a)
+2021-09-22T14:55:22.5207919+07:00 0HMBTJOEQ45NA:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/bootstrap/dist/css/bootstrap.css.map   (ca22a1cb)
+2021-09-22T14:55:22.5281349+07:00 0HMBTJOEQ45NA:00000004 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css.map"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map"' (27b0a520)
+2021-09-22T14:55:22.5295321+07:00 0HMBTJOEQ45NA:00000004 [INF] Request finished in 8.8207ms 200 text/plain (791a596a)
+2021-09-22T14:55:30.6505339+07:00 0HMBTJOEQ45N7:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44323/admin/productcategory/index   (ca22a1cb)
+2021-09-22T14:55:30.6522194+07:00 0HMBTJOEQ45N7:00000004 [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"ProductCategory\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T14:55:30.6535011+07:00 0HMBTJOEQ45N7:00000004 [INF] Authorization was successful. (0d575a54)
+2021-09-22T14:55:30.6547447+07:00 0HMBTJOEQ45N7:00000004 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T14:55:30.6559991+07:00 0HMBTJOEQ45N7:00000004 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0173ms. (50a9e262)
+2021-09-22T14:55:30.6575288+07:00 0HMBTJOEQ45N7:00000004 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-09-22T14:55:30.6592149+07:00 0HMBTJOEQ45N7:00000004 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T14:55:30.6612163+07:00 0HMBTJOEQ45N7:00000004 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2021-09-22T14:55:30.6632018+07:00 0HMBTJOEQ45N7:00000004 [INF] Executed ViewResult - view "Index" executed in 6.0978ms. (f66409e9)
+2021-09-22T14:55:30.6642547+07:00 0HMBTJOEQ45N7:00000004 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)" in 10.9981ms (afa2e885)
+2021-09-22T14:55:30.6654214+07:00 0HMBTJOEQ45N7:00000004 [INF] Request finished in 15.3033ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-22T14:55:30.6978282+07:00 0HMBTJOEQ45NE:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44323/app/controller/productCategory/index.js?v=6gdTaVSXsImWdT0oyQwEBitM_aFKcKdBXaA5_VRFYm0   (ca22a1cb)
+2021-09-22T14:55:30.7004956+07:00 0HMBTJOEQ45NE:00000004 [INF] The file "/app/controller/productCategory/index.js" was not modified (f1f8d725)
+2021-09-22T14:55:30.7020927+07:00 0HMBTJOEQ45NE:00000004 [INF] Request finished in 5.04ms 304 application/javascript (791a596a)
+2021-09-22T14:55:30.7566794+07:00 0HMBTJOEQ45NC:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/bootstrap/dist/css/bootstrap.css.map   (ca22a1cb)
+2021-09-22T14:55:30.7604617+07:00 0HMBTJOEQ45NC:00000004 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css.map"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map"' (27b0a520)
+2021-09-22T14:55:30.7621323+07:00 0HMBTJOEQ45NC:00000004 [INF] Request finished in 6.0604ms 200 text/plain (791a596a)
+2021-09-22T14:55:30.8336813+07:00 0HMBTJOEQ45N4:0000000C [INF] Request starting HTTP/1.1 GET http://localhost:44323/Admin/ProductCategory/GetAll   (ca22a1cb)
+2021-09-22T14:55:30.8357669+07:00 0HMBTJOEQ45N4:0000000C [INF] Route matched with "{area = \"Admin\", action = \"GetAll\", controller = \"ProductCategory\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAll()" on controller "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T14:55:30.8375132+07:00 0HMBTJOEQ45N4:0000000C [INF] Authorization was successful. (0d575a54)
+2021-09-22T14:55:30.8393238+07:00 0HMBTJOEQ45N4:0000000C [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.GetAll (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T14:55:30.8409012+07:00 0HMBTJOEQ45N4:0000000C [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T14:55:30.8430037+07:00 0HMBTJOEQ45N4:0000000C [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[Description], [x].[ParentId], [x].[HomeOrder], [x].[Image], [x].[HomeFlag], [x].[DateCreated], [x].[DateModified], [x].[SortOrder], [x].[Status], [x].[SeoPageTitle], [x].[SeoAlias], [x].[SeoKeywords], [x].[SeoDescription]
+FROM [ProductCategories] AS [x]
+ORDER BY [x].[ParentId], [x].[Id]" (0723d8ff)
+2021-09-22T14:55:30.8447527+07:00 0HMBTJOEQ45N4:0000000C [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[ParentId], [t].[Id], [x.Products].[Id] AS [Id0], [x.Products].[Name], [x.Products].[CategoryId], [x.Products].[Image], [x.Products].[Price], [x.Products].[PromotionPrice], [x.Products].[OriginalPrice], [x.Products].[Description], [x.Products].[Content], [x.Products].[HomeFlag], [x.Products].[HotFlag], [x.Products].[ViewCount], [x.Products].[Tags], [x.Products].[Unit], [x.Products].[SeoPageTitle], [x.Products].[SeoAlias], [x.Products].[SeoKeywords], [x.Products].[SeoDescription], [x.Products].[DateCreated], [x.Products].[DateModified], [x.Products].[Status]
+FROM [Products] AS [x.Products]
+INNER JOIN (
+    SELECT [x0].[ParentId], [x0].[Id]
+    FROM [ProductCategories] AS [x0]
+) AS [t] ON [x.Products].[CategoryId] = [t].[Id]
+ORDER BY [t].[ParentId], [t].[Id]" (0723d8ff)
+2021-09-22T14:55:30.8461947+07:00 0HMBTJOEQ45N4:0000000C [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.GetAll (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 5.7613ms. (50a9e262)
+2021-09-22T14:55:30.8473564+07:00 0HMBTJOEQ45N4:0000000C [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[HN.Application.ViewModels.Product.ProductCategoryViewModel, HN.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-09-22T14:55:30.8489826+07:00 0HMBTJOEQ45N4:0000000C [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.GetAll (MdHongnghiCore)" in 11.8437ms (afa2e885)
+2021-09-22T14:55:30.8508957+07:00 0HMBTJOEQ45N4:0000000C [INF] Request finished in 17.4399ms 200 application/json; charset=utf-8 (791a596a)
+2021-09-22T14:55:30.8783160+07:00 0HMBTJOEQ45N6:0000000A [INF] Request starting HTTP/1.1 GET http://localhost:44323/favicon.ico   (ca22a1cb)
+2021-09-22T14:55:30.8807398+07:00 0HMBTJOEQ45N6:0000000A [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\favicon.ico"' (27b0a520)
+2021-09-22T14:55:30.8827163+07:00 0HMBTJOEQ45N6:0000000A [INF] Request finished in 4.1047ms 200 image/x-icon (791a596a)
+2021-09-22T14:56:59.4743154+07:00 0HMBTJQ73M4LT:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44323/   (ca22a1cb)
+2021-09-22T14:56:59.4743178+07:00 0HMBTJQ73M4LS:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:24443/  0 (ca22a1cb)
+2021-09-22T14:56:59.4939114+07:00 0HMBTJQ73M4LS:00000001 [INF] Request finished in 22.9304ms 200  (791a596a)
+2021-09-22T14:56:59.6057451+07:00 0HMBTJQ73M4LT:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Controllers.HomeController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T14:56:59.6132099+07:00 0HMBTJQ73M4LT:00000001 [INF] Authorization was successful. (0d575a54)
+2021-09-22T14:56:59.6208250+07:00 0HMBTJQ73M4LT:00000001 [INF] Executing action method "MdHongnghiCore.Controllers.HomeController.Index (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T14:56:59.6250485+07:00 0HMBTJQ73M4LT:00000001 [INF] Executed action method "MdHongnghiCore.Controllers.HomeController.Index (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 1.0374ms. (50a9e262)
+2021-09-22T14:56:59.6387655+07:00 0HMBTJQ73M4LT:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-09-22T14:56:59.7127218+07:00 0HMBTJQ73M4LT:00000001 [INF] Executed ViewResult - view "Index" executed in 80.4012ms. (f66409e9)
+2021-09-22T14:56:59.7143181+07:00 0HMBTJQ73M4LT:00000001 [INF] Executed action "MdHongnghiCore.Controllers.HomeController.Index (MdHongnghiCore)" in 107.1182ms (afa2e885)
+2021-09-22T14:56:59.7188812+07:00 0HMBTJQ73M4LT:00000001 [INF] Request finished in 249.4597ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-22T14:57:04.0293423+07:00 0HMBTJQ73M4LS:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44323/admin/login   (ca22a1cb)
+2021-09-22T14:57:04.0344464+07:00 0HMBTJQ73M4LS:00000002 [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Login\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Areas.Admin.Controllers.LoginController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T14:57:04.0360574+07:00 0HMBTJQ73M4LS:00000002 [INF] Authorization was successful. (0d575a54)
+2021-09-22T14:57:04.0374929+07:00 0HMBTJQ73M4LS:00000002 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Index (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T14:57:04.0386046+07:00 0HMBTJQ73M4LS:00000002 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Index (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.1303ms. (50a9e262)
+2021-09-22T14:57:04.0422278+07:00 0HMBTJQ73M4LS:00000002 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-09-22T14:57:04.0609670+07:00 0HMBTJQ73M4LS:00000002 [INF] Executed ViewResult - view "Index" executed in 20.4744ms. (f66409e9)
+2021-09-22T14:57:04.0627475+07:00 0HMBTJQ73M4LS:00000002 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Index (MdHongnghiCore)" in 26.5674ms (afa2e885)
+2021-09-22T14:57:04.0650308+07:00 0HMBTJQ73M4LS:00000002 [INF] Request finished in 34.8238ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-22T14:57:04.2225942+07:00 0HMBTJQ73M4LT:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/font-awesome/css/fontawesome.min.css   (ca22a1cb)
+2021-09-22T14:57:04.2255181+07:00 0HMBTJQ73M4LT:00000002 [INF] Request finished in 2.7798ms 404  (791a596a)
+2021-09-22T14:57:06.0056454+07:00 0HMBTJQ73M4LS:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:44323/admin/login/authen application/x-www-form-urlencoded; charset=UTF-8 33 (ca22a1cb)
+2021-09-22T14:57:06.0202639+07:00 0HMBTJQ73M4LS:00000003 [INF] Route matched with "{area = \"Admin\", action = \"Authen\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authen(MdHongnghiCore.Models.AccountViewModels.LoginViewModel)" on controller "MdHongnghiCore.Areas.Admin.Controllers.LoginController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T14:57:06.0465058+07:00 0HMBTJQ73M4LS:00000003 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Authen (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T14:57:06.0522426+07:00 0HMBTJQ73M4LS:00000003 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T14:57:06.0882348+07:00 0HMBTJQ73M4LS:00000003 [INF] Executed DbCommand ("7"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2021-09-22T14:57:06.1989743+07:00 0HMBTJQ73M4LS:00000003 [INF] Executed DbCommand ("4"ms) [Parameters=["@__user_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AppUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0" (0723d8ff)
+2021-09-22T14:57:06.2246626+07:00 0HMBTJQ73M4LS:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2021-09-22T14:57:06.2355833+07:00 0HMBTJQ73M4LS:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2021-09-22T14:57:06.2497204+07:00 0HMBTJQ73M4LS:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@__role_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AppRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0" (0723d8ff)
+2021-09-22T14:57:06.2545640+07:00 0HMBTJQ73M4LS:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2021-09-22T14:57:06.2609882+07:00 0HMBTJQ73M4LS:00000003 [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2021-09-22T14:57:06.2638233+07:00 0HMBTJQ73M4LS:00000003 [INF] User logged in. (fdce0db4)
+2021-09-22T14:57:06.2666482+07:00 0HMBTJQ73M4LS:00000003 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Authen (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 218.9968ms. (50a9e262)
+2021-09-22T14:57:06.2728983+07:00 0HMBTJQ73M4LS:00000003 [INF] Executing ObjectResult, writing value of type '"HN.Untilities.Dtos.GenericResult"'. (8a1b66c8)
+2021-09-22T14:57:06.3013329+07:00 0HMBTJQ73M4LS:00000003 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Authen (MdHongnghiCore)" in 279.818ms (afa2e885)
+2021-09-22T14:57:06.3059864+07:00 0HMBTJQ73M4LS:00000003 [INF] Request finished in 300.7612ms 200 application/json; charset=utf-8 (791a596a)
+2021-09-22T14:57:06.3230115+07:00 0HMBTJQ73M4LT:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44323/Admin/Home/Index   (ca22a1cb)
+2021-09-22T14:57:06.3251803+07:00 0HMBTJQ73M4LT:00000003 [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Areas.Admin.Controllers.HomeController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T14:57:06.3262180+07:00 0HMBTJQ73M4LT:00000003 [INF] Authorization was successful. (0d575a54)
+2021-09-22T14:57:06.3274532+07:00 0HMBTJQ73M4LT:00000003 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.HomeController.Index (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T14:57:06.3284756+07:00 0HMBTJQ73M4LT:00000003 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.HomeController.Index (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.1115ms. (50a9e262)
+2021-09-22T14:57:06.3308303+07:00 0HMBTJQ73M4LT:00000003 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-09-22T14:57:06.3576455+07:00 0HMBTJQ73M4LT:00000003 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T14:57:06.3783887+07:00 0HMBTJQ73M4LT:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2021-09-22T14:57:06.4042093+07:00 0HMBTJQ73M4LT:00000003 [INF] Executed ViewResult - view "Index" executed in 74.7449ms. (f66409e9)
+2021-09-22T14:57:06.4073327+07:00 0HMBTJQ73M4LT:00000003 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.HomeController.Index (MdHongnghiCore)" in 81.2461ms (afa2e885)
+2021-09-22T14:57:06.4085375+07:00 0HMBTJQ73M4LT:00000003 [INF] Request finished in 85.6749ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-22T14:57:08.4212574+07:00 0HMBTJQ73M4LS:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44323/admin/productcategory/index   (ca22a1cb)
+2021-09-22T14:57:08.4237563+07:00 0HMBTJQ73M4LS:00000004 [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"ProductCategory\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T14:57:08.4248700+07:00 0HMBTJQ73M4LS:00000004 [INF] Authorization was successful. (0d575a54)
+2021-09-22T14:57:08.4263116+07:00 0HMBTJQ73M4LS:00000004 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T14:57:08.4274331+07:00 0HMBTJQ73M4LS:00000004 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0916ms. (50a9e262)
+2021-09-22T14:57:08.4296931+07:00 0HMBTJQ73M4LS:00000004 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-09-22T14:57:08.4353258+07:00 0HMBTJQ73M4LS:00000004 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T14:57:08.4383677+07:00 0HMBTJQ73M4LS:00000004 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2021-09-22T14:57:08.4449383+07:00 0HMBTJQ73M4LS:00000004 [INF] Executed ViewResult - view "Index" executed in 16.0175ms. (f66409e9)
+2021-09-22T14:57:08.4463552+07:00 0HMBTJQ73M4LS:00000004 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)" in 21.2495ms (afa2e885)
+2021-09-22T14:57:08.4478503+07:00 0HMBTJQ73M4LS:00000004 [INF] Request finished in 26.6758ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-22T14:57:08.4979846+07:00 0HMBTJQ73M4LT:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44323/app/controller/productCategory/index.js?v=jGep1Uj3MgFnxg2801wA2s7BhtARI9-rLUTZinTAW5A   (ca22a1cb)
+2021-09-22T14:57:08.5068797+07:00 0HMBTJQ73M4LT:00000004 [INF] Sending file. Request path: '"/app/controller/productCategory/index.js"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\app\controller\productCategory\index.js"' (27b0a520)
+2021-09-22T14:57:08.5081550+07:00 0HMBTJQ73M4LT:00000004 [INF] Request finished in 9.9998ms 200 application/javascript (791a596a)
+2021-09-22T14:57:08.5444753+07:00 0HMBTJQ73M4LS:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44323/Admin/ProductCategory/GetAll   (ca22a1cb)
+2021-09-22T14:57:08.5470262+07:00 0HMBTJQ73M4LS:00000005 [INF] Route matched with "{area = \"Admin\", action = \"GetAll\", controller = \"ProductCategory\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAll()" on controller "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T14:57:08.5485179+07:00 0HMBTJQ73M4LS:00000005 [INF] Authorization was successful. (0d575a54)
+2021-09-22T14:57:08.5498017+07:00 0HMBTJQ73M4LS:00000005 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.GetAll (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T14:57:08.5522973+07:00 0HMBTJQ73M4LS:00000005 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T14:57:08.5853038+07:00 0HMBTJQ73M4LS:00000005 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[Description], [x].[ParentId], [x].[HomeOrder], [x].[Image], [x].[HomeFlag], [x].[DateCreated], [x].[DateModified], [x].[SortOrder], [x].[Status], [x].[SeoPageTitle], [x].[SeoAlias], [x].[SeoKeywords], [x].[SeoDescription]
+FROM [ProductCategories] AS [x]
+ORDER BY [x].[ParentId], [x].[Id]" (0723d8ff)
+2021-09-22T14:57:08.5948999+07:00 0HMBTJQ73M4LS:00000005 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[ParentId], [t].[Id], [x.Products].[Id] AS [Id0], [x.Products].[Name], [x.Products].[CategoryId], [x.Products].[Image], [x.Products].[Price], [x.Products].[PromotionPrice], [x.Products].[OriginalPrice], [x.Products].[Description], [x.Products].[Content], [x.Products].[HomeFlag], [x.Products].[HotFlag], [x.Products].[ViewCount], [x.Products].[Tags], [x.Products].[Unit], [x.Products].[SeoPageTitle], [x.Products].[SeoAlias], [x.Products].[SeoKeywords], [x.Products].[SeoDescription], [x.Products].[DateCreated], [x.Products].[DateModified], [x.Products].[Status]
+FROM [Products] AS [x.Products]
+INNER JOIN (
+    SELECT [x0].[ParentId], [x0].[Id]
+    FROM [ProductCategories] AS [x0]
+) AS [t] ON [x.Products].[CategoryId] = [t].[Id]
+ORDER BY [t].[ParentId], [t].[Id]" (0723d8ff)
+2021-09-22T14:57:08.6053680+07:00 0HMBTJQ73M4LS:00000005 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.GetAll (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 54.1524ms. (50a9e262)
+2021-09-22T14:57:08.6071104+07:00 0HMBTJQ73M4LS:00000005 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[HN.Application.ViewModels.Product.ProductCategoryViewModel, HN.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-09-22T14:57:08.6208841+07:00 0HMBTJQ73M4LS:00000005 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.GetAll (MdHongnghiCore)" in 72.3627ms (afa2e885)
+2021-09-22T14:57:08.6222892+07:00 0HMBTJQ73M4LS:00000005 [INF] Request finished in 77.6618ms 200 application/json; charset=utf-8 (791a596a)
+2021-09-22T14:57:12.5145718+07:00 0HMBTJQ73M4LT:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44323/admin/productcategory/index   (ca22a1cb)
+2021-09-22T14:57:12.5158868+07:00 0HMBTJQ73M4LT:00000005 [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"ProductCategory\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T14:57:12.5169918+07:00 0HMBTJQ73M4LT:00000005 [INF] Authorization was successful. (0d575a54)
+2021-09-22T14:57:12.5179445+07:00 0HMBTJQ73M4LT:00000005 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T14:57:12.5187431+07:00 0HMBTJQ73M4LT:00000005 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0068ms. (50a9e262)
+2021-09-22T14:57:12.5196166+07:00 0HMBTJQ73M4LT:00000005 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-09-22T14:57:12.5209240+07:00 0HMBTJQ73M4LT:00000005 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T14:57:12.5234734+07:00 0HMBTJQ73M4LT:00000005 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2021-09-22T14:57:12.5254233+07:00 0HMBTJQ73M4LT:00000005 [INF] Executed ViewResult - view "Index" executed in 5.7039ms. (f66409e9)
+2021-09-22T14:57:12.5263632+07:00 0HMBTJQ73M4LT:00000005 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)" in 9.5689ms (afa2e885)
+2021-09-22T14:57:12.5274855+07:00 0HMBTJQ73M4LT:00000005 [INF] Request finished in 12.8634ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-22T14:57:12.5684629+07:00 0HMBTJQ73M4LS:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:44323/app/controller/productCategory/index.js?v=jGep1Uj3MgFnxg2801wA2s7BhtARI9-rLUTZinTAW5A   (ca22a1cb)
+2021-09-22T14:57:12.5708528+07:00 0HMBTJQ73M4LS:00000006 [INF] The file "/app/controller/productCategory/index.js" was not modified (f1f8d725)
+2021-09-22T14:57:12.5729684+07:00 0HMBTJQ73M4LS:00000006 [INF] Request finished in 4.39ms 304 application/javascript (791a596a)
+2021-09-22T14:57:12.6047575+07:00 0HMBTJQ73M4LT:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:44323/Admin/ProductCategory/GetAll   (ca22a1cb)
+2021-09-22T14:57:12.6067898+07:00 0HMBTJQ73M4LT:00000006 [INF] Route matched with "{area = \"Admin\", action = \"GetAll\", controller = \"ProductCategory\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAll()" on controller "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T14:57:12.6078068+07:00 0HMBTJQ73M4LT:00000006 [INF] Authorization was successful. (0d575a54)
+2021-09-22T14:57:12.6089772+07:00 0HMBTJQ73M4LT:00000006 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.GetAll (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T14:57:12.6103393+07:00 0HMBTJQ73M4LT:00000006 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T14:57:12.6122520+07:00 0HMBTJQ73M4LT:00000006 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[Description], [x].[ParentId], [x].[HomeOrder], [x].[Image], [x].[HomeFlag], [x].[DateCreated], [x].[DateModified], [x].[SortOrder], [x].[Status], [x].[SeoPageTitle], [x].[SeoAlias], [x].[SeoKeywords], [x].[SeoDescription]
+FROM [ProductCategories] AS [x]
+ORDER BY [x].[ParentId], [x].[Id]" (0723d8ff)
+2021-09-22T14:57:12.6140417+07:00 0HMBTJQ73M4LT:00000006 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[ParentId], [t].[Id], [x.Products].[Id] AS [Id0], [x.Products].[Name], [x.Products].[CategoryId], [x.Products].[Image], [x.Products].[Price], [x.Products].[PromotionPrice], [x.Products].[OriginalPrice], [x.Products].[Description], [x.Products].[Content], [x.Products].[HomeFlag], [x.Products].[HotFlag], [x.Products].[ViewCount], [x.Products].[Tags], [x.Products].[Unit], [x.Products].[SeoPageTitle], [x.Products].[SeoAlias], [x.Products].[SeoKeywords], [x.Products].[SeoDescription], [x.Products].[DateCreated], [x.Products].[DateModified], [x.Products].[Status]
+FROM [Products] AS [x.Products]
+INNER JOIN (
+    SELECT [x0].[ParentId], [x0].[Id]
+    FROM [ProductCategories] AS [x0]
+) AS [t] ON [x.Products].[CategoryId] = [t].[Id]
+ORDER BY [t].[ParentId], [t].[Id]" (0723d8ff)
+2021-09-22T14:57:12.6157952+07:00 0HMBTJQ73M4LT:00000006 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.GetAll (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 5.4343ms. (50a9e262)
+2021-09-22T14:57:12.6177285+07:00 0HMBTJQ73M4LT:00000006 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[HN.Application.ViewModels.Product.ProductCategoryViewModel, HN.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-09-22T14:57:12.6195631+07:00 0HMBTJQ73M4LT:00000006 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.GetAll (MdHongnghiCore)" in 11.3635ms (afa2e885)
+2021-09-22T14:57:12.6212082+07:00 0HMBTJQ73M4LT:00000006 [INF] Request finished in 16.1201ms 200 application/json; charset=utf-8 (791a596a)
+2021-09-22T14:57:12.6321369+07:00 0HMBTJQ73M4LS:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:44323/favicon.ico   (ca22a1cb)
+2021-09-22T14:57:12.6341398+07:00 0HMBTJQ73M4LS:00000007 [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\favicon.ico"' (27b0a520)
+2021-09-22T14:57:12.6351339+07:00 0HMBTJQ73M4LS:00000007 [INF] Request finished in 3.3826ms 200 image/x-icon (791a596a)
+2021-09-22T15:04:01.7239316+07:00 0HMBTJU4UJ8A0:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:24443/  0 (ca22a1cb)
+2021-09-22T15:04:01.7239317+07:00 0HMBTJU4UJ89V:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44323/   (ca22a1cb)
+2021-09-22T15:04:01.7427819+07:00 0HMBTJU4UJ8A0:00000001 [INF] Request finished in 22.1662ms 200  (791a596a)
+2021-09-22T15:04:01.8789567+07:00 0HMBTJU4UJ89V:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Controllers.HomeController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T15:04:01.8868104+07:00 0HMBTJU4UJ89V:00000001 [INF] Authorization was successful. (0d575a54)
+2021-09-22T15:04:01.8952789+07:00 0HMBTJU4UJ89V:00000001 [INF] Executing action method "MdHongnghiCore.Controllers.HomeController.Index (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T15:04:01.9002561+07:00 0HMBTJU4UJ89V:00000001 [INF] Executed action method "MdHongnghiCore.Controllers.HomeController.Index (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 1.3867ms. (50a9e262)
+2021-09-22T15:04:01.9122285+07:00 0HMBTJU4UJ89V:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-09-22T15:04:01.9871432+07:00 0HMBTJU4UJ89V:00000001 [INF] Executed ViewResult - view "Index" executed in 79.6758ms. (f66409e9)
+2021-09-22T15:04:01.9890618+07:00 0HMBTJU4UJ89V:00000001 [INF] Executed action "MdHongnghiCore.Controllers.HomeController.Index (MdHongnghiCore)" in 108.4321ms (afa2e885)
+2021-09-22T15:04:01.9943709+07:00 0HMBTJU4UJ89V:00000001 [INF] Request finished in 274.5559ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-22T15:04:05.6439084+07:00 0HMBTJU4UJ8A0:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44323/admin/login   (ca22a1cb)
+2021-09-22T15:04:05.6470804+07:00 0HMBTJU4UJ8A0:00000002 [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Login\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Areas.Admin.Controllers.LoginController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T15:04:05.6480995+07:00 0HMBTJU4UJ8A0:00000002 [INF] Authorization was successful. (0d575a54)
+2021-09-22T15:04:05.6493835+07:00 0HMBTJU4UJ8A0:00000002 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Index (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T15:04:05.6507581+07:00 0HMBTJU4UJ8A0:00000002 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Index (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.125ms. (50a9e262)
+2021-09-22T15:04:05.6566871+07:00 0HMBTJU4UJ8A0:00000002 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-09-22T15:04:05.6743813+07:00 0HMBTJU4UJ8A0:00000002 [INF] Executed ViewResult - view "Index" executed in 21.874ms. (f66409e9)
+2021-09-22T15:04:05.6754596+07:00 0HMBTJU4UJ8A0:00000002 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Index (MdHongnghiCore)" in 27.3424ms (afa2e885)
+2021-09-22T15:04:05.6764950+07:00 0HMBTJU4UJ8A0:00000002 [INF] Request finished in 32.6475ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-22T15:04:05.8249099+07:00 0HMBTJU4UJ89V:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/font-awesome/css/fontawesome.min.css   (ca22a1cb)
+2021-09-22T15:04:05.8284689+07:00 0HMBTJU4UJ89V:00000002 [INF] Request finished in 3.3396ms 404  (791a596a)
+2021-09-22T15:04:07.5437252+07:00 0HMBTJU4UJ8A0:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:44323/admin/login/authen application/x-www-form-urlencoded; charset=UTF-8 33 (ca22a1cb)
+2021-09-22T15:04:07.5605437+07:00 0HMBTJU4UJ8A0:00000003 [INF] Route matched with "{area = \"Admin\", action = \"Authen\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authen(MdHongnghiCore.Models.AccountViewModels.LoginViewModel)" on controller "MdHongnghiCore.Areas.Admin.Controllers.LoginController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T15:04:07.5890004+07:00 0HMBTJU4UJ8A0:00000003 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Authen (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T15:04:07.5939420+07:00 0HMBTJU4UJ8A0:00000003 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T15:04:07.6292047+07:00 0HMBTJU4UJ8A0:00000003 [INF] Executed DbCommand ("8"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2021-09-22T15:04:07.7344364+07:00 0HMBTJU4UJ8A0:00000003 [INF] Executed DbCommand ("4"ms) [Parameters=["@__user_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AppUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0" (0723d8ff)
+2021-09-22T15:04:07.7613781+07:00 0HMBTJU4UJ8A0:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2021-09-22T15:04:07.7732918+07:00 0HMBTJU4UJ8A0:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2021-09-22T15:04:07.7869672+07:00 0HMBTJU4UJ8A0:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@__role_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AppRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0" (0723d8ff)
+2021-09-22T15:04:07.7912526+07:00 0HMBTJU4UJ8A0:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2021-09-22T15:04:07.7974956+07:00 0HMBTJU4UJ8A0:00000003 [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2021-09-22T15:04:07.7998480+07:00 0HMBTJU4UJ8A0:00000003 [INF] User logged in. (fdce0db4)
+2021-09-22T15:04:07.8022307+07:00 0HMBTJU4UJ8A0:00000003 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Authen (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 212.0477ms. (50a9e262)
+2021-09-22T15:04:07.8082054+07:00 0HMBTJU4UJ8A0:00000003 [INF] Executing ObjectResult, writing value of type '"HN.Untilities.Dtos.GenericResult"'. (8a1b66c8)
+2021-09-22T15:04:07.8367803+07:00 0HMBTJU4UJ8A0:00000003 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Authen (MdHongnghiCore)" in 275.056ms (afa2e885)
+2021-09-22T15:04:07.8415045+07:00 0HMBTJU4UJ8A0:00000003 [INF] Request finished in 297.9616ms 200 application/json; charset=utf-8 (791a596a)
+2021-09-22T15:04:07.8570662+07:00 0HMBTJU4UJ89V:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44323/Admin/Home/Index   (ca22a1cb)
+2021-09-22T15:04:07.8589239+07:00 0HMBTJU4UJ89V:00000003 [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Areas.Admin.Controllers.HomeController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T15:04:07.8597810+07:00 0HMBTJU4UJ89V:00000003 [INF] Authorization was successful. (0d575a54)
+2021-09-22T15:04:07.8608534+07:00 0HMBTJU4UJ89V:00000003 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.HomeController.Index (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T15:04:07.8622181+07:00 0HMBTJU4UJ89V:00000003 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.HomeController.Index (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.159ms. (50a9e262)
+2021-09-22T15:04:07.8649754+07:00 0HMBTJU4UJ89V:00000003 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-09-22T15:04:07.8918615+07:00 0HMBTJU4UJ89V:00000003 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T15:04:07.9131293+07:00 0HMBTJU4UJ89V:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2021-09-22T15:04:07.9398328+07:00 0HMBTJU4UJ89V:00000003 [INF] Executed ViewResult - view "Index" executed in 76.2641ms. (f66409e9)
+2021-09-22T15:04:07.9434102+07:00 0HMBTJU4UJ89V:00000003 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.HomeController.Index (MdHongnghiCore)" in 83.3079ms (afa2e885)
+2021-09-22T15:04:07.9449792+07:00 0HMBTJU4UJ89V:00000003 [INF] Request finished in 87.9449ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-22T15:04:10.7859281+07:00 0HMBTJU4UJ8A0:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44323/admin/product/index   (ca22a1cb)
+2021-09-22T15:04:10.7879087+07:00 0HMBTJU4UJ8A0:00000004 [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Product\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Areas.Admin.Controllers.ProductController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T15:04:10.7889419+07:00 0HMBTJU4UJ8A0:00000004 [INF] Authorization was successful. (0d575a54)
+2021-09-22T15:04:10.7911148+07:00 0HMBTJU4UJ8A0:00000004 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.ProductController.Index (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T15:04:10.7922463+07:00 0HMBTJU4UJ8A0:00000004 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.ProductController.Index (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.1443ms. (50a9e262)
+2021-09-22T15:04:10.7971517+07:00 0HMBTJU4UJ8A0:00000004 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-09-22T15:04:10.8049543+07:00 0HMBTJU4UJ8A0:00000004 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T15:04:10.8077816+07:00 0HMBTJU4UJ8A0:00000004 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2021-09-22T15:04:10.8124885+07:00 0HMBTJU4UJ8A0:00000004 [INF] Executed ViewResult - view "Index" executed in 18.9827ms. (f66409e9)
+2021-09-22T15:04:10.8136624+07:00 0HMBTJU4UJ8A0:00000004 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.ProductController.Index (MdHongnghiCore)" in 24.6967ms (afa2e885)
+2021-09-22T15:04:10.8152075+07:00 0HMBTJU4UJ8A0:00000004 [INF] Request finished in 29.1931ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-22T15:04:10.9642126+07:00 0HMBTJU4UJ89V:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44323/app/controller/product/index.js   (ca22a1cb)
+2021-09-22T15:04:10.9746770+07:00 0HMBTJU4UJ89V:00000004 [INF] Sending file. Request path: '"/app/controller/product/index.js"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\app\controller\product\index.js"' (27b0a520)
+2021-09-22T15:04:10.9765882+07:00 0HMBTJU4UJ89V:00000004 [INF] Request finished in 12.1228ms 200 application/javascript (791a596a)
+2021-09-22T15:04:11.0107512+07:00 0HMBTJU4UJ8A0:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44323/admin/product/GetAllCategories   (ca22a1cb)
+2021-09-22T15:04:11.0121858+07:00 0HMBTJU4UJ89V:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44323/admin/product/GetAllPaging?categoryId=--Select+category--&keyword=&page=1&pageSize=10   (ca22a1cb)
+2021-09-22T15:04:11.0150957+07:00 0HMBTJU4UJ8A0:00000005 [INF] Route matched with "{area = \"Admin\", action = \"GetAllCategories\", controller = \"Product\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllCategories()" on controller "MdHongnghiCore.Areas.Admin.Controllers.ProductController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T15:04:11.0163184+07:00 0HMBTJU4UJ8A0:00000005 [INF] Authorization was successful. (0d575a54)
+2021-09-22T15:04:11.0175181+07:00 0HMBTJU4UJ8A0:00000005 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.ProductController.GetAllCategories (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T15:04:11.0190461+07:00 0HMBTJU4UJ89V:00000005 [INF] Route matched with "{area = \"Admin\", action = \"GetAllPaging\", controller = \"Product\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllPaging(System.Nullable`1[System.Int32], System.String, Int32, Int32)" on controller "MdHongnghiCore.Areas.Admin.Controllers.ProductController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T15:04:11.0203330+07:00 0HMBTJU4UJ89V:00000005 [INF] Authorization was successful. (0d575a54)
+2021-09-22T15:04:11.0505277+07:00 0HMBTJU4UJ8A0:00000005 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T15:04:11.0538480+07:00 0HMBTJU4UJ89V:00000005 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.ProductController.GetAllPaging (MdHongnghiCore)" - Validation state: Invalid (dad538d7)
+2021-09-22T15:04:11.0577847+07:00 0HMBTJU4UJ89V:00000005 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T15:04:11.0641460+07:00 0HMBTJU4UJ89V:00000005 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [x]
+WHERE [x].[Status] = 1" (0723d8ff)
+2021-09-22T15:04:11.0866530+07:00 0HMBTJU4UJ8A0:00000005 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[Description], [x].[ParentId], [x].[HomeOrder], [x].[Image], [x].[HomeFlag], [x].[DateCreated], [x].[DateModified], [x].[SortOrder], [x].[Status], [x].[SeoPageTitle], [x].[SeoAlias], [x].[SeoKeywords], [x].[SeoDescription]
+FROM [ProductCategories] AS [x]
+ORDER BY [x].[ParentId], [x].[Id]" (0723d8ff)
+2021-09-22T15:04:11.0966508+07:00 0HMBTJU4UJ8A0:00000005 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[ParentId], [t].[Id], [x.Products].[Id] AS [Id0], [x.Products].[Name], [x.Products].[CategoryId], [x.Products].[Image], [x.Products].[Price], [x.Products].[PromotionPrice], [x.Products].[OriginalPrice], [x.Products].[Description], [x.Products].[Content], [x.Products].[HomeFlag], [x.Products].[HotFlag], [x.Products].[ViewCount], [x.Products].[Tags], [x.Products].[Unit], [x.Products].[SeoPageTitle], [x.Products].[SeoAlias], [x.Products].[SeoKeywords], [x.Products].[SeoDescription], [x.Products].[DateCreated], [x.Products].[DateModified], [x.Products].[Status]
+FROM [Products] AS [x.Products]
+INNER JOIN (
+    SELECT [x0].[ParentId], [x0].[Id]
+    FROM [ProductCategories] AS [x0]
+) AS [t] ON [x.Products].[CategoryId] = [t].[Id]
+ORDER BY [t].[ParentId], [t].[Id]" (0723d8ff)
+2021-09-22T15:04:11.0979014+07:00 0HMBTJU4UJ89V:00000005 [INF] Executed DbCommand ("3"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[CategoryId], [x].[Image], [x].[Price], [x].[PromotionPrice], [x].[OriginalPrice], [x].[Description], [x].[Content], [x].[HomeFlag], [x].[HotFlag], [x].[ViewCount], [x].[Tags], [x].[Unit], CASE
+    WHEN [x].[CategoryId] IS NOT NULL
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END, [x.ProductCategory].[Name] AS [Name0], [x.ProductCategory].[Description] AS [Description0], [x.ProductCategory].[ParentId], [x.ProductCategory].[HomeOrder], [x.ProductCategory].[Image] AS [Image0], [x.ProductCategory].[HomeFlag] AS [HomeFlag0], [x.ProductCategory].[DateCreated], [x.ProductCategory].[DateModified], [x.ProductCategory].[SortOrder], [x.ProductCategory].[Status], [x.ProductCategory].[SeoPageTitle], [x.ProductCategory].[SeoAlias], [x.ProductCategory].[SeoKeywords], [x.ProductCategory].[SeoDescription], [x].[SeoPageTitle] AS [SeoPageTitle0], [x].[SeoAlias] AS [SeoAlias0], [x].[SeoKeywords] AS [SeoKeywords0], [x].[SeoDescription] AS [SeoDescription0], [x].[DateCreated] AS [DateCreated0], [x].[DateModified] AS [DateModified0], [x].[Status] AS [Status0], [x.ProductCategory].[Id]
+FROM [Products] AS [x]
+INNER JOIN [ProductCategories] AS [x.ProductCategory] ON [x].[CategoryId] = [x.ProductCategory].[Id]
+WHERE [x].[Status] = 1
+ORDER BY [DateCreated0] DESC, [x].[Id], [x.ProductCategory].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2021-09-22T15:04:11.1087704+07:00 0HMBTJU4UJ8A0:00000005 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.ProductController.GetAllCategories (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 89.9871ms. (50a9e262)
+2021-09-22T15:04:11.1105451+07:00 0HMBTJU4UJ8A0:00000005 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[HN.Application.ViewModels.Product.ProductCategoryViewModel, HN.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-09-22T15:04:11.1118842+07:00 0HMBTJU4UJ89V:00000005 [INF] Executed DbCommand ("3"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[DateCreated], [t].[Id], [t].[Id0], [x.ProductCategory.Products].[Id] AS [Id1], [x.ProductCategory.Products].[Name], [x.ProductCategory.Products].[CategoryId], [x.ProductCategory.Products].[Image], [x.ProductCategory.Products].[Price], [x.ProductCategory.Products].[PromotionPrice], [x.ProductCategory.Products].[OriginalPrice], [x.ProductCategory.Products].[Description], [x.ProductCategory.Products].[Content], [x.ProductCategory.Products].[HomeFlag], [x.ProductCategory.Products].[HotFlag], [x.ProductCategory.Products].[ViewCount], [x.ProductCategory.Products].[Tags], [x.ProductCategory.Products].[Unit], [x.ProductCategory.Products].[SeoPageTitle], [x.ProductCategory.Products].[SeoAlias], [x.ProductCategory.Products].[SeoKeywords], [x.ProductCategory.Products].[SeoDescription], [x.ProductCategory.Products].[DateCreated] AS [DateCreated0], [x.ProductCategory.Products].[DateModified], [x.ProductCategory.Products].[Status]
+FROM [Products] AS [x.ProductCategory.Products]
+INNER JOIN (
+    SELECT [x0].[DateCreated], [x0].[Id], [x.ProductCategory0].[Id] AS [Id0]
+    FROM [Products] AS [x0]
+    INNER JOIN [ProductCategories] AS [x.ProductCategory0] ON [x0].[CategoryId] = [x.ProductCategory0].[Id]
+    WHERE [x0].[Status] = 1
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id], [x.ProductCategory0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.ProductCategory.Products].[CategoryId] = [t].[Id0]
+ORDER BY [t].[DateCreated] DESC, [t].[Id], [t].[Id0]" (0723d8ff)
+2021-09-22T15:04:11.1206084+07:00 0HMBTJU4UJ89V:00000005 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.ProductController.GetAllPaging (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 65.5237ms. (50a9e262)
+2021-09-22T15:04:11.1217004+07:00 0HMBTJU4UJ89V:00000005 [INF] Executing ObjectResult, writing value of type '"HN.Untilities.Dtos.PagedResult`1[[HN.Application.ViewModels.Product.ProductViewModel, HN.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-09-22T15:04:11.1271415+07:00 0HMBTJU4UJ8A0:00000005 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.ProductController.GetAllCategories (MdHongnghiCore)" in 110.6987ms (afa2e885)
+2021-09-22T15:04:11.1283321+07:00 0HMBTJU4UJ8A0:00000005 [INF] Request finished in 117.7881ms 200 application/json; charset=utf-8 (791a596a)
+2021-09-22T15:04:11.1305401+07:00 0HMBTJU4UJ89V:00000005 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.ProductController.GetAllPaging (MdHongnghiCore)" in 110.3601ms (afa2e885)
+2021-09-22T15:04:11.1316380+07:00 0HMBTJU4UJ89V:00000005 [INF] Request finished in 119.8906ms 200 application/json; charset=utf-8 (791a596a)
+2021-09-22T15:04:11.1493553+07:00 0HMBTJU4UJ8A0:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:44323/admin/product/GetAllPaging?categoryId=&keyword=&page=1&pageSize=10   (ca22a1cb)
+2021-09-22T15:04:11.1517902+07:00 0HMBTJU4UJ8A0:00000006 [INF] Route matched with "{area = \"Admin\", action = \"GetAllPaging\", controller = \"Product\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllPaging(System.Nullable`1[System.Int32], System.String, Int32, Int32)" on controller "MdHongnghiCore.Areas.Admin.Controllers.ProductController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T15:04:11.1533796+07:00 0HMBTJU4UJ8A0:00000006 [INF] Authorization was successful. (0d575a54)
+2021-09-22T15:04:11.1545761+07:00 0HMBTJU4UJ89V:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:44323/client-side/images/products/product-1.jpg   (ca22a1cb)
+2021-09-22T15:04:11.1565197+07:00 0HMBTJU4UJ8A0:00000006 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.ProductController.GetAllPaging (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T15:04:11.1596883+07:00 0HMBTJU4UJ8A0:00000006 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T15:04:11.1604539+07:00 0HMBTJU4UJ89V:00000006 [INF] Request finished in 4.4888ms 404  (791a596a)
+2021-09-22T15:04:11.1626880+07:00 0HMBTJU4UJ8A0:00000006 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT COUNT(*)
+FROM [Products] AS [x]
+WHERE [x].[Status] = 1" (0723d8ff)
+2021-09-22T15:04:11.1652400+07:00 0HMBTJU4UJ8A0:00000006 [INF] Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[CategoryId], [x].[Image], [x].[Price], [x].[PromotionPrice], [x].[OriginalPrice], [x].[Description], [x].[Content], [x].[HomeFlag], [x].[HotFlag], [x].[ViewCount], [x].[Tags], [x].[Unit], CASE
+    WHEN [x].[CategoryId] IS NOT NULL
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END, [x.ProductCategory].[Name] AS [Name0], [x.ProductCategory].[Description] AS [Description0], [x.ProductCategory].[ParentId], [x.ProductCategory].[HomeOrder], [x.ProductCategory].[Image] AS [Image0], [x.ProductCategory].[HomeFlag] AS [HomeFlag0], [x.ProductCategory].[DateCreated], [x.ProductCategory].[DateModified], [x.ProductCategory].[SortOrder], [x.ProductCategory].[Status], [x.ProductCategory].[SeoPageTitle], [x.ProductCategory].[SeoAlias], [x.ProductCategory].[SeoKeywords], [x.ProductCategory].[SeoDescription], [x].[SeoPageTitle] AS [SeoPageTitle0], [x].[SeoAlias] AS [SeoAlias0], [x].[SeoKeywords] AS [SeoKeywords0], [x].[SeoDescription] AS [SeoDescription0], [x].[DateCreated] AS [DateCreated0], [x].[DateModified] AS [DateModified0], [x].[Status] AS [Status0], [x.ProductCategory].[Id]
+FROM [Products] AS [x]
+INNER JOIN [ProductCategories] AS [x.ProductCategory] ON [x].[CategoryId] = [x.ProductCategory].[Id]
+WHERE [x].[Status] = 1
+ORDER BY [DateCreated0] DESC, [x].[Id], [x.ProductCategory].[Id]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY" (0723d8ff)
+2021-09-22T15:04:11.1673448+07:00 0HMBTJU4UJ8A0:00000006 [INF] Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[DateCreated], [t].[Id], [t].[Id0], [x.ProductCategory.Products].[Id] AS [Id1], [x.ProductCategory.Products].[Name], [x.ProductCategory.Products].[CategoryId], [x.ProductCategory.Products].[Image], [x.ProductCategory.Products].[Price], [x.ProductCategory.Products].[PromotionPrice], [x.ProductCategory.Products].[OriginalPrice], [x.ProductCategory.Products].[Description], [x.ProductCategory.Products].[Content], [x.ProductCategory.Products].[HomeFlag], [x.ProductCategory.Products].[HotFlag], [x.ProductCategory.Products].[ViewCount], [x.ProductCategory.Products].[Tags], [x.ProductCategory.Products].[Unit], [x.ProductCategory.Products].[SeoPageTitle], [x.ProductCategory.Products].[SeoAlias], [x.ProductCategory.Products].[SeoKeywords], [x.ProductCategory.Products].[SeoDescription], [x.ProductCategory.Products].[DateCreated] AS [DateCreated0], [x.ProductCategory.Products].[DateModified], [x.ProductCategory.Products].[Status]
+FROM [Products] AS [x.ProductCategory.Products]
+INNER JOIN (
+    SELECT [x0].[DateCreated], [x0].[Id], [x.ProductCategory0].[Id] AS [Id0]
+    FROM [Products] AS [x0]
+    INNER JOIN [ProductCategories] AS [x.ProductCategory0] ON [x0].[CategoryId] = [x.ProductCategory0].[Id]
+    WHERE [x0].[Status] = 1
+    ORDER BY [x0].[DateCreated] DESC, [x0].[Id], [x.ProductCategory0].[Id]
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t] ON [x.ProductCategory.Products].[CategoryId] = [t].[Id0]
+ORDER BY [t].[DateCreated] DESC, [t].[Id], [t].[Id0]" (0723d8ff)
+2021-09-22T15:04:11.1691946+07:00 0HMBTJU4UJ8A0:00000006 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.ProductController.GetAllPaging (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 11.4539ms. (50a9e262)
+2021-09-22T15:04:11.1703333+07:00 0HMBTJU4UJ8A0:00000006 [INF] Executing ObjectResult, writing value of type '"HN.Untilities.Dtos.PagedResult`1[[HN.Application.ViewModels.Product.ProductViewModel, HN.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-09-22T15:04:11.1718581+07:00 0HMBTJU4UJ8A0:00000006 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.ProductController.GetAllPaging (MdHongnghiCore)" in 18.9859ms (afa2e885)
+2021-09-22T15:04:11.1738966+07:00 0HMBTJU4UJ8A0:00000006 [INF] Request finished in 24.2458ms 200 application/json; charset=utf-8 (791a596a)
+2021-09-22T15:04:11.1873878+07:00 0HMBTJU4UJ89V:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:44323/client-side/images/products/product-1.jpg   (ca22a1cb)
+2021-09-22T15:04:11.1894684+07:00 0HMBTJU4UJ89V:00000007 [INF] Request finished in 1.6777ms 404  (791a596a)
+2021-09-22T15:04:12.6799369+07:00 0HMBTJU4UJ8A0:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:44323/admin/productcategory/index   (ca22a1cb)
+2021-09-22T15:04:12.6821710+07:00 0HMBTJU4UJ8A0:00000007 [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"ProductCategory\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T15:04:12.6835024+07:00 0HMBTJU4UJ8A0:00000007 [INF] Authorization was successful. (0d575a54)
+2021-09-22T15:04:12.6847334+07:00 0HMBTJU4UJ8A0:00000007 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T15:04:12.6860131+07:00 0HMBTJU4UJ8A0:00000007 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.1513ms. (50a9e262)
+2021-09-22T15:04:12.6885921+07:00 0HMBTJU4UJ8A0:00000007 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-09-22T15:04:12.6948290+07:00 0HMBTJU4UJ8A0:00000007 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T15:04:12.6971129+07:00 0HMBTJU4UJ8A0:00000007 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2021-09-22T15:04:12.7014817+07:00 0HMBTJU4UJ8A0:00000007 [INF] Executed ViewResult - view "Index" executed in 14.4249ms. (f66409e9)
+2021-09-22T15:04:12.7025088+07:00 0HMBTJU4UJ8A0:00000007 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)" in 19.3248ms (afa2e885)
+2021-09-22T15:04:12.7036834+07:00 0HMBTJU4UJ8A0:00000007 [INF] Request finished in 23.6914ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-22T15:04:12.7856335+07:00 0HMBTJU4UJ89V:00000008 [INF] Request starting HTTP/1.1 GET http://localhost:44323/app/controller/productCategory/index.js?v=jGep1Uj3MgFnxg2801wA2s7BhtARI9-rLUTZinTAW5A   (ca22a1cb)
+2021-09-22T15:04:12.7886174+07:00 0HMBTJU4UJ89V:00000008 [INF] Sending file. Request path: '"/app/controller/productCategory/index.js"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\app\controller\productCategory\index.js"' (27b0a520)
+2021-09-22T15:04:12.7897512+07:00 0HMBTJU4UJ89V:00000008 [INF] Request finished in 4.2432ms 200 application/javascript (791a596a)
+2021-09-22T15:04:12.8281874+07:00 0HMBTJU4UJ8A0:00000008 [INF] Request starting HTTP/1.1 GET http://localhost:44323/Admin/ProductCategory/GetAll   (ca22a1cb)
+2021-09-22T15:04:12.8303865+07:00 0HMBTJU4UJ8A0:00000008 [INF] Route matched with "{area = \"Admin\", action = \"GetAll\", controller = \"ProductCategory\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAll()" on controller "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T15:04:12.8314860+07:00 0HMBTJU4UJ8A0:00000008 [INF] Authorization was successful. (0d575a54)
+2021-09-22T15:04:12.8324838+07:00 0HMBTJU4UJ8A0:00000008 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.GetAll (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T15:04:12.8338194+07:00 0HMBTJU4UJ8A0:00000008 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T15:04:12.8357177+07:00 0HMBTJU4UJ8A0:00000008 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[Description], [x].[ParentId], [x].[HomeOrder], [x].[Image], [x].[HomeFlag], [x].[DateCreated], [x].[DateModified], [x].[SortOrder], [x].[Status], [x].[SeoPageTitle], [x].[SeoAlias], [x].[SeoKeywords], [x].[SeoDescription]
+FROM [ProductCategories] AS [x]
+ORDER BY [x].[ParentId], [x].[Id]" (0723d8ff)
+2021-09-22T15:04:12.8375705+07:00 0HMBTJU4UJ8A0:00000008 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[ParentId], [t].[Id], [x.Products].[Id] AS [Id0], [x.Products].[Name], [x.Products].[CategoryId], [x.Products].[Image], [x.Products].[Price], [x.Products].[PromotionPrice], [x.Products].[OriginalPrice], [x.Products].[Description], [x.Products].[Content], [x.Products].[HomeFlag], [x.Products].[HotFlag], [x.Products].[ViewCount], [x.Products].[Tags], [x.Products].[Unit], [x.Products].[SeoPageTitle], [x.Products].[SeoAlias], [x.Products].[SeoKeywords], [x.Products].[SeoDescription], [x.Products].[DateCreated], [x.Products].[DateModified], [x.Products].[Status]
+FROM [Products] AS [x.Products]
+INNER JOIN (
+    SELECT [x0].[ParentId], [x0].[Id]
+    FROM [ProductCategories] AS [x0]
+) AS [t] ON [x.Products].[CategoryId] = [t].[Id]
+ORDER BY [t].[ParentId], [t].[Id]" (0723d8ff)
+2021-09-22T15:04:12.8389212+07:00 0HMBTJU4UJ8A0:00000008 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.GetAll (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 5.376ms. (50a9e262)
+2021-09-22T15:04:12.8402245+07:00 0HMBTJU4UJ8A0:00000008 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[HN.Application.ViewModels.Product.ProductCategoryViewModel, HN.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-09-22T15:04:12.8428189+07:00 0HMBTJU4UJ8A0:00000008 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.GetAll (MdHongnghiCore)" in 10.2793ms (afa2e885)
+2021-09-22T15:04:12.8446022+07:00 0HMBTJU4UJ8A0:00000008 [INF] Request finished in 15.8467ms 200 application/json; charset=utf-8 (791a596a)
+2021-09-22T15:04:20.6004034+07:00 0HMBTJU4UJ89V:00000009 [INF] Request starting HTTP/1.1 GET http://localhost:44323/admin/productcategory/index   (ca22a1cb)
+2021-09-22T15:04:20.6031346+07:00 0HMBTJU4UJ89V:00000009 [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"ProductCategory\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T15:04:20.6050791+07:00 0HMBTJU4UJ89V:00000009 [INF] Authorization was successful. (0d575a54)
+2021-09-22T15:04:20.6064584+07:00 0HMBTJU4UJ89V:00000009 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T15:04:20.6075638+07:00 0HMBTJU4UJ89V:00000009 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.025ms. (50a9e262)
+2021-09-22T15:04:20.6090049+07:00 0HMBTJU4UJ89V:00000009 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-09-22T15:04:20.6111319+07:00 0HMBTJU4UJ89V:00000009 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T15:04:20.6131256+07:00 0HMBTJU4UJ89V:00000009 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2021-09-22T15:04:20.6160383+07:00 0HMBTJU4UJ89V:00000009 [INF] Executed ViewResult - view "Index" executed in 6.8635ms. (f66409e9)
+2021-09-22T15:04:20.6173807+07:00 0HMBTJU4UJ89V:00000009 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)" in 12.9547ms (afa2e885)
+2021-09-22T15:04:20.6190342+07:00 0HMBTJU4UJ89V:00000009 [INF] Request finished in 19.5121ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-22T15:04:20.7778509+07:00 0HMBTJU4UJ8A0:00000009 [INF] Request starting HTTP/1.1 GET http://localhost:44323/Admin/ProductCategory/GetAll   (ca22a1cb)
+2021-09-22T15:04:20.7793934+07:00 0HMBTJU4UJ8A0:00000009 [INF] Route matched with "{area = \"Admin\", action = \"GetAll\", controller = \"ProductCategory\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAll()" on controller "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T15:04:20.7805104+07:00 0HMBTJU4UJ8A0:00000009 [INF] Authorization was successful. (0d575a54)
+2021-09-22T15:04:20.7816553+07:00 0HMBTJU4UJ8A0:00000009 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.GetAll (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T15:04:20.7839746+07:00 0HMBTJU4UJ8A0:00000009 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T15:04:20.7863519+07:00 0HMBTJU4UJ8A0:00000009 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[Description], [x].[ParentId], [x].[HomeOrder], [x].[Image], [x].[HomeFlag], [x].[DateCreated], [x].[DateModified], [x].[SortOrder], [x].[Status], [x].[SeoPageTitle], [x].[SeoAlias], [x].[SeoKeywords], [x].[SeoDescription]
+FROM [ProductCategories] AS [x]
+ORDER BY [x].[ParentId], [x].[Id]" (0723d8ff)
+2021-09-22T15:04:20.7881868+07:00 0HMBTJU4UJ8A0:00000009 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[ParentId], [t].[Id], [x.Products].[Id] AS [Id0], [x.Products].[Name], [x.Products].[CategoryId], [x.Products].[Image], [x.Products].[Price], [x.Products].[PromotionPrice], [x.Products].[OriginalPrice], [x.Products].[Description], [x.Products].[Content], [x.Products].[HomeFlag], [x.Products].[HotFlag], [x.Products].[ViewCount], [x.Products].[Tags], [x.Products].[Unit], [x.Products].[SeoPageTitle], [x.Products].[SeoAlias], [x.Products].[SeoKeywords], [x.Products].[SeoDescription], [x.Products].[DateCreated], [x.Products].[DateModified], [x.Products].[Status]
+FROM [Products] AS [x.Products]
+INNER JOIN (
+    SELECT [x0].[ParentId], [x0].[Id]
+    FROM [ProductCategories] AS [x0]
+) AS [t] ON [x.Products].[CategoryId] = [t].[Id]
+ORDER BY [t].[ParentId], [t].[Id]" (0723d8ff)
+2021-09-22T15:04:20.7896094+07:00 0HMBTJU4UJ8A0:00000009 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.GetAll (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 6.8487ms. (50a9e262)
+2021-09-22T15:04:20.7908259+07:00 0HMBTJU4UJ8A0:00000009 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[HN.Application.ViewModels.Product.ProductCategoryViewModel, HN.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-09-22T15:04:20.7926165+07:00 0HMBTJU4UJ8A0:00000009 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.GetAll (MdHongnghiCore)" in 11.8183ms (afa2e885)
+2021-09-22T15:04:20.7941807+07:00 0HMBTJU4UJ8A0:00000009 [INF] Request finished in 16.0285ms 200 application/json; charset=utf-8 (791a596a)
+2021-09-22T15:04:20.8575605+07:00 0HMBTJU4UJ89V:0000000A [INF] Request starting HTTP/1.1 GET http://localhost:44323/favicon.ico   (ca22a1cb)
+2021-09-22T15:04:20.8593396+07:00 0HMBTJU4UJ89V:0000000A [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\favicon.ico"' (27b0a520)
+2021-09-22T15:04:20.8605300+07:00 0HMBTJU4UJ89V:0000000A [INF] Request finished in 3.5652ms 200 image/x-icon (791a596a)
+2021-09-22T15:05:25.7524703+07:00 0HMBTJU4UJ8A1:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/bootstrap/dist/css/bootstrap.css.map   (ca22a1cb)
+2021-09-22T15:05:25.8099905+07:00 0HMBTJU4UJ8A1:00000001 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css.map"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map"' (27b0a520)
+2021-09-22T15:05:25.8116990+07:00 0HMBTJU4UJ8A1:00000001 [INF] Request finished in 58.8393ms 200 text/plain (791a596a)
+2021-09-22T15:05:35.0462684+07:00 0HMBTJU4UJ8A1:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44323/admin/productcategory/index   (ca22a1cb)
+2021-09-22T15:05:35.0475666+07:00 0HMBTJU4UJ8A1:00000002 [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"ProductCategory\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T15:05:35.0487657+07:00 0HMBTJU4UJ8A1:00000002 [INF] Authorization failed. (b15dd539)
+2021-09-22T15:05:35.0498116+07:00 0HMBTJU4UJ8A1:00000002 [INF] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'. (8b6446cb)
+2021-09-22T15:05:35.0533102+07:00 0HMBTJU4UJ8A1:00000002 [INF] Executing ChallengeResult with authentication schemes ([]). (f3dca807)
+2021-09-22T15:05:35.0571734+07:00 0HMBTJU4UJ8A1:00000002 [INF] AuthenticationScheme: "Identity.Application" was challenged. (d45f1f38)
+2021-09-22T15:05:35.0587030+07:00 0HMBTJU4UJ8A1:00000002 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)" in 9.6328ms (afa2e885)
+2021-09-22T15:05:35.0600190+07:00 0HMBTJU4UJ8A1:00000002 [INF] Request finished in 13.595ms 302  (791a596a)
+2021-09-22T15:05:35.0944850+07:00 0HMBTJU4UJ8A1:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44323/Account/Login?ReturnUrl=%2Fadmin%2Fproductcategory%2Findex   (ca22a1cb)
+2021-09-22T15:05:35.0982490+07:00 0HMBTJU4UJ8A1:00000003 [INF] Route matched with "{action = \"Login\", controller = \"Account\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String)" on controller "MdHongnghiCore.Controllers.AccountController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T15:05:35.1002337+07:00 0HMBTJU4UJ8A1:00000003 [INF] Executing action method "MdHongnghiCore.Controllers.AccountController.Login (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T15:05:35.1033579+07:00 0HMBTJU4UJ8A1:00000003 [INF] AuthenticationScheme: "Identity.External" signed out. (d3f50c8d)
+2021-09-22T15:05:35.1043248+07:00 0HMBTJU4UJ8A1:00000003 [INF] Executed action method "MdHongnghiCore.Controllers.AccountController.Login (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 3.1477ms. (50a9e262)
+2021-09-22T15:05:35.1070120+07:00 0HMBTJU4UJ8A1:00000003 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2021-09-22T15:05:35.1495043+07:00 0HMBTJU4UJ8A1:00000003 [INF] Executed ViewResult - view "Login" executed in 43.5929ms. (f66409e9)
+2021-09-22T15:05:35.1506435+07:00 0HMBTJU4UJ8A1:00000003 [INF] Executed action "MdHongnghiCore.Controllers.AccountController.Login (MdHongnghiCore)" in 51.2911ms (afa2e885)
+2021-09-22T15:05:35.1518542+07:00 0HMBTJU4UJ8A1:00000003 [INF] Request finished in 57.5982ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-22T15:05:35.2305883+07:00 0HMBTJU4UJ8A1:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/bootstrap/dist/css/bootstrap.css.map   (ca22a1cb)
+2021-09-22T15:05:35.2339880+07:00 0HMBTJU4UJ8A1:00000004 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css.map"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map"' (27b0a520)
+2021-09-22T15:05:35.2357614+07:00 0HMBTJU4UJ8A1:00000004 [INF] Request finished in 5.2111ms 200 text/plain (791a596a)
+2021-09-22T15:05:39.4507765+07:00 0HMBTJU4UJ8A1:00000005 [INF] Request starting HTTP/1.1 POST http://localhost:44323/Account/Login?returnurl=%2Fadmin%2Fproductcategory%2Findex application/x-www-form-urlencoded 233 (ca22a1cb)
+2021-09-22T15:05:39.4559498+07:00 0HMBTJU4UJ8A1:00000005 [INF] Route matched with "{action = \"Login\", controller = \"Account\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MdHongnghiCore.Models.AccountViewModels.LoginViewModel, System.String)" on controller "MdHongnghiCore.Controllers.AccountController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T15:05:39.4582799+07:00 0HMBTJU4UJ8A1:00000005 [INF] Executing action method "MdHongnghiCore.Controllers.AccountController.Login (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T15:05:39.4609593+07:00 0HMBTJU4UJ8A1:00000005 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T15:05:39.4656907+07:00 0HMBTJU4UJ8A1:00000005 [INF] Executed DbCommand ("2"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2021-09-22T15:05:39.4747790+07:00 0HMBTJU4UJ8A1:00000005 [INF] Executed DbCommand ("1"ms) [Parameters=["@__user_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AppUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0" (0723d8ff)
+2021-09-22T15:05:39.4780309+07:00 0HMBTJU4UJ8A1:00000005 [INF] Executed DbCommand ("1"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2021-09-22T15:05:39.4806313+07:00 0HMBTJU4UJ8A1:00000005 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2021-09-22T15:05:39.4830662+07:00 0HMBTJU4UJ8A1:00000005 [INF] Executed DbCommand ("1"ms) [Parameters=["@__role_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AppRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0" (0723d8ff)
+2021-09-22T15:05:39.4851050+07:00 0HMBTJU4UJ8A1:00000005 [INF] Executed DbCommand ("0"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2021-09-22T15:05:39.4864946+07:00 0HMBTJU4UJ8A1:00000005 [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2021-09-22T15:05:39.4876004+07:00 0HMBTJU4UJ8A1:00000005 [INF] User logged in. (fdce0db4)
+2021-09-22T15:05:39.4889272+07:00 0HMBTJU4UJ8A1:00000005 [INF] Executed action method "MdHongnghiCore.Controllers.AccountController.Login (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.RedirectResult" in 29.6515ms. (50a9e262)
+2021-09-22T15:05:39.4902792+07:00 0HMBTJU4UJ8A1:00000005 [INF] Executing RedirectResult, redirecting to "/admin/productcategory/index". (d98d540e)
+2021-09-22T15:05:39.4914180+07:00 0HMBTJU4UJ8A1:00000005 [INF] Executed action "MdHongnghiCore.Controllers.AccountController.Login (MdHongnghiCore)" in 34.5046ms (afa2e885)
+2021-09-22T15:05:39.4924743+07:00 0HMBTJU4UJ8A1:00000005 [INF] Request finished in 41.9408ms 302  (791a596a)
+2021-09-22T15:05:39.5111127+07:00 0HMBTJU4UJ8A1:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:44323/admin/productcategory/index   (ca22a1cb)
+2021-09-22T15:05:39.5130355+07:00 0HMBTJU4UJ8A1:00000006 [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"ProductCategory\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T15:05:39.5142105+07:00 0HMBTJU4UJ8A1:00000006 [INF] Authorization was successful. (0d575a54)
+2021-09-22T15:05:39.5152657+07:00 0HMBTJU4UJ8A1:00000006 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T15:05:39.5164261+07:00 0HMBTJU4UJ8A1:00000006 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0083ms. (50a9e262)
+2021-09-22T15:05:39.5175209+07:00 0HMBTJU4UJ8A1:00000006 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-09-22T15:05:39.5189346+07:00 0HMBTJU4UJ8A1:00000006 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T15:05:39.5215909+07:00 0HMBTJU4UJ8A1:00000006 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2021-09-22T15:05:39.5232800+07:00 0HMBTJU4UJ8A1:00000006 [INF] Executed ViewResult - view "Index" executed in 5.7161ms. (f66409e9)
+2021-09-22T15:05:39.5243845+07:00 0HMBTJU4UJ8A1:00000006 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)" in 10.2728ms (afa2e885)
+2021-09-22T15:05:39.5256690+07:00 0HMBTJU4UJ8A1:00000006 [INF] Request finished in 14.7674ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-22T15:05:39.6074442+07:00 0HMBTJU4UJ8A1:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/bootstrap/dist/css/bootstrap.css.map   (ca22a1cb)
+2021-09-22T15:05:39.6103500+07:00 0HMBTJU4UJ8A1:00000007 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css.map"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map"' (27b0a520)
+2021-09-22T15:05:39.6125807+07:00 0HMBTJU4UJ8A1:00000007 [INF] Request finished in 4.2604ms 200 text/plain (791a596a)
+2021-09-22T15:05:39.6364373+07:00 0HMBTJU4UJ8A1:00000008 [INF] Request starting HTTP/1.1 GET http://localhost:44323/app/controller/productCategory/index.js?v=jGep1Uj3MgFnxg2801wA2s7BhtARI9-rLUTZinTAW5A   (ca22a1cb)
+2021-09-22T15:05:39.6380583+07:00 0HMBTJU4UJ8A1:00000008 [INF] The file "/app/controller/productCategory/index.js" was not modified (f1f8d725)
+2021-09-22T15:05:39.6405984+07:00 0HMBTJU4UJ8A1:00000008 [INF] Request finished in 3.6516ms 304 application/javascript (791a596a)
+2021-09-22T15:05:39.7083602+07:00 0HMBTJU4UJ8A1:00000009 [INF] Request starting HTTP/1.1 GET http://localhost:44323/Admin/ProductCategory/GetAll   (ca22a1cb)
+2021-09-22T15:05:39.7100155+07:00 0HMBTJU4UJ8A1:00000009 [INF] Route matched with "{area = \"Admin\", action = \"GetAll\", controller = \"ProductCategory\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAll()" on controller "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T15:05:39.7115201+07:00 0HMBTJU4UJ8A1:00000009 [INF] Authorization was successful. (0d575a54)
+2021-09-22T15:05:39.7128379+07:00 0HMBTJU4UJ8A1:00000009 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.GetAll (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T15:05:39.7142126+07:00 0HMBTJU4UJ8A1:00000009 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T15:05:39.7168470+07:00 0HMBTJU4UJ8A1:00000009 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[Description], [x].[ParentId], [x].[HomeOrder], [x].[Image], [x].[HomeFlag], [x].[DateCreated], [x].[DateModified], [x].[SortOrder], [x].[Status], [x].[SeoPageTitle], [x].[SeoAlias], [x].[SeoKeywords], [x].[SeoDescription]
+FROM [ProductCategories] AS [x]
+ORDER BY [x].[ParentId], [x].[Id]" (0723d8ff)
+2021-09-22T15:05:39.7203452+07:00 0HMBTJU4UJ8A1:00000009 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[ParentId], [t].[Id], [x.Products].[Id] AS [Id0], [x.Products].[Name], [x.Products].[CategoryId], [x.Products].[Image], [x.Products].[Price], [x.Products].[PromotionPrice], [x.Products].[OriginalPrice], [x.Products].[Description], [x.Products].[Content], [x.Products].[HomeFlag], [x.Products].[HotFlag], [x.Products].[ViewCount], [x.Products].[Tags], [x.Products].[Unit], [x.Products].[SeoPageTitle], [x.Products].[SeoAlias], [x.Products].[SeoKeywords], [x.Products].[SeoDescription], [x.Products].[DateCreated], [x.Products].[DateModified], [x.Products].[Status]
+FROM [Products] AS [x.Products]
+INNER JOIN (
+    SELECT [x0].[ParentId], [x0].[Id]
+    FROM [ProductCategories] AS [x0]
+) AS [t] ON [x.Products].[CategoryId] = [t].[Id]
+ORDER BY [t].[ParentId], [t].[Id]" (0723d8ff)
+2021-09-22T15:05:39.7217243+07:00 0HMBTJU4UJ8A1:00000009 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.GetAll (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 7.7557ms. (50a9e262)
+2021-09-22T15:05:39.7229305+07:00 0HMBTJU4UJ8A1:00000009 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[HN.Application.ViewModels.Product.ProductCategoryViewModel, HN.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-09-22T15:05:39.7244390+07:00 0HMBTJU4UJ8A1:00000009 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.GetAll (MdHongnghiCore)" in 13.1875ms (afa2e885)
+2021-09-22T15:05:39.7258236+07:00 0HMBTJU4UJ8A1:00000009 [INF] Request finished in 17.3113ms 200 application/json; charset=utf-8 (791a596a)
+2021-09-22T15:05:47.2873630+07:00 0HMBTJU4UJ8A1:0000000A [INF] Request starting HTTP/1.1 GET http://localhost:44323/admin/productcategory/index   (ca22a1cb)
+2021-09-22T15:05:47.2888152+07:00 0HMBTJU4UJ8A1:0000000A [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"ProductCategory\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T15:05:47.2899913+07:00 0HMBTJU4UJ8A1:0000000A [INF] Authorization failed. (b15dd539)
+2021-09-22T15:05:47.2910343+07:00 0HMBTJU4UJ8A1:0000000A [INF] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'. (8b6446cb)
+2021-09-22T15:05:47.2921272+07:00 0HMBTJU4UJ8A1:0000000A [INF] Executing ChallengeResult with authentication schemes ([]). (f3dca807)
+2021-09-22T15:05:47.2932253+07:00 0HMBTJU4UJ8A1:0000000A [INF] AuthenticationScheme: "Identity.Application" was challenged. (d45f1f38)
+2021-09-22T15:05:47.2942595+07:00 0HMBTJU4UJ8A1:0000000A [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)" in 4.3999ms (afa2e885)
+2021-09-22T15:05:47.2953881+07:00 0HMBTJU4UJ8A1:0000000A [INF] Request finished in 8.2367ms 302  (791a596a)
+2021-09-22T15:05:47.3116112+07:00 0HMBTJU4UJ8A1:0000000B [INF] Request starting HTTP/1.1 GET http://localhost:44323/Account/Login?ReturnUrl=%2Fadmin%2Fproductcategory%2Findex   (ca22a1cb)
+2021-09-22T15:05:47.3131382+07:00 0HMBTJU4UJ8A1:0000000B [INF] Route matched with "{action = \"Login\", controller = \"Account\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String)" on controller "MdHongnghiCore.Controllers.AccountController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T15:05:47.3147105+07:00 0HMBTJU4UJ8A1:0000000B [INF] Executing action method "MdHongnghiCore.Controllers.AccountController.Login (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T15:05:47.3160376+07:00 0HMBTJU4UJ8A1:0000000B [INF] AuthenticationScheme: "Identity.External" signed out. (d3f50c8d)
+2021-09-22T15:05:47.3172769+07:00 0HMBTJU4UJ8A1:0000000B [INF] Executed action method "MdHongnghiCore.Controllers.AccountController.Login (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 1.3426ms. (50a9e262)
+2021-09-22T15:05:47.3186448+07:00 0HMBTJU4UJ8A1:0000000B [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2021-09-22T15:05:47.3215964+07:00 0HMBTJU4UJ8A1:0000000B [INF] Executed ViewResult - view "Login" executed in 3.0524ms. (f66409e9)
+2021-09-22T15:05:47.3227267+07:00 0HMBTJU4UJ8A1:0000000B [INF] Executed action "MdHongnghiCore.Controllers.AccountController.Login (MdHongnghiCore)" in 8.4594ms (afa2e885)
+2021-09-22T15:05:47.3238491+07:00 0HMBTJU4UJ8A1:0000000B [INF] Request finished in 12.4721ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-22T15:05:47.4081851+07:00 0HMBTJU4UJ8A1:0000000C [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/bootstrap/dist/css/bootstrap.css   (ca22a1cb)
+2021-09-22T15:05:47.4099309+07:00 0HMBTJU4UJ8A2:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44323/css/site.css   (ca22a1cb)
+2021-09-22T15:05:47.4115921+07:00 0HMBTJU4UJ8A3:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/jquery/dist/jquery.js   (ca22a1cb)
+2021-09-22T15:05:47.4132630+07:00 0HMBTJU4UJ8A2:00000001 [INF] Sending file. Request path: '"/css/site.css"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\css\site.css"' (27b0a520)
+2021-09-22T15:05:47.4146657+07:00 0HMBTJU4UJ8A1:0000000C [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\bootstrap\dist\css\bootstrap.css"' (27b0a520)
+2021-09-22T15:05:47.4158388+07:00 0HMBTJU4UJ8A2:00000001 [INF] Request finished in 5.4966ms 200 text/css (791a596a)
+2021-09-22T15:05:47.4170483+07:00 0HMBTJU4UJ8A1:0000000C [INF] Request finished in 8.9645ms 200 text/css (791a596a)
+2021-09-22T15:05:47.4198227+07:00 0HMBTJU4UJ8A4:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/bootstrap/dist/js/bootstrap.js   (ca22a1cb)
+2021-09-22T15:05:47.4203494+07:00 0HMBTJU4UJ8A3:00000001 [INF] Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\jquery\dist\jquery.js"' (27b0a520)
+2021-09-22T15:05:47.4216547+07:00 0HMBTJU4UJ8A3:00000001 [INF] Request finished in 10.1623ms 200 application/javascript (791a596a)
+2021-09-22T15:05:47.4226825+07:00 0HMBTJU4UJ8A5:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44323/js/site.js?v=ji3-IxbEzYWjzzLCGkF1KDjrT2jLbbrSYXw-AhMPNIA   (ca22a1cb)
+2021-09-22T15:05:47.4241941+07:00 0HMBTJU4UJ8A4:00000001 [INF] Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.js"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\bootstrap\dist\js\bootstrap.js"' (27b0a520)
+2021-09-22T15:05:47.4252371+07:00 0HMBTJU4UJ8A6:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/jquery-validation/dist/jquery.validate.js   (ca22a1cb)
+2021-09-22T15:05:47.4262332+07:00 0HMBTJU4UJ8A4:00000001 [INF] Request finished in 7.3464ms 200 application/javascript (791a596a)
+2021-09-22T15:05:47.4276061+07:00 0HMBTJU4UJ8A5:00000001 [INF] Sending file. Request path: '"/js/site.js"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\js\site.js"' (27b0a520)
+2021-09-22T15:05:47.4293116+07:00 0HMBTJU4UJ8A5:00000001 [INF] Request finished in 7.2118ms 200 application/javascript (791a596a)
+2021-09-22T15:05:47.4313966+07:00 0HMBTJU4UJ8A7:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js   (ca22a1cb)
+2021-09-22T15:05:47.4319834+07:00 0HMBTJU4UJ8A6:00000001 [INF] Sending file. Request path: '"/lib/jquery-validation/dist/jquery.validate.js"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\jquery-validation\dist\jquery.validate.js"' (27b0a520)
+2021-09-22T15:05:47.4335776+07:00 0HMBTJU4UJ8A6:00000001 [INF] Request finished in 8.8875ms 200 application/javascript (791a596a)
+2021-09-22T15:05:47.4359607+07:00 0HMBTJU4UJ8A7:00000001 [INF] Sending file. Request path: '"/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js"' (27b0a520)
+2021-09-22T15:05:47.4376579+07:00 0HMBTJU4UJ8A7:00000001 [INF] Request finished in 8.0626ms 200 application/javascript (791a596a)
+2021-09-22T15:05:47.5404587+07:00 0HMBTJU4UJ8A2:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/bootstrap/dist/css/bootstrap.css.map   (ca22a1cb)
+2021-09-22T15:05:47.5445508+07:00 0HMBTJU4UJ8A2:00000002 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css.map"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map"' (27b0a520)
+2021-09-22T15:05:47.5461195+07:00 0HMBTJU4UJ8A2:00000002 [INF] Request finished in 6.089ms 200 text/plain (791a596a)
+2021-09-22T15:05:48.7624214+07:00 0HMBTJU4UJ8A1:0000000D [INF] Request starting HTTP/1.1 GET http://localhost:44323/Account/Login?ReturnUrl=%2Fadmin%2Fproductcategory%2Findex   (ca22a1cb)
+2021-09-22T15:05:48.7639942+07:00 0HMBTJU4UJ8A1:0000000D [INF] Route matched with "{action = \"Login\", controller = \"Account\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String)" on controller "MdHongnghiCore.Controllers.AccountController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T15:05:48.7653992+07:00 0HMBTJU4UJ8A1:0000000D [INF] Executing action method "MdHongnghiCore.Controllers.AccountController.Login (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T15:05:48.7665008+07:00 0HMBTJU4UJ8A1:0000000D [INF] AuthenticationScheme: "Identity.External" signed out. (d3f50c8d)
+2021-09-22T15:05:48.7677005+07:00 0HMBTJU4UJ8A1:0000000D [INF] Executed action method "MdHongnghiCore.Controllers.AccountController.Login (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 1.1203ms. (50a9e262)
+2021-09-22T15:05:48.7688246+07:00 0HMBTJU4UJ8A1:0000000D [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2021-09-22T15:05:48.7719628+07:00 0HMBTJU4UJ8A1:0000000D [INF] Executed ViewResult - view "Login" executed in 2.4939ms. (f66409e9)
+2021-09-22T15:05:48.7731272+07:00 0HMBTJU4UJ8A1:0000000D [INF] Executed action "MdHongnghiCore.Controllers.AccountController.Login (MdHongnghiCore)" in 8.0021ms (afa2e885)
+2021-09-22T15:05:48.7744709+07:00 0HMBTJU4UJ8A1:0000000D [INF] Request finished in 12.2039ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-22T15:05:48.8439701+07:00 0HMBTJU4UJ8A3:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/bootstrap/dist/css/bootstrap.css.map   (ca22a1cb)
+2021-09-22T15:05:48.8467774+07:00 0HMBTJU4UJ8A3:00000002 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css.map"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map"' (27b0a520)
+2021-09-22T15:05:48.8479836+07:00 0HMBTJU4UJ8A3:00000002 [INF] Request finished in 4.0979ms 200 text/plain (791a596a)
+2021-09-22T15:05:48.8862073+07:00 0HMBTJU4UJ8A4:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44323/favicon.ico   (ca22a1cb)
+2021-09-22T15:05:48.8889051+07:00 0HMBTJU4UJ8A4:00000002 [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\favicon.ico"' (27b0a520)
+2021-09-22T15:05:48.8912013+07:00 0HMBTJU4UJ8A4:00000002 [INF] Request finished in 3.9301ms 200 image/x-icon (791a596a)
+2021-09-22T15:06:03.3621686+07:00 0HMBTJU4UJ8A5:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:44323/Account/Login?returnurl=%2Fadmin%2Fproductcategory%2Findex application/x-www-form-urlencoded 233 (ca22a1cb)
+2021-09-22T15:06:03.3634921+07:00 0HMBTJU4UJ8A5:00000002 [INF] Route matched with "{action = \"Login\", controller = \"Account\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MdHongnghiCore.Models.AccountViewModels.LoginViewModel, System.String)" on controller "MdHongnghiCore.Controllers.AccountController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T15:06:03.4183317+07:00 0HMBTJU4UJ8A5:00000002 [INF] Antiforgery token validation failed. "The required antiforgery cookie \".AspNetCore.Antiforgery.vyfeGG-7FYk\" is not present." (843d91fe)
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery cookie ".AspNetCore.Antiforgery.vyfeGG-7FYk" is not present.
+   at Microsoft.AspNetCore.Antiforgery.Internal.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+2021-09-22T15:06:03.4194232+07:00 0HMBTJU4UJ8A5:00000002 [INF] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ValidateAntiforgeryTokenAuthorizationFilter"'. (8b6446cb)
+2021-09-22T15:06:03.4223630+07:00 0HMBTJU4UJ8A5:00000002 [INF] Executing HttpStatusCodeResult, setting HTTP status code 400 (e28ccfae)
+2021-09-22T15:06:03.4234718+07:00 0HMBTJU4UJ8A5:00000002 [INF] Executed action "MdHongnghiCore.Controllers.AccountController.Login (MdHongnghiCore)" in 58.8857ms (afa2e885)
+2021-09-22T15:06:03.4249780+07:00 0HMBTJU4UJ8A5:00000002 [INF] Request finished in 62.5593ms 400  (791a596a)
+2021-09-22T15:06:20.1794003+07:00 0HMBTJVE71CRL:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:24443/  0 (ca22a1cb)
+2021-09-22T15:06:20.1794003+07:00 0HMBTJVE71CRK:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44323/   (ca22a1cb)
+2021-09-22T15:06:20.1988570+07:00 0HMBTJVE71CRL:00000001 [INF] Request finished in 22.3814ms 200  (791a596a)
+2021-09-22T15:06:20.2974534+07:00 0HMBTJVE71CRK:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Controllers.HomeController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T15:06:20.3055438+07:00 0HMBTJVE71CRK:00000001 [INF] Authorization failed. (b15dd539)
+2021-09-22T15:06:20.3070905+07:00 0HMBTJVE71CRK:00000001 [INF] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'. (8b6446cb)
+2021-09-22T15:06:20.3113606+07:00 0HMBTJVE71CRK:00000001 [INF] Executing ChallengeResult with authentication schemes ([]). (f3dca807)
+2021-09-22T15:06:20.3158946+07:00 0HMBTJVE71CRK:00000001 [INF] AuthenticationScheme: "Identity.Application" was challenged. (d45f1f38)
+2021-09-22T15:06:20.3195446+07:00 0HMBTJVE71CRK:00000001 [INF] Executed action "MdHongnghiCore.Controllers.HomeController.Index (MdHongnghiCore)" in 18.2657ms (afa2e885)
+2021-09-22T15:06:20.3235066+07:00 0HMBTJVE71CRK:00000001 [INF] Request finished in 148.1322ms 302  (791a596a)
+2021-09-22T15:06:20.3409029+07:00 0HMBTJVE71CRL:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44323/Account/Login?ReturnUrl=%2F   (ca22a1cb)
+2021-09-22T15:06:20.3540564+07:00 0HMBTJVE71CRL:00000002 [INF] Route matched with "{action = \"Login\", controller = \"Account\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String)" on controller "MdHongnghiCore.Controllers.AccountController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T15:06:20.3808878+07:00 0HMBTJVE71CRL:00000002 [INF] Executing action method "MdHongnghiCore.Controllers.AccountController.Login (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T15:06:20.3866141+07:00 0HMBTJVE71CRL:00000002 [INF] AuthenticationScheme: "Identity.External" signed out. (d3f50c8d)
+2021-09-22T15:06:20.3900542+07:00 0HMBTJVE71CRL:00000002 [INF] Executed action method "MdHongnghiCore.Controllers.AccountController.Login (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 6.0063ms. (50a9e262)
+2021-09-22T15:06:20.4062715+07:00 0HMBTJVE71CRL:00000002 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2021-09-22T15:06:20.5129088+07:00 0HMBTJVE71CRL:00000002 [INF] Executed ViewResult - view "Login" executed in 117.9678ms. (f66409e9)
+2021-09-22T15:06:20.5143415+07:00 0HMBTJVE71CRL:00000002 [INF] Executed action "MdHongnghiCore.Controllers.AccountController.Login (MdHongnghiCore)" in 159.1112ms (afa2e885)
+2021-09-22T15:06:20.5177351+07:00 0HMBTJVE71CRL:00000002 [INF] Request finished in 176.7409ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-22T15:06:22.0017505+07:00 0HMBTJVE71CRK:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:44323/Account/Login?returnurl=%2F application/x-www-form-urlencoded 233 (ca22a1cb)
+2021-09-22T15:06:22.0071477+07:00 0HMBTJVE71CRK:00000002 [INF] Route matched with "{action = \"Login\", controller = \"Account\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MdHongnghiCore.Models.AccountViewModels.LoginViewModel, System.String)" on controller "MdHongnghiCore.Controllers.AccountController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T15:06:22.0257299+07:00 0HMBTJVE71CRK:00000002 [INF] Executing action method "MdHongnghiCore.Controllers.AccountController.Login (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T15:06:22.0309546+07:00 0HMBTJVE71CRK:00000002 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T15:06:22.0678970+07:00 0HMBTJVE71CRK:00000002 [INF] Executed DbCommand ("8"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2021-09-22T15:06:22.1713856+07:00 0HMBTJVE71CRK:00000002 [INF] Executed DbCommand ("4"ms) [Parameters=["@__user_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AppUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0" (0723d8ff)
+2021-09-22T15:06:22.1976042+07:00 0HMBTJVE71CRK:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2021-09-22T15:06:22.2093126+07:00 0HMBTJVE71CRK:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2021-09-22T15:06:22.2238252+07:00 0HMBTJVE71CRK:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__role_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AppRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0" (0723d8ff)
+2021-09-22T15:06:22.2283315+07:00 0HMBTJVE71CRK:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2021-09-22T15:06:22.2339917+07:00 0HMBTJVE71CRK:00000002 [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2021-09-22T15:06:22.2373446+07:00 0HMBTJVE71CRK:00000002 [INF] User logged in. (fdce0db4)
+2021-09-22T15:06:22.2399716+07:00 0HMBTJVE71CRK:00000002 [INF] Executed action method "MdHongnghiCore.Controllers.AccountController.Login (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.RedirectResult" in 213.2341ms. (50a9e262)
+2021-09-22T15:06:22.2439033+07:00 0HMBTJVE71CRK:00000002 [INF] Executing RedirectResult, redirecting to "/". (d98d540e)
+2021-09-22T15:06:22.2464241+07:00 0HMBTJVE71CRK:00000002 [INF] Executed action "MdHongnghiCore.Controllers.AccountController.Login (MdHongnghiCore)" in 238.0515ms (afa2e885)
+2021-09-22T15:06:22.2513614+07:00 0HMBTJVE71CRK:00000002 [INF] Request finished in 249.7318ms 302  (791a596a)
+2021-09-22T15:06:22.2694610+07:00 0HMBTJVE71CRL:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44323/   (ca22a1cb)
+2021-09-22T15:06:22.2750919+07:00 0HMBTJVE71CRL:00000003 [INF] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Controllers.HomeController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T15:06:22.2763137+07:00 0HMBTJVE71CRL:00000003 [INF] Authorization was successful. (0d575a54)
+2021-09-22T15:06:22.2773377+07:00 0HMBTJVE71CRL:00000003 [INF] Executing action method "MdHongnghiCore.Controllers.HomeController.Index (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T15:06:22.2788420+07:00 0HMBTJVE71CRL:00000003 [INF] Executed action method "MdHongnghiCore.Controllers.HomeController.Index (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.6169ms. (50a9e262)
+2021-09-22T15:06:22.2812076+07:00 0HMBTJVE71CRL:00000003 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-09-22T15:06:22.2898527+07:00 0HMBTJVE71CRL:00000003 [INF] Executed ViewResult - view "Index" executed in 9.7761ms. (f66409e9)
+2021-09-22T15:06:22.2910027+07:00 0HMBTJVE71CRL:00000003 [INF] Executed action "MdHongnghiCore.Controllers.HomeController.Index (MdHongnghiCore)" in 14.7807ms (afa2e885)
+2021-09-22T15:06:22.2921975+07:00 0HMBTJVE71CRL:00000003 [INF] Request finished in 22.6647ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-22T15:06:26.9381759+07:00 0HMBTJVE71CRK:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44323/admin/login   (ca22a1cb)
+2021-09-22T15:06:26.9408465+07:00 0HMBTJVE71CRK:00000003 [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Login\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Areas.Admin.Controllers.LoginController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T15:06:26.9425454+07:00 0HMBTJVE71CRK:00000003 [INF] Authorization was successful. (0d575a54)
+2021-09-22T15:06:26.9443659+07:00 0HMBTJVE71CRK:00000003 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Index (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T15:06:26.9456179+07:00 0HMBTJVE71CRK:00000003 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Index (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.2478ms. (50a9e262)
+2021-09-22T15:06:26.9489289+07:00 0HMBTJVE71CRK:00000003 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-09-22T15:06:26.9657187+07:00 0HMBTJVE71CRK:00000003 [INF] Executed ViewResult - view "Index" executed in 18.957ms. (f66409e9)
+2021-09-22T15:06:26.9666619+07:00 0HMBTJVE71CRK:00000003 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Index (MdHongnghiCore)" in 24.8912ms (afa2e885)
+2021-09-22T15:06:26.9677771+07:00 0HMBTJVE71CRK:00000003 [INF] Request finished in 29.5597ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-22T15:06:27.0048594+07:00 0HMBTJVE71CRL:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/font-awesome/css/fontawesome.min.css   (ca22a1cb)
+2021-09-22T15:06:27.0078895+07:00 0HMBTJVE71CRL:00000004 [INF] Request finished in 2.7974ms 404  (791a596a)
+2021-09-22T15:06:28.2989292+07:00 0HMBTJVE71CRK:00000004 [INF] Request starting HTTP/1.1 POST http://localhost:44323/admin/login/authen application/x-www-form-urlencoded; charset=UTF-8 33 (ca22a1cb)
+2021-09-22T15:06:28.3029828+07:00 0HMBTJVE71CRK:00000004 [INF] Route matched with "{area = \"Admin\", action = \"Authen\", controller = \"Login\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authen(MdHongnghiCore.Models.AccountViewModels.LoginViewModel)" on controller "MdHongnghiCore.Areas.Admin.Controllers.LoginController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T15:06:28.3048818+07:00 0HMBTJVE71CRK:00000004 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Authen (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T15:06:28.3067454+07:00 0HMBTJVE71CRK:00000004 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T15:06:28.3090003+07:00 0HMBTJVE71CRK:00000004 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2021-09-22T15:06:28.3178206+07:00 0HMBTJVE71CRK:00000004 [INF] Executed DbCommand ("1"ms) [Parameters=["@__user_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AppUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0" (0723d8ff)
+2021-09-22T15:06:28.3199691+07:00 0HMBTJVE71CRK:00000004 [INF] Executed DbCommand ("0"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2021-09-22T15:06:28.3217866+07:00 0HMBTJVE71CRK:00000004 [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2021-09-22T15:06:28.3236955+07:00 0HMBTJVE71CRK:00000004 [INF] Executed DbCommand ("0"ms) [Parameters=["@__role_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AppRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0" (0723d8ff)
+2021-09-22T15:06:28.3255401+07:00 0HMBTJVE71CRK:00000004 [INF] Executed DbCommand ("0"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2021-09-22T15:06:28.3272418+07:00 0HMBTJVE71CRK:00000004 [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2021-09-22T15:06:28.3283310+07:00 0HMBTJVE71CRK:00000004 [INF] User logged in. (fdce0db4)
+2021-09-22T15:06:28.3294493+07:00 0HMBTJVE71CRK:00000004 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Authen (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 23.6455ms. (50a9e262)
+2021-09-22T15:06:28.3325888+07:00 0HMBTJVE71CRK:00000004 [INF] Executing ObjectResult, writing value of type '"HN.Untilities.Dtos.GenericResult"'. (8a1b66c8)
+2021-09-22T15:06:28.3605135+07:00 0HMBTJVE71CRK:00000004 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.LoginController.Authen (MdHongnghiCore)" in 56.2312ms (afa2e885)
+2021-09-22T15:06:28.3616348+07:00 0HMBTJVE71CRK:00000004 [INF] Request finished in 62.9637ms 200 application/json; charset=utf-8 (791a596a)
+2021-09-22T15:06:28.4157225+07:00 0HMBTJVE71CRL:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44323/Admin/Home/Index   (ca22a1cb)
+2021-09-22T15:06:28.4180431+07:00 0HMBTJVE71CRL:00000005 [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Areas.Admin.Controllers.HomeController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T15:06:28.4190410+07:00 0HMBTJVE71CRL:00000005 [INF] Authorization was successful. (0d575a54)
+2021-09-22T15:06:28.4200718+07:00 0HMBTJVE71CRL:00000005 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.HomeController.Index (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T15:06:28.4210500+07:00 0HMBTJVE71CRL:00000005 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.HomeController.Index (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.1224ms. (50a9e262)
+2021-09-22T15:06:28.4236448+07:00 0HMBTJVE71CRL:00000005 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-09-22T15:06:28.4509908+07:00 0HMBTJVE71CRL:00000005 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T15:06:28.4718945+07:00 0HMBTJVE71CRL:00000005 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2021-09-22T15:06:28.4979731+07:00 0HMBTJVE71CRL:00000005 [INF] Executed ViewResult - view "Index" executed in 75.8658ms. (f66409e9)
+2021-09-22T15:06:28.5013558+07:00 0HMBTJVE71CRL:00000005 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.HomeController.Index (MdHongnghiCore)" in 82.1951ms (afa2e885)
+2021-09-22T15:06:28.5026295+07:00 0HMBTJVE71CRL:00000005 [INF] Request finished in 86.9345ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-22T15:06:30.3439132+07:00 0HMBTJVE71CRK:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/bootstrap/dist/css/bootstrap.css.map   (ca22a1cb)
+2021-09-22T15:06:30.3574494+07:00 0HMBTJVE71CRK:00000005 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css.map"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map"' (27b0a520)
+2021-09-22T15:06:30.3587540+07:00 0HMBTJVE71CRK:00000005 [INF] Request finished in 14.7657ms 200 text/plain (791a596a)
+2021-09-22T15:06:46.5060288+07:00 0HMBTJVE71CRL:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:44323/admin/productcategory/index   (ca22a1cb)
+2021-09-22T15:06:46.5079385+07:00 0HMBTJVE71CRL:00000006 [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"ProductCategory\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T15:06:46.5089367+07:00 0HMBTJVE71CRL:00000006 [INF] Authorization failed. (b15dd539)
+2021-09-22T15:06:46.5097560+07:00 0HMBTJVE71CRL:00000006 [INF] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'. (8b6446cb)
+2021-09-22T15:06:46.5105842+07:00 0HMBTJVE71CRL:00000006 [INF] Executing ChallengeResult with authentication schemes ([]). (f3dca807)
+2021-09-22T15:06:46.5119331+07:00 0HMBTJVE71CRL:00000006 [INF] AuthenticationScheme: "Identity.Application" was challenged. (d45f1f38)
+2021-09-22T15:06:46.5133723+07:00 0HMBTJVE71CRL:00000006 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)" in 4.0323ms (afa2e885)
+2021-09-22T15:06:46.5143794+07:00 0HMBTJVE71CRL:00000006 [INF] Request finished in 8.3841ms 302  (791a596a)
+2021-09-22T15:06:46.5309636+07:00 0HMBTJVE71CRK:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:44323/Account/Login?ReturnUrl=%2Fadmin%2Fproductcategory%2Findex   (ca22a1cb)
+2021-09-22T15:06:46.5322818+07:00 0HMBTJVE71CRK:00000006 [INF] Route matched with "{action = \"Login\", controller = \"Account\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String)" on controller "MdHongnghiCore.Controllers.AccountController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T15:06:46.5333600+07:00 0HMBTJVE71CRK:00000006 [INF] Executing action method "MdHongnghiCore.Controllers.AccountController.Login (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T15:06:46.5342542+07:00 0HMBTJVE71CRK:00000006 [INF] AuthenticationScheme: "Identity.External" signed out. (d3f50c8d)
+2021-09-22T15:06:46.5350786+07:00 0HMBTJVE71CRK:00000006 [INF] Executed action method "MdHongnghiCore.Controllers.AccountController.Login (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.91ms. (50a9e262)
+2021-09-22T15:06:46.5361920+07:00 0HMBTJVE71CRK:00000006 [INF] Executing ViewResult, running view "Login". (c83d0e25)
+2021-09-22T15:06:46.5386687+07:00 0HMBTJVE71CRK:00000006 [INF] Executed ViewResult - view "Login" executed in 2.5497ms. (f66409e9)
+2021-09-22T15:06:46.5395916+07:00 0HMBTJVE71CRK:00000006 [INF] Executed action "MdHongnghiCore.Controllers.AccountController.Login (MdHongnghiCore)" in 6.403ms (afa2e885)
+2021-09-22T15:06:46.5406163+07:00 0HMBTJVE71CRK:00000006 [INF] Request finished in 9.793ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-22T15:06:46.5912727+07:00 0HMBTJVE71CRL:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/bootstrap/dist/css/bootstrap.css.map   (ca22a1cb)
+2021-09-22T15:06:46.5945764+07:00 0HMBTJVE71CRL:00000007 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css.map"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map"' (27b0a520)
+2021-09-22T15:06:46.5971772+07:00 0HMBTJVE71CRL:00000007 [INF] Request finished in 4.453ms 200 text/plain (791a596a)
+2021-09-22T15:06:48.2883753+07:00 0HMBTJVE71CRK:00000007 [INF] Request starting HTTP/1.1 POST http://localhost:44323/Account/Login?returnurl=%2Fadmin%2Fproductcategory%2Findex application/x-www-form-urlencoded 233 (ca22a1cb)
+2021-09-22T15:06:48.2894365+07:00 0HMBTJVE71CRK:00000007 [INF] Route matched with "{action = \"Login\", controller = \"Account\", area = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MdHongnghiCore.Models.AccountViewModels.LoginViewModel, System.String)" on controller "MdHongnghiCore.Controllers.AccountController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T15:06:48.2906953+07:00 0HMBTJVE71CRK:00000007 [INF] Executing action method "MdHongnghiCore.Controllers.AccountController.Login (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T15:06:48.2919702+07:00 0HMBTJVE71CRK:00000007 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T15:06:48.2939364+07:00 0HMBTJVE71CRK:00000007 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Avatar], [u].[Balance], [u].[BirthDay], [u].[ConcurrencyStamp], [u].[DateCreated], [u].[DateModified], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[Status], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AppUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2021-09-22T15:06:48.3018682+07:00 0HMBTJVE71CRK:00000007 [INF] Executed DbCommand ("1"ms) [Parameters=["@__user_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AppUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0" (0723d8ff)
+2021-09-22T15:06:48.3038767+07:00 0HMBTJVE71CRK:00000007 [INF] Executed DbCommand ("0"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2021-09-22T15:06:48.3061830+07:00 0HMBTJVE71CRK:00000007 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedName_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Description], [r].[Name], [r].[NormalizedName]
+FROM [AppRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0" (0723d8ff)
+2021-09-22T15:06:48.3083975+07:00 0HMBTJVE71CRK:00000007 [INF] Executed DbCommand ("0"ms) [Parameters=["@__role_Id_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AppRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0" (0723d8ff)
+2021-09-22T15:06:48.3115687+07:00 0HMBTJVE71CRK:00000007 [INF] Executed DbCommand ("0"ms) [Parameters=["@__userId_0='?' (DbType = Guid)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AppUserRoles] AS [userRole]
+INNER JOIN [AppRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2021-09-22T15:06:48.3132037+07:00 0HMBTJVE71CRK:00000007 [INF] AuthenticationScheme: "Identity.Application" signed in. (c66dd7e7)
+2021-09-22T15:06:48.3142834+07:00 0HMBTJVE71CRK:00000007 [INF] User logged in. (fdce0db4)
+2021-09-22T15:06:48.3152670+07:00 0HMBTJVE71CRK:00000007 [INF] Executed action method "MdHongnghiCore.Controllers.AccountController.Login (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.RedirectResult" in 23.6235ms. (50a9e262)
+2021-09-22T15:06:48.3166594+07:00 0HMBTJVE71CRK:00000007 [INF] Executing RedirectResult, redirecting to "/admin/productcategory/index". (d98d540e)
+2021-09-22T15:06:48.3179265+07:00 0HMBTJVE71CRK:00000007 [INF] Executed action "MdHongnghiCore.Controllers.AccountController.Login (MdHongnghiCore)" in 27.3299ms (afa2e885)
+2021-09-22T15:06:48.3194469+07:00 0HMBTJVE71CRK:00000007 [INF] Request finished in 30.5969ms 302  (791a596a)
+2021-09-22T15:06:48.3376991+07:00 0HMBTJVE71CRL:00000008 [INF] Request starting HTTP/1.1 GET http://localhost:44323/admin/productcategory/index   (ca22a1cb)
+2021-09-22T15:06:48.3391028+07:00 0HMBTJVE71CRL:00000008 [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"ProductCategory\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T15:06:48.3400493+07:00 0HMBTJVE71CRL:00000008 [INF] Authorization was successful. (0d575a54)
+2021-09-22T15:06:48.3413591+07:00 0HMBTJVE71CRL:00000008 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T15:06:48.3423392+07:00 0HMBTJVE71CRL:00000008 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.092ms. (50a9e262)
+2021-09-22T15:06:48.3445001+07:00 0HMBTJVE71CRL:00000008 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-09-22T15:06:48.3498725+07:00 0HMBTJVE71CRL:00000008 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T15:06:48.3519847+07:00 0HMBTJVE71CRL:00000008 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2021-09-22T15:06:48.3567170+07:00 0HMBTJVE71CRL:00000008 [INF] Executed ViewResult - view "Index" executed in 13.2885ms. (f66409e9)
+2021-09-22T15:06:48.3577509+07:00 0HMBTJVE71CRL:00000008 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)" in 17.6657ms (afa2e885)
+2021-09-22T15:06:48.3590429+07:00 0HMBTJVE71CRL:00000008 [INF] Request finished in 21.333ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-22T15:06:48.4329648+07:00 0HMBTJVE71CRK:00000008 [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/bootstrap/dist/css/bootstrap.css.map   (ca22a1cb)
+2021-09-22T15:06:48.4359287+07:00 0HMBTJVE71CRK:00000008 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css.map"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map"' (27b0a520)
+2021-09-22T15:06:48.4375661+07:00 0HMBTJVE71CRK:00000008 [INF] Request finished in 4.9939ms 200 text/plain (791a596a)
+2021-09-22T15:06:48.4501242+07:00 0HMBTJVE71CRL:00000009 [INF] Request starting HTTP/1.1 GET http://localhost:44323/app/controller/productCategory/index.js?v=jGep1Uj3MgFnxg2801wA2s7BhtARI9-rLUTZinTAW5A   (ca22a1cb)
+2021-09-22T15:06:48.4529608+07:00 0HMBTJVE71CRL:00000009 [INF] The file "/app/controller/productCategory/index.js" was not modified (f1f8d725)
+2021-09-22T15:06:48.4551994+07:00 0HMBTJVE71CRL:00000009 [INF] Request finished in 4.9039ms 304 application/javascript (791a596a)
+2021-09-22T15:06:48.5184641+07:00 0HMBTJVE71CRK:00000009 [INF] Request starting HTTP/1.1 GET http://localhost:44323/Admin/ProductCategory/GetAll   (ca22a1cb)
+2021-09-22T15:06:48.5208773+07:00 0HMBTJVE71CRK:00000009 [INF] Route matched with "{area = \"Admin\", action = \"GetAll\", controller = \"ProductCategory\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAll()" on controller "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T15:06:48.5220448+07:00 0HMBTJVE71CRK:00000009 [INF] Authorization was successful. (0d575a54)
+2021-09-22T15:06:48.5231588+07:00 0HMBTJVE71CRK:00000009 [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.GetAll (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T15:06:48.5257642+07:00 0HMBTJVE71CRK:00000009 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T15:06:48.5681806+07:00 0HMBTJVE71CRK:00000009 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[Description], [x].[ParentId], [x].[HomeOrder], [x].[Image], [x].[HomeFlag], [x].[DateCreated], [x].[DateModified], [x].[SortOrder], [x].[Status], [x].[SeoPageTitle], [x].[SeoAlias], [x].[SeoKeywords], [x].[SeoDescription]
+FROM [ProductCategories] AS [x]
+ORDER BY [x].[ParentId], [x].[Id]" (0723d8ff)
+2021-09-22T15:06:48.5837876+07:00 0HMBTJVE71CRK:00000009 [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[ParentId], [t].[Id], [x.Products].[Id] AS [Id0], [x.Products].[Name], [x.Products].[CategoryId], [x.Products].[Image], [x.Products].[Price], [x.Products].[PromotionPrice], [x.Products].[OriginalPrice], [x.Products].[Description], [x.Products].[Content], [x.Products].[HomeFlag], [x.Products].[HotFlag], [x.Products].[ViewCount], [x.Products].[Tags], [x.Products].[Unit], [x.Products].[SeoPageTitle], [x.Products].[SeoAlias], [x.Products].[SeoKeywords], [x.Products].[SeoDescription], [x.Products].[DateCreated], [x.Products].[DateModified], [x.Products].[Status]
+FROM [Products] AS [x.Products]
+INNER JOIN (
+    SELECT [x0].[ParentId], [x0].[Id]
+    FROM [ProductCategories] AS [x0]
+) AS [t] ON [x.Products].[CategoryId] = [t].[Id]
+ORDER BY [t].[ParentId], [t].[Id]" (0723d8ff)
+2021-09-22T15:06:48.5993762+07:00 0HMBTJVE71CRK:00000009 [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.GetAll (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 74.0069ms. (50a9e262)
+2021-09-22T15:06:48.6014413+07:00 0HMBTJVE71CRK:00000009 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[HN.Application.ViewModels.Product.ProductCategoryViewModel, HN.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-09-22T15:06:48.6149544+07:00 0HMBTJVE71CRK:00000009 [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.GetAll (MdHongnghiCore)" in 91.9437ms (afa2e885)
+2021-09-22T15:06:48.6175398+07:00 0HMBTJVE71CRK:00000009 [INF] Request finished in 97.9122ms 200 application/json; charset=utf-8 (791a596a)
+2021-09-22T15:07:05.7686092+07:00 0HMBTJVE71CRL:0000000A [INF] Request starting HTTP/1.1 GET http://localhost:44323/admin/productcategory/index   (ca22a1cb)
+2021-09-22T15:07:05.7699239+07:00 0HMBTJVE71CRL:0000000A [INF] Route matched with "{area = \"Admin\", action = \"Index\", controller = \"ProductCategory\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T15:07:05.7708907+07:00 0HMBTJVE71CRL:0000000A [INF] Authorization was successful. (0d575a54)
+2021-09-22T15:07:05.7719061+07:00 0HMBTJVE71CRL:0000000A [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T15:07:05.7726967+07:00 0HMBTJVE71CRL:0000000A [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0068ms. (50a9e262)
+2021-09-22T15:07:05.7734881+07:00 0HMBTJVE71CRL:0000000A [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-09-22T15:07:05.7746801+07:00 0HMBTJVE71CRL:0000000A [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T15:07:05.7765995+07:00 0HMBTJVE71CRL:0000000A [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [dto].[Id], [dto].[Name], [dto].[URL], [dto].[ParentId], [dto].[IconCss], [dto].[SortOrder], [dto].[Status]
+FROM [Functions] AS [dto]" (0723d8ff)
+2021-09-22T15:07:05.7783443+07:00 0HMBTJVE71CRL:0000000A [INF] Executed ViewResult - view "Index" executed in 4.7555ms. (f66409e9)
+2021-09-22T15:07:05.7792430+07:00 0HMBTJVE71CRL:0000000A [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.Index (MdHongnghiCore)" in 8.4441ms (afa2e885)
+2021-09-22T15:07:05.7808828+07:00 0HMBTJVE71CRL:0000000A [INF] Request finished in 11.6765ms 200 text/html; charset=utf-8 (791a596a)
+2021-09-22T15:07:05.9660975+07:00 0HMBTJVE71CRK:0000000A [INF] Request starting HTTP/1.1 GET http://localhost:44323/lib/bootstrap/dist/css/bootstrap.css.map   (ca22a1cb)
+2021-09-22T15:07:05.9688796+07:00 0HMBTJVE71CRK:0000000A [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css.map"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map"' (27b0a520)
+2021-09-22T15:07:05.9702510+07:00 0HMBTJVE71CRK:0000000A [INF] Request finished in 4.0623ms 200 text/plain (791a596a)
+2021-09-22T15:07:05.9854058+07:00 0HMBTJVE71CRL:0000000B [INF] Request starting HTTP/1.1 GET http://localhost:44323/Admin/ProductCategory/GetAll   (ca22a1cb)
+2021-09-22T15:07:05.9872284+07:00 0HMBTJVE71CRL:0000000B [INF] Route matched with "{area = \"Admin\", action = \"GetAll\", controller = \"ProductCategory\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAll()" on controller "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController" ("MdHongnghiCore"). (122b2fdf)
+2021-09-22T15:07:05.9884453+07:00 0HMBTJVE71CRL:0000000B [INF] Authorization was successful. (0d575a54)
+2021-09-22T15:07:05.9899630+07:00 0HMBTJVE71CRL:0000000B [INF] Executing action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.GetAll (MdHongnghiCore)" - Validation state: Valid (dad538d7)
+2021-09-22T15:07:05.9914527+07:00 0HMBTJVE71CRL:0000000B [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HN.Data.EF " (9958f5bb)
+2021-09-22T15:07:05.9937379+07:00 0HMBTJVE71CRL:0000000B [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Name], [x].[Description], [x].[ParentId], [x].[HomeOrder], [x].[Image], [x].[HomeFlag], [x].[DateCreated], [x].[DateModified], [x].[SortOrder], [x].[Status], [x].[SeoPageTitle], [x].[SeoAlias], [x].[SeoKeywords], [x].[SeoDescription]
+FROM [ProductCategories] AS [x]
+ORDER BY [x].[ParentId], [x].[Id]" (0723d8ff)
+2021-09-22T15:07:05.9957375+07:00 0HMBTJVE71CRL:0000000B [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [t].[ParentId], [t].[Id], [x.Products].[Id] AS [Id0], [x.Products].[Name], [x.Products].[CategoryId], [x.Products].[Image], [x.Products].[Price], [x.Products].[PromotionPrice], [x.Products].[OriginalPrice], [x.Products].[Description], [x.Products].[Content], [x.Products].[HomeFlag], [x.Products].[HotFlag], [x.Products].[ViewCount], [x.Products].[Tags], [x.Products].[Unit], [x.Products].[SeoPageTitle], [x.Products].[SeoAlias], [x.Products].[SeoKeywords], [x.Products].[SeoDescription], [x.Products].[DateCreated], [x.Products].[DateModified], [x.Products].[Status]
+FROM [Products] AS [x.Products]
+INNER JOIN (
+    SELECT [x0].[ParentId], [x0].[Id]
+    FROM [ProductCategories] AS [x0]
+) AS [t] ON [x.Products].[CategoryId] = [t].[Id]
+ORDER BY [t].[ParentId], [t].[Id]" (0723d8ff)
+2021-09-22T15:07:05.9983513+07:00 0HMBTJVE71CRL:0000000B [INF] Executed action method "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.GetAll (MdHongnghiCore)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 6.1343ms. (50a9e262)
+2021-09-22T15:07:05.9996449+07:00 0HMBTJVE71CRL:0000000B [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[HN.Application.ViewModels.Product.ProductCategoryViewModel, HN.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-09-22T15:07:06.0013023+07:00 0HMBTJVE71CRL:0000000B [INF] Executed action "MdHongnghiCore.Areas.Admin.Controllers.ProductCategoryController.GetAll (MdHongnghiCore)" in 12.7264ms (afa2e885)
+2021-09-22T15:07:06.0029312+07:00 0HMBTJVE71CRL:0000000B [INF] Request finished in 17.1601ms 200 application/json; charset=utf-8 (791a596a)
+2021-09-22T15:07:06.0742922+07:00 0HMBTJVE71CRK:0000000B [INF] Request starting HTTP/1.1 GET http://localhost:44323/favicon.ico   (ca22a1cb)
+2021-09-22T15:07:06.0777337+07:00 0HMBTJVE71CRK:0000000B [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Code\mdfhongnghicore\MdHongnghiCore\MdHongnghiCore\wwwroot\favicon.ico"' (27b0a520)
+2021-09-22T15:07:06.0794558+07:00 0HMBTJVE71CRK:0000000B [INF] Request finished in 4.5995ms 200 image/x-icon (791a596a)
